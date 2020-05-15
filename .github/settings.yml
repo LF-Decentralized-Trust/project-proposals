@@ -1,0 +1,14 @@
+repository:
+  name: hyperledger-hip
+  description: Hyperledger Project Proposal (HIP)
+  homepage: https://hyperledger.github.io/hyperledger-hip
+  default_branch: master
+  has_downloads: false
+  has_issues: false
+  has_projects: false
+  has_wiki: false
+  archived: false
+  private: false
+  allow_squash_merge: false
+  allow_merge_commit: false
+  allow_rebase_merge: true
