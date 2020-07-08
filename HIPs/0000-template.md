@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HIP Template
-nav_order: 4
+parent: Hyperledger Improvement Proposals
 ---
 
 - Feature Name: (fill me in with a unique identifier, my_awesome_feature)
