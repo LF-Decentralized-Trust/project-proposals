@@ -1,1 +1,1 @@
-[please go here](https://ryjones.github.io/hyperledger-hip/)
+[Rendered version here](https://hyperledger.github.io/hyperledger-hip/)
