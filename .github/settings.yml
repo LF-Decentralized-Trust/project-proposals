@@ -1,6 +1,6 @@
 repository:
   name: hyperledger-hip
-  description: Hyperledger Project Proposal (HIP)
+  description: Hyperledger Improvement Proposal (HIP)
   homepage: https://hyperledger.github.io/hyperledger-hip
   default_branch: master
   has_downloads: false
