@@ -70,13 +70,51 @@ Being aware of the potential difficulty and complexity of getting a production-s
 
 The objective of BAF is to provide a consistent means by which developers can deploy production-ready distributed networks across public and private cloud providers. This enables developers to focus on building business applications, knowing that the framework upon which they are building can be adopted by an enterprise IT production operations organization. BAF is not intended solely to quickly provision _development_ environments which can be done more efficiently with other projects/scripts. Likewise, Blockchain Automation Framework is not intended to replace BaaS offerings in the market, but instead, BAF is an alternative when existing BaaS offerings do not support a consortium’s current set of requirements.
 
-# Status
+# Proposed Status
 <mark>_**Status** of the project: See [project lifecycle](https://hyperledger.github.io/tsc/project-lifecycle.html)._</mark>
 
-Proposal
+Incubation
 
 # Solution
 <mark>_**Solution** to the problem addressed in the motivation section. Try to make this as detailed as possible._</mark>
+
+Blockchain Automation Framework delivers an automation framework for rapidly and consistently deploying production-ready DLT platforms to cloud infrastructure.
+
+![What is Blockchain Automation Framework?](./images/baf/blockchain-automation-framework-overview.png "What is Blockchain Automation Framework?")
+
+Blockchain Automation Framework makes use of Ansible, Helm, and Kubernetes to deploy production DLT networks. Specifically, it makes use of Ansible for configuration of the network by DevOps Engineers. It then uses Helm charts as instructions for deploying the necessary components to Kubernetes. Kubernetes was chosen to allow for Blockchain Automation Framework to deploy the DLT networks to any cloud that supports Kubernetes.
+
+Blockchain Automation Framework currently supports Hyperledger Fabric, Hyperledger Besu, Hyperledger Indy, GoQuorum, R3 Corda Open Source and Enterprise. Other DLT platforms can easily be added.
+
+## Hyperledger Fabric
+For Hyperledger Fabric, we use the official Docker containers provided by that project. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
+
+![Blockchain Automation Framework - Fabric](./images/baf/blockchain-automation-framework-fabric.png "Blockchain Automation Framework for Hyperledger Fabric")
+
+## Hyperledger Besu
+For Hyperledger Besu, we use the official Docker containers provided by that project. A number of different Ansible scripts will allow you to create a new network (across clouds).
+
+![Blockchain Automation Framework - Besu](./images/baf/blockchain-automation-framework-besu.png "Blockchain Automation Framework for Hyperledger Besu")
+
+### Hyperledger Indy
+For Hyperledger Indy, we build Docker containers from our source code. A number of different Ansible scripts will allow you to create a new network (across clouds).
+
+![Blockchain Automation Framework - Indy](./images/baf/blockchain-automation-framework-indy.png "Blockchain Automation Framework for Hyperledger Indy")
+
+### Quorum
+For Quorum, we use the official Docker containers provided by Quorum. A number of different Ansible scripts will allow you to either create a new network (across clouds) with choice of Consensus (between IBFT and RAFT) and a choice of Transaction Manager (between Tessera and Constellation).
+
+![Blockchain Automation Framework - Quorum](./images/baf/blockchain-automation-framework-quorum.png "Blockchain Automation Framework for Quorum")
+
+### Corda Enterprise
+For Corda Enterprise, we build Docker containers from the Corda source with licensed jars. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
+
+![Blockchain Automation Framework - Corda Enterprise](./images/baf/blockchain-automation-framework-corda-ent.png "Blockchain Automation Framework for Corda Enterprise")
+
+### Corda Opensource
+For Corda Opensource, we build Docker containers from the Corda source. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
+
+![Blockchain Automation Framework - Corda](./images/baf/blockchain-automation-framework-corda.png "Blockchain Automation Framework for Corda")
 
 # Effort and Resources
 <mark>_**Effort and resources** committed (coders and any other resources that are needed) and timeline._</mark>
@@ -101,6 +139,8 @@ The Blockchain Automation Framework documentation [4] provides detailed [Operati
 
 # Closure
 <mark>_**Closure** how do we know that the project succeeded. This has to be measurable if possible. Make references to successor projects if any._</mark>
+
+Project success can be measured by the use of BAF to accelerate the deployment of production-ready DLT networks and nodes and  drive the adoption of DLT platforms.
 
 # FAQ
 Additional [FAQs](https://blockchain-automation-framework.readthedocs.io/en/latest/faq.html) can be found in the Blockchain Automation Framework documentation [4].
