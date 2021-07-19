@@ -10,7 +10,7 @@ Blockchain Automation Framework HIP v0.1
 # Sponsor(s)
 <mark>_**Sponsor(s)** name and contact details including email address_</mark>
 
-- Tracy Kuhrt, Accenture (tracy.a.kuhrt@accenture.com)
+- Tracy Kuhrt, Associate Director, Blockchain and Multiparty Systems Architecture at Accenture, TSC Co-Chair (tracy.a.kuhrt@accenture.com)
 
 # Abstract
 <mark>_**Abstract** (less than 50 word) description of the project._</mark>
@@ -20,7 +20,26 @@ The Blockchain Automation Framework (BAF) is an accelerator by which developers 
 # Context
 <mark>_**Context** if any, what is this project derived from? What if any is it related to?_</mark>
 
-In October, 2019, Accenture [proposed](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/102) Blockchain Automation Framework to Hyperledger Labs [1]. It was quickly approved by the Lab stewards.
+In early 2019, Accenture decided to start a project codenamed “Fulcrum” to simplify the use of best practices and accelerate DLT deployments. Our vision was to bring down the technology barriers and thus drive adoption. From the very beginning we had open source in mind.
+
+We decided on some principles:
+1.	**Design for security**: Keys and other credentials are not stored in source, configuration files, environment variables, or filesystems
+2.	**Modular Design**: To provide an “enterprise” version, we should ensure that we are providing interfaces for modules where we might want to plug in a different component
+3.	**Conform to DLT Reference Architecture**: When making decisions, conform to Accenture’s DLT Reference Architecture non-functional requirements, and principles
+4.	**Open Source Components**: Ensure that we are using open source licensed products in our solution so that it may be contributed to Hyperledger, favoring Apache 2.0 licensed components
+5.	**Infrastructure Independent**: Choose tools and components that do not limit lock-in to an infrastructure configuration or cloud provider
+
+We then wrote down the problems we needed to solve while complying with the principles:
+1.	How do we abstract the network complexities to let a developer majorly focus on application development?
+2.	How do we make it easy and consistent for the developers to deploy different blockchain networks?
+3.	How do we make it easy for the architects working on their first blockchain projects to design something secure, scalable, performant, and easy to maintain?
+4.	How do we reduce the time taken in manual deployment from days to automated deployment in minutes?
+
+Our customer conversations and Hyperledger community engagements helped us understand that these questions need to be answered not only at an organizational level but also at an industry/ecosystem level. For those familiar with building consortiums, it will be no surprise to hear that intellectual property concerns and fears of vendor lock-in can present major roadblocks in collaboration. Hence, we designed a solution that would not just accelerate adoption of the technology for Accenture customers but would also be open source and accessible to all, simplifying the deployment of the technology and accelerating adoption for the entire market.
+
+In October, 2019, Accenture [proposed](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/102) Blockchain Automation Framework to Hyperledger Labs [1]. It was quickly approved by the Lab stewards, and the code and documentation that we had written was contributed.
+
+In the [Hyperledger Labs environment](https://github.com/hyperledger-labs/blockchain-automation-framework), we have been working with others in the community and performing a number of releases. We have a chat channel ([#blockchain-automation-framework](https://chat.hyperledger.org/channel/blockchain-automation-framework)), a [wiki page](https://wiki.hyperledger.org/display/labs/Blockchain+Automation+Framework+lab), conduct regular community meetings, and have a [roadmap](https://blockchain-automation-framework.readthedocs.io/en/latest/roadmap.html) for tracking ongoing and future work. Blockchain Automation Framework is already being used in production deployments and has an active community.
 
 # Dependent Projects
 <mark>_**Dependent Projects** if any, must be listed, and each dependent project\'s maintainers must sign off on the proposal before it is considered by the TSC._</mark>
@@ -31,6 +50,14 @@ BAF utilizes:
 * [Helm](https://helm.sh/) is a package manager for K8s. Helm Charts are configuration files designed for K8s to help define, install and upgrade complex K8s applications. BAF uses Helm Charts for designing and configuring the architecture of each DLT/Blockchain platform for its own network set-up.
 * [HashiCorp Vault](https://www.vaultproject.io/) provisions a secure approach to store and gain secret information such as tokens, passwords and certificates. BAF relies on Vaults for managing certificates used in each node of a DLT/Blockchain network during the lifecycle of a deployment, and it is a prerequisite that the Vault is installed and unsealed prior to deployment of a DLT/Blockchain network.
 * [GitOps](https://www.weave.works/technologies/gitops/) introduces an approach that can make K8s cluster management easier and also guarantee the latest application delivery is on time. BAF uses Weavework’s Flux for the implementation of GitOps and executes an Ansible role called setup/flux defined in the BAF GitHub repo.
+
+In addition to the above tools, we are of course dependent on the release made by other DLT platform projects. The deployment of DLT networks currently supported by BAF are:
+* Hyperledger Fabric
+* Hyperledger Besu
+* Hyperledger Indy
+* GoQuorum
+* R3 Corda Open Source
+* R3 Corda Enterprise
 
 # Motivation
 <mark>_**Motivation** for this project, a longer justification of the project may be a couple of hundred words. Why is this project better at solving a problem compared to parallel proposals or implemented projects?_</mark>
@@ -91,10 +118,11 @@ The Blockchain Automation Framework is an automation framework for delivering co
 * Provides a sample supply chain application which runs on multiple DLT/Blockchain platforms that can be used as a reference pattern for how to safely abstract application logic from the underlying DLT/Blockchain platform
 
 ## What DLT Platforms are currently supported?
-* Corda Open Source and Enterprise
 * Hyperledger Fabric
-* GoQuorum
-* Hyperledger Indy
 * Hyperledger Besu
+* Hyperledger Indy
+* GoQuorum
+* R3 Corda Open Source
+* R3 Corda Enterprise
 
 See the [Compatibility Matrix](https://blockchain-automation-framework.readthedocs.io/en/latest/compatibilitymatrix.html) for specific information and versions.
