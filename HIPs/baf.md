@@ -20,7 +20,7 @@ The Blockchain Automation Framework (BAF) is an accelerator by which developers 
 # Context
 <mark>_**Context** if any, what is this project derived from? What if any is it related to?_</mark>
 
-In early 2019, Accenture decided to start a project codenamed “Fulcrum” to simplify the use of best practices and accelerate DLT deployments. Our vision was to bring down the technology barriers and thus drive adoption. From the very beginning we had open source in mind.
+In early 2019, Accenture started a project codenamed “Fulcrum” to simplify the use of best practices and accelerate DLT deployments. Our vision was to bring down the technology barriers and thus drive adoption of DLT. From the very beginning we had open source in mind.
 
 We decided on some principles:
 1.	**Design for security**: Keys and other credentials are not stored in source, configuration files, environment variables, or filesystems
@@ -51,7 +51,7 @@ BAF utilizes:
 * [HashiCorp Vault](https://www.vaultproject.io/) provisions a secure approach to store and gain secret information such as tokens, passwords and certificates. BAF relies on Vaults for managing certificates used in each node of a DLT/Blockchain network during the lifecycle of a deployment, and it is a prerequisite that the Vault is installed and unsealed prior to deployment of a DLT/Blockchain network.
 * [GitOps](https://www.weave.works/technologies/gitops/) introduces an approach that can make K8s cluster management easier and also guarantee the latest application delivery is on time. BAF uses Weavework’s Flux for the implementation of GitOps and executes an Ansible role called setup/flux defined in the BAF GitHub repo.
 
-In addition to the above tools, we are of course dependent on the release made by other DLT platform projects. The deployment of DLT networks currently supported by BAF are:
+In addition to the above tools, we are of course dependent on the releases made by other DLT platform projects. The deployment of DLT networks currently supported by BAF are:
 * Hyperledger Fabric
 * Hyperledger Besu
 * Hyperledger Indy
