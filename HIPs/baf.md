@@ -37,9 +37,9 @@ We then wrote down the problems we needed to solve while complying with the prin
 
 Our customer conversations and Hyperledger community engagements helped us understand that these questions need to be answered not only at an organizational level but also at an industry/ecosystem level. For those familiar with building consortiums, it will be no surprise to hear that intellectual property concerns and fears of vendor lock-in can present major roadblocks in collaboration. Hence, we designed a solution that would not just accelerate adoption of the technology for Accenture customers but would also be open source and accessible to all, simplifying the deployment of the technology and accelerating adoption for the entire market.
 
-In October, 2019, Accenture [proposed](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/102) Blockchain Automation Framework to Hyperledger Labs [1]. It was quickly approved by the Lab stewards, and the code and documentation that we had written was contributed.
+In October, 2019, Accenture [proposed](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/102) Blockchain Automation Framework to Hyperledger Labs. It was quickly approved by the Lab stewards, and the code and documentation that we had written was contributed.
 
-In the [Hyperledger Labs environment](https://github.com/hyperledger-labs/blockchain-automation-framework), we have been working with others in the community and performing a number of releases. We have a chat channel ([#blockchain-automation-framework](https://chat.hyperledger.org/channel/blockchain-automation-framework)), a [wiki page](https://wiki.hyperledger.org/display/labs/Blockchain+Automation+Framework+lab), [documentation](https://blockchain-automation-framework.readthedocs.io/en/latest/index.html), conduct regular community meetings, and have a [roadmap](https://blockchain-automation-framework.readthedocs.io/en/latest/roadmap.html) for tracking ongoing and future work. Blockchain Automation Framework is already being used in production deployments and has an active community.
+In the [Hyperledger Labs environment](https://github.com/hyperledger-labs/blockchain-automation-framework), we have been working with others in the community and performing a number of [releases](https://github.com/hyperledger-labs/blockchain-automation-framework/releases). We have a chat channel ([#blockchain-automation-framework](https://chat.hyperledger.org/channel/blockchain-automation-framework)), a [wiki page](https://wiki.hyperledger.org/display/labs/Blockchain+Automation+Framework+lab), [documentation](https://blockchain-automation-framework.readthedocs.io/en/latest/index.html), a set of [good first issues](https://github.com/hyperledger-labs/blockchain-automation-framework/issues?labels=good-first-issue&is:open&q=is:issue), and a [roadmap](https://blockchain-automation-framework.readthedocs.io/en/latest/roadmap.html). We also conduct regular [community meetings](https://lists.hyperledger.org/g/labs/calendar). Blockchain Automation Framework is already being used in production deployments and has an active community.
 
 # Dependent Projects
 <mark>_**Dependent Projects** if any, must be listed, and each dependent project\'s maintainers must sign off on the proposal before it is considered by the TSC._</mark>
@@ -56,8 +56,8 @@ In addition to the above tools, we are of course dependent on the releases made 
 * Hyperledger Besu
 * Hyperledger Indy
 * GoQuorum
-* R3 Corda Open Source
-* R3 Corda Enterprise
+* Corda Open Source
+* Corda Enterprise
 
 # Motivation
 <mark>_**Motivation** for this project, a longer justification of the project may be a couple of hundred words. Why is this project better at solving a problem compared to parallel proposals or implemented projects?_</mark>
@@ -84,7 +84,7 @@ Blockchain Automation Framework delivers an automation framework for rapidly and
 
 Blockchain Automation Framework makes use of Ansible, Helm, and Kubernetes to deploy production DLT networks. Specifically, it makes use of Ansible for configuration of the network by DevOps Engineers. It then uses Helm charts as instructions for deploying the necessary components to Kubernetes. Kubernetes was chosen to allow for Blockchain Automation Framework to deploy the DLT networks to any cloud that supports Kubernetes.
 
-Blockchain Automation Framework currently supports Hyperledger Fabric, Hyperledger Besu, Hyperledger Indy, GoQuorum, R3 Corda Open Source and Enterprise. Other DLT platforms can easily be added.
+Blockchain Automation Framework currently supports Hyperledger Fabric, Hyperledger Besu, Hyperledger Indy, GoQuorum, and Corda Open Source and Enterprise. Other DLT platforms can be added.
 
 ## Hyperledger Fabric
 For Hyperledger Fabric, we use the official Docker containers provided by that project. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
@@ -111,39 +111,42 @@ For Corda Enterprise, we build Docker containers from the Corda source with lice
 
 ![Blockchain Automation Framework - Corda Enterprise](./images/baf/blockchain-automation-framework-corda-ent.png "Blockchain Automation Framework for Corda Enterprise")
 
-### Corda Opensource
-For Corda Opensource, we build Docker containers from the Corda source. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
+### Corda Open Source
+For Corda Open Source, we build Docker containers from the Corda source. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
 
-![Blockchain Automation Framework - Corda](./images/baf/blockchain-automation-framework-corda.png "Blockchain Automation Framework for Corda")
+![Blockchain Automation Framework - Corda Open Source](./images/baf/blockchain-automation-framework-corda.png "Blockchain Automation Framework for Corda Open Source")
 
 # Effort and Resources
 <mark>_**Effort and resources** committed (coders and any other resources that are needed) and timeline._</mark>
 
-Since being accepted as a Hyperledger Lab in October 2019, BAF has had 39 total contributors with 32 contributors having more than one commit (based on metrics from the Hyperledger community tools project reports [2]). There have been 27 contributors in the past year and 15 contributors in the past 6 months. The [LF Insights Commit Report through July 18, 2021](https://tinyurl.com/yfckjkeu) [3], 2021 shows that there have been commits from at least 6 separate organizations.
+Since being accepted as a Hyperledger Lab in October 2019, BAF has had 39 total contributors with 32 contributors having more than one commit (based on metrics from the [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports)). There have been 27 contributors in the past year and 15 contributors in the past 6 months. The [LF Insights Commit Report through July 18, 2021](https://tinyurl.com/yfckjkeu), 2021 shows that there have been commits from at least 6 separate organizations.
 
 # How To
 <mark>_**How to**: How to host and test the project. How to deploy and use. How does one know that it works._</mark>
 
-The Blockchain Automation Framework documentation [4] provides detailed [Operation Guide](https://blockchain-automation-framework.readthedocs.io/en/latest/operationalguide.html) and [Developer Guide](https://blockchain-automation-framework.readthedocs.io/en/latest/developerguide.html). In addition, a [supply chain sample application](https://blockchain-automation-framework.readthedocs.io/en/latest/example/supplychain.html) is provided for the general DLT platforms, and a [Hyperledger Indy reference application](https://blockchain-automation-framework.readthedocs.io/en/latest/example/indy-refapp.html) is provided for Hyperledger Indy. These sample applications allow the user to test their DLT deployments completed via BAF.
+The Blockchain Automation Framework documentation provides detailed [Operation Guide](https://blockchain-automation-framework.readthedocs.io/en/latest/operationalguide.html) and [Developer Guide](https://blockchain-automation-framework.readthedocs.io/en/latest/developerguide.html). In addition, a [supply chain sample application](https://blockchain-automation-framework.readthedocs.io/en/latest/example/supplychain.html) is provided for the general DLT platforms, and a [Hyperledger Indy reference application](https://blockchain-automation-framework.readthedocs.io/en/latest/example/indy-refapp.html) is provided for Hyperledger Indy. These sample applications allow the user to test their DLT deployments completed via BAF.
 
 # References
 <mark>_**References**. See [citation guide](http://www.chicagomanualofstyle.org/tools_citationguide.html)._</mark>
 
-[1] [Blockchain Automation Framework Lab proposal](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/102)
+* [Blockchain Automation Framework Lab Proposal](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/102)
+* [Blockchain Automation Framework GitHub Repo](https://github.com/hyperledger-labs/blockchain-automation-framework)
+* [Blockchain Automation Framework Read the Docs](https://blockchain-automation-framework.readthedocs.io/en/latest/index.html)
+* [Blockchain Automation Framework Chat Channel (#blockchain-automation-framework](https://chat.hyperledger.org/channel/blockchain-automation-framework))
+* [Blockchain Automation Framework Wiki Page](https://wiki.hyperledger.org/display/labs/Blockchain+Automation+Framework+lab)
+* [Blockchain Automation Framework Good First Issues](https://github.com/hyperledger-labs/blockchain-automation-framework/issues?labels=good-first-issue&is:open&q=is:issue)
+* [Blockchain Automation Framework Roadmap](https://blockchain-automation-framework.readthedocs.io/en/latest/roadmap.html)
+* [Blockchain Automation Framework Releases](https://github.com/hyperledger-labs/blockchain-automation-framework/releases)
+* [LF Insights Commit Report through July 18, 2021](https://tinyurl.com/yfckjkeu)
 
-[2] [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports)
-
-[3] [LF Insights Commit Report through July 18, 2021](https://tinyurl.com/yfckjkeu)
-
-[4] [Blockchain Automation Framework Read the Docs](https://blockchain-automation-framework.readthedocs.io/en/latest/index.html)
 
 # Closure
 <mark>_**Closure** how do we know that the project succeeded. This has to be measurable if possible. Make references to successor projects if any._</mark>
 
 Project success can be measured by the use of BAF to accelerate the deployment of production-ready DLT networks and nodes and  drive the adoption of DLT platforms.
 
-# FAQ
-Additional [FAQs](https://blockchain-automation-framework.readthedocs.io/en/latest/faq.html) can be found in the Blockchain Automation Framework documentation [4].
+# FAQs
+Additional [FAQs](https://blockchain-automation-framework.readthedocs.io/en/latest/faq.html) can be found in the Blockchain Automation Framework documentation.
 
 ## What is the Blockchain Automation Framework?
 The Blockchain Automation Framework is an automation framework for delivering consistent production ready DLT networks on cloud based infrastructures.
@@ -162,7 +165,7 @@ The Blockchain Automation Framework is an automation framework for delivering co
 * Hyperledger Besu
 * Hyperledger Indy
 * GoQuorum
-* R3 Corda Open Source
-* R3 Corda Enterprise
+* Corda Open Source
+* Corda Enterprise
 
 See the [Compatibility Matrix](https://blockchain-automation-framework.readthedocs.io/en/latest/compatibilitymatrix.html) for specific information and versions.
