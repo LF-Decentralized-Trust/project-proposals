@@ -169,3 +169,12 @@ The Blockchain Automation Framework is an automation framework for delivering co
 * Corda Enterprise
 
 See the [Compatibility Matrix](https://blockchain-automation-framework.readthedocs.io/en/latest/compatibilitymatrix.html) for specific information and versions.
+
+## How does BAF relate to existing projects and labs?
+**[Hyperledger Cello](https://github.com/hyperledger/cello)** is a blockchain provision and operation system, which helps manage blockchain networks. Currently Hyperledger Cello only supports Hyperledger Fabric. We did attend [one of the Hyperledger Cello meetings](https://wiki.hyperledger.org/display/cello/2020-06-06) prior to contributing BAF to Hyperledger Labs to see what synergies might exist between Hyperledger Cello and BAF. The result of our initial discussions is that BAF "can be another k8s-targeted agent" within Cello.
+
+**[Nephos, a Hyperledger Lab](https://github.com/hyperledger-labs/nephos)** is a Python library and Helm charts for deployment of Hyperledger Fabric to Kubernetes. We reached out to the maintainers prior to contributing BAF to Hyperledger Labs; however, we were unable to connect and determine if/how we might better work together. The maintainers of this lab stopped supporting this 9 months ago, and the lab has since been archived. This lab only supported Hyperledger Fabric 1.4.3.
+
+**[Minifabric, a Hyperledger Lab](https://github.com/hyperledger-labs/minifabric)** is a deployment, development, administration and learning tool for people who would like to experience Hyperledger Fabric as a developer, administrator or Fabric deployer. This lab was [proposed on October 6, 2020](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/148), and it supports Hyperledger Fabric. We are open to discussions with the maintainers of Minifabric if they are interested in contributing source that would improve BAF for Hyperledger Fabric production-grade deployments.
+
+**[Fabric Operations Console, a Hyperledger Lab](https://github.com/hyperledger-labs/fabric-operations-console)** provides a web console interface for maintaining Hyperledger Fabric components. This is a recent contribution to Hyperledger Labs ([proposed to Hyperledger Labs on June 2, 2021](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/173)). We would be interested in determining if there are things from this lab that could be contributed to BAF as a potential add on for those that are interested in a web console for maintaining a Hyperledger Fabric network.
