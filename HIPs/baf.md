@@ -96,22 +96,22 @@ For Hyperledger Besu, we use the official Docker containers provided by that pro
 
 ![Blockchain Automation Framework - Besu](./images/baf/blockchain-automation-framework-besu.png "Blockchain Automation Framework for Hyperledger Besu")
 
-### Hyperledger Indy
+## Hyperledger Indy
 For Hyperledger Indy, we build Docker containers from our source code. A number of different Ansible scripts will allow you to create a new network (across clouds).
 
 ![Blockchain Automation Framework - Indy](./images/baf/blockchain-automation-framework-indy.png "Blockchain Automation Framework for Hyperledger Indy")
 
-### Quorum
+## Quorum
 For Quorum, we use the official Docker containers provided by Quorum. A number of different Ansible scripts will allow you to either create a new network (across clouds) with choice of Consensus (between IBFT and RAFT) and a choice of Transaction Manager (between Tessera and Constellation).
 
 ![Blockchain Automation Framework - Quorum](./images/baf/blockchain-automation-framework-quorum.png "Blockchain Automation Framework for Quorum")
 
-### Corda Enterprise
+## Corda Enterprise
 For Corda Enterprise, we build Docker containers from the Corda source with licensed jars. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
 
 ![Blockchain Automation Framework - Corda Enterprise](./images/baf/blockchain-automation-framework-corda-ent.png "Blockchain Automation Framework for Corda Enterprise")
 
-### Corda Open Source
+## Corda Open Source
 For Corda Open Source, we build Docker containers from the Corda source. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
 
 ![Blockchain Automation Framework - Corda Open Source](./images/baf/blockchain-automation-framework-corda.png "Blockchain Automation Framework for Corda Open Source")
@@ -119,7 +119,7 @@ For Corda Open Source, we build Docker containers from the Corda source. A numbe
 # Effort and Resources
 <mark>_**Effort and resources** committed (coders and any other resources that are needed) and timeline._</mark>
 
-Since being accepted as a Hyperledger Lab in October 2019, BAF has had 39 total contributors with 32 contributors having more than one commit (based on metrics from the [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports)). There have been 27 contributors in the past year and 15 contributors in the past 6 months. The [LF Insights Commit Report through July 18, 2021](https://tinyurl.com/yfckjkeu), 2021 shows that there have been commits from at least 6 separate organizations.
+Since being accepted as a Hyperledger Lab in October 2019, BAF has had 39 total contributors with 32 contributors having more than one commit (based on metrics obtained from the [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports) on July 23, 2021). There have been 28 contributors in the past year and 15 contributors in the past 6 months. The [LF Insights Commit Report through July 18, 2021](https://tinyurl.com/yfckjkeu), 2021 shows that there have been commits from at least 6 separate organizations.
 
 # How To
 <mark>_**How to**: How to host and test the project. How to deploy and use. How does one know that it works._</mark>
