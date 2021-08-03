@@ -11,6 +11,7 @@ Blockchain Automation Framework HIP v0.1
 <mark>_**Sponsor(s)** name and contact details including email address_</mark>
 
 - Tracy Kuhrt, Associate Director, Blockchain and Multiparty Systems Architecture at Accenture, TSC Vice Chair (tracy.a.kuhrt@accenture.com)
+- Nate McKervey, Head of Blockchain and DLT at Splunk (nmckervey@splunk.com)
 
 # Abstract
 <mark>_**Abstract** (less than 50 word) description of the project._</mark>
