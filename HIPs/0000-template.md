@@ -4,104 +4,105 @@ title: HIP Template
 parent: Hyperledger Improvement Proposals
 ---
 
-# Proposal Template for a Hyperledger Project
+# HIP Identifier
+<mark>
+**HIP identifier** a short description plus a serial number with a
+version (for example this document is Template for a Hyperledger
+Improvement Project HIP 0.2)
+</mark>
 
-A **Project** at Hyperledger is a collection of specific Maintainers,
-users and other developers, code, releases, issues, and other activity
-oriented around a common software-implemented mission.
+# Sponsor(s)
+</mark>
+**Sponsor(s)** name and contact details including email address
+</mark>
 
-This project proposal template ushers originators, designers,
-implementors, testers of a project through community and TSC approval.
-The proposal should evolve organically as the HIP moves through the
-stages of conception, design, approval, implementation and deployment.
-The project and hence the proposal may also need several iterations. In
-its terminal forms it can also serve as a short manual to the features
-of the project for users.
+# Abstract
+<mark>
+**Abstract** (less than 50 word) description of the project.
+</mark>
 
-This proposal template is descriptive and not normative, a guide rather
-than the law. Prior templates like the internet RFC process, Bitcoin
-Improvement Proposal, Python Improvement Proposal etc. were used as
-guidelines to develop this template.
+# Context
+<mark>
+**Context** if any, what is this project derived from? What if any
+is it related to?
+</mark>
 
-The seed of a new project has to be vetted in a public forum like
-hyperledger-technical before creating a project proposal. It is best if
-the project has technical champions who believe in the project and are
-the maintainers of the project. The technical champions can change in
-the middle of the project.
+# Dependent Projects
+<mark>
+**Dependent Projects** if any, must be listed, and each dependent
+project\'s maintainers must sign off on the proposal before it is
+considered by the TSC.
+</mark>
 
-Please note that readability is very important. The language of the
-proposal should be English if possible as that is the lingua franca of
-the community. The Chicago Manual Of Style should be followed for
-explanation of abbreviations, references etc. This is extremely
-important as a clear statement of the problem and its technical details
-are helpful to coalesce the community around a solution and prompt
-volunteers. The outline of a project is given below with comments on the
-sections.
+# Motivation
+<mark>
+**Motivation** for this project, a longer justification of the
+project may be a couple of hundred words. Why is this project better
+at solving a problem compared to parallel proposals or implemented
+projects?
+</mark>
 
--   **HIP identifier** a short description plus a serial number with a
-    version (for example this document is Template for a Hyperledger
-    Improvement Project HIP 0.2)
+# Status
+<mark>
+**Status** of the project: See [project lifecycle](https://hyperledger.github.io/tsc/project-lifecycle.html).
+</mark>
 
--   **Sponsor(s)** name and contact details including email address
+# Solution
+<mark>
+**Solution** to the problem addressed in the motivation section. Try
+to make this as detailed as possible. The topics given below are
+just suggestions, address only if they are relevant to your problem:
 
--   **Abstract** (less than 50 word) description of the project.
+-   Transactions- including types, confidentiality, signing,
+    traceability, identity of participants, contracts (scripts)
 
--   **Context** if any, what is this project derived from? What if any
-    is it related to?
+-   Effects on User facing Clients that help with transaction
+    formation (similar to Wallets in BTC)
 
--   **Dependent Projects** if any, must be listed, and each dependent
-    project\'s maintainers must sign off on the proposal before it is
-    considered by the TSC.
+-   Effects on the network, throughput, visibility to other
+    participants, change in protocol if any, criteria for network
+    participation
 
--   **Motivation** for this project, a longer justification of the
-    project may be a couple of hundred words. Why is this project better
-    at solving a problem compared to parallel proposals or implemented
-    projects?
+-   Block formation and ledger formation: Consensus algorithm, size
+    overhead, effects on the throughput and rate
 
--   **Status** of the project: See [project lifecycle](https://hyperledger.github.io/tsc/project-lifecycle.html).
+-   Backward compatibility (hard fork or updates by all network
+    participants needed?)
 
--   **Solution** to the problem addressed in the motivation section. Try
-    to make this as detailed as possible. The topics given below are
-    just suggestions, address only if they are relevant to your problem:
+-   Rough design and scenarios on the probable effects, if any
 
-    -   Transactions- including types, confidentiality, signing,
-        traceability, identity of participants, contracts (scripts)
+-   The use of diagrams is encouraged to elucidate concepts
 
-    -   Effects on User facing Clients that help with transaction
-        formation (similar to Wallets in BTC)
+-   Address any possible objections and also support that came up
+    during seed proposal from technical community on the lists.
 
-    -   Effects on the network, throughput, visibility to other
-        participants, change in protocol if any, criteria for network
-        participation
+-   Traceability, testing criteria to gauge effects on installed
+    base.
 
-    -   Block formation and ledger formation: Consensus algorithm, size
-        overhead, effects on the throughput and rate
+-   License of codebase (including dependencies)
 
-    -   Backward compatibility (hard fork or updates by all network
-        participants needed?)
+-   Any trademarks used in the project name or codebase?
 
-    -   Rough design and scenarios on the probable effects, if any
+# Effort and Resources
+<mark>
+**Effort and resources** committed (coders and any other resources
+that are needed) and timeline.
+</mark>
 
-    -   The use of diagrams is encouraged to elucidate concepts
+# How To
+<mark>
+**How to**: How to host and test the project. How to deploy and use.
+How does one know that it works.
+</mark>
 
-    -   Address any possible objections and also support that came up
-        during seed proposal from technical community on the lists.
+# References
+<mark>
+**References**. See [citation guide](http://www.chicagomanualofstyle.org/tools_citationguide.html).
+</mark>
 
-    -   Traceability, testing criteria to gauge effects on installed
-        base.
-
-    -   License of codebase (including dependencies)
-
-    -   Any trademarks used in the project name or codebase?
-
--   **Effort and resources** committed (coders and any other resources
-    that are needed) and timeline.
-
--   **How to**: How to host and test the project. How to deploy and use.
-    How does one know that it works.
-
--   **References**. See [citation guide](http://www.chicagomanualofstyle.org/tools_citationguide.html).
-
--   **Closure** how do we know that the project succeeded. This has to
-    be measurable if possible. Make references to successor projects if
-    any.
+# Closure
+<mark>
+**Closure** how do we know that the project succeeded. This has to
+be measurable if possible. Make references to successor projects if
+any.
+</mark>
