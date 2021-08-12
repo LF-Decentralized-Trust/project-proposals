@@ -11,7 +11,7 @@ Improvement Project HIP 0.2)_
 </mark>
 
 # Sponsor(s)
-</mark>_**Sponsor(s)** name and contact details including email address_
+<mark>_**Sponsor(s)** name and contact details including email address_
 </mark>
 
 # Abstract
