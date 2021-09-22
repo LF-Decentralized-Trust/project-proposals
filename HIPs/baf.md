@@ -14,6 +14,7 @@ Blockchain Automation Framework HIP v0.1
 - Nate McKervey, Head of Blockchain and DLT at Splunk (nmckervey@splunk.com)
 - Ankit D Mohapatra, Senior Devops Engineer, Dexai Robotics (ankitmohapatra123@gmail.com)
 - Deepak Lalan, Associate Director, Advanced Technology Center India, Blockchain and Multiparty Systems at Accenture (deepak.lalan@accenture.com)
+- Haisheng Zhang, Chief Technology Officer - eZTracker (haishengzhang@zuelligpharma.com)
 
 # Abstract
 <mark>_**Abstract** (less than 50 word) description of the project._</mark>
