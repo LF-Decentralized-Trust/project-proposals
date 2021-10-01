@@ -15,6 +15,7 @@ Blockchain Automation Framework HIP v0.1
 - Ankit D Mohapatra, Senior Devops Engineer, Dexai Robotics (ankitmohapatra123@gmail.com)
 - Deepak Lalan, Associate Director, Advanced Technology Center India, Blockchain and Multiparty Systems at Accenture (deepak.lalan@accenture.com)
 - Haisheng Zhang, Chief Technology Officer - eZTracker (haishengzhang@zuelligpharma.com)
+- Arun S M, Staff Software Engineer, Walmart Global Tech India, TSC member (aruna.mohan@walmart.com)
 
 # Abstract
 <mark>_**Abstract** (less than 50 word) description of the project._</mark>
