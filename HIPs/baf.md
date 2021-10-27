@@ -236,7 +236,7 @@ See the [Compatibility Matrix](https://blockchain-automation-framework.readthedo
 
 * If code does not already have copyright, the code should be modified to include copyright as per Copyright and License Policy prior to being brought into Hyperledger.
 
-  **We may have some work to do here.**0
+  **We may have some work to do here.**
 
 ### Overlap with Existing Projects
 * _The TSC has mentioned that they are not interested in bringing in additional distributed ledger projects. There should be a distinct advantage for a new distributed ledger project. This will be similar for other types of projects. In general, if a project is similar to an existing project, there should be a distinct advantage that the project brings over and beyond the existing project and that this cannot be contributed directly to the existing project._
