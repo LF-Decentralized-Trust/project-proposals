@@ -124,7 +124,7 @@ For Corda Open Source, we build Docker containers from the Corda source. A numbe
 # Effort and Resources
 <mark>_**Effort and resources** committed (coders and any other resources that are needed) and timeline._</mark>
 
-Since being accepted as a Hyperledger Lab in October 2019, BAF has had 39 total contributors with 32 contributors having more than one commit (based on metrics obtained from the [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports) on July 23, 2021). There have been 28 contributors in the past year and 15 contributors in the past 6 months. The [LF Insights Commit Report through July 18, 2021](https://tinyurl.com/yfckjkeu), 2021 shows that there have been commits from at least 6 separate organizations.
+Since being accepted as a Hyperledger Lab in October 2019, BAF has had 41 total contributors with 35 contributors having more than one commit (based on metrics obtained from the [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports) on October 27, 2021). There have been 26 contributors in the past year and 14 contributors in the past 6 months. The [LF Insights Commit Report as of October 27, 2021](https://tinyurl.com/yzudcvfj) shows that there have been commits from at least 6 separate organizations during its lifetime.
 
 # How To
 <mark>_**How to**: How to host and test the project. How to deploy and use. How does one know that it works._</mark>
@@ -183,3 +183,66 @@ See the [Compatibility Matrix](https://blockchain-automation-framework.readthedo
 **[Minifabric, a Hyperledger Lab](https://github.com/hyperledger-labs/minifabric)** is a deployment, development, administration and learning tool for people who would like to experience Hyperledger Fabric as a developer, administrator or Fabric deployer. This lab was [proposed on October 6, 2020](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/148), and it supports Hyperledger Fabric. We are open to discussions with the maintainers of Minifabric if they are interested in contributing source that would improve BAF for Hyperledger Fabric production-grade deployments.
 
 **[Fabric Operations Console, a Hyperledger Lab](https://github.com/hyperledger-labs/fabric-operations-console)** provides a web console interface for maintaining Hyperledger Fabric components. This is a recent contribution to Hyperledger Labs ([proposed to Hyperledger Labs on June 2, 2021](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/173)). We would be interested in determining if there are things from this lab that could be contributed to BAF as a potential add on for those that are interested in a web console for maintaining a Hyperledger Fabric network.
+
+## How does BAF meet the incubation entry considerations
+### Codebase
+* _Code should exist as open source software in some form. Previous accepted projects have come up through labs (e.g., Cactus, Ursa); while others previously had stand alone governance prior to joining (e.g., Besu)._
+  
+  **BAF has been in Hyperledger Labs since October, 2019**
+
+* _DCO sign off should exists in the code repository. If not 100% ready, the code must be capable of becoming compliant upon entry (i.e., squash commit)._
+
+  **BAF has required DCO signoffs since entry into the Labs**
+
+### Maintainers
+* _The project should have multiple maintainers. These maintainers need not be from different companies; however, having maintainers from different companies is seen as a positive sign. Proposals with only one maintainer have been rejected by prior TSCs._
+
+  **The maintainers can be found listed in [MAINTAINERS.md](https://github.com/hyperledger-labs/blockchain-automation-framework/blob/main/MAINTAINERS.md). Multiple companies are represented in the list.**
+  
+* _The project should have demonstrable examples of POC/production uses publicly available._
+
+  **BAF is being used for multiple engagements.**
+
+* _The project should have the backing of more than one organization/individuals (i.e., the project proposers should be able to demonstrate significant, long term contribution in codebase)._
+
+  **There have been commits from at least 6 separate organizations during its lifetime.**
+
+### Community
+* _The TSC is more likely to accept projects that have contributors familiar with open source practices. Participating in existing projects or starting in Hyperledger Labs is a great place to grow this experience._
+
+  **As mentioned previously, BAF has been operating in an open source model since being brought into Hyperledger Labs in October 2019. BAF also utilizes all of the Hyperledger community channels for answering questions and hosting meetings.**
+
+### Sponsors
+* _Sponsors are advocates for the project. There should be more than one sponsor, and they should be from different organizations. They may or may not be committing resources to the project._
+
+  **Multiple sponsors exist for the project as listed at the top of this document, including sponsors who are contributing and using BAF.**
+
+### Legal
+* Trademark concerns – project names should not be trademarked by a contributing company or if it is, then the trademark will need to be handed over to Hyperledger. Project names must be approved by the Hyperledger marketing committee
+
+  **We would like the Hyperledger marketing committee to propose a name for the project.**
+
+* Projects do not require a name prior to being submitted.
+
+  **We would like the Hyperledger marketing committee to propose a name for the project.**
+
+* Codebase should be Apache 2 licensable, without encumbrances
+    * Non-Apache 2 licensed code is possible, but requires Governing board approval (Section 12 subsection d of the Hyperledger Charter)
+    * Special examination should be given to copyleft and non-licensed code.
+    * Required patent licensing issues have prevented projects from entering Incubation.
+    * GPL licensing issues have prevented projects from entering Incubation.
+
+  **The source code is Apache 2 licensed.**
+
+* If code does not already have copyright, the code should be modified to include copyright as per Copyright and License Policy prior to being brought into Hyperledger.
+
+  **We may have some work to do here.**0
+
+### Overlap with Existing Projects
+* _The TSC has mentioned that they are not interested in bringing in additional distributed ledger projects. There should be a distinct advantage for a new distributed ledger project. This will be similar for other types of projects. In general, if a project is similar to an existing project, there should be a distinct advantage that the project brings over and beyond the existing project and that this cannot be contributed directly to the existing project._
+
+  **See previous FAQ "How does BAF relate to existing projects and labs?"**
+
+* _New projects should bring something to the table that current projects do not._
+
+  **See previous FAQ "How does BAF relate to existing projects and labs?"**
