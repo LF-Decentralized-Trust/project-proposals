@@ -10,7 +10,7 @@ Blockchain Automation Framework HIP v0.1
 # Sponsor(s)
 <mark>_**Sponsor(s)** name and contact details including email address_</mark>
 
-- Tracy Kuhrt, Associate Director, Blockchain and Multiparty Systems Architecture at Accenture, TSC Vice Chair (tracy.a.kuhrt@accenture.com)
+- Tracy Kuhrt, Associate Director, Blockchain and Multiparty Systems Architecture at Accenture, TSC Chair (tracy.a.kuhrt@accenture.com)
 - Nate McKervey, Head of Blockchain and DLT at Splunk (nmckervey@splunk.com)
 - Ankit D Mohapatra, Senior Devops Engineer, Dexai Robotics (ankitmohapatra123@gmail.com)
 - Deepak Lalan, Associate Director, Advanced Technology Center India, Blockchain and Multiparty Systems at Accenture (deepak.lalan@accenture.com)
