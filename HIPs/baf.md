@@ -182,7 +182,7 @@ See the [Compatibility Matrix](https://blockchain-automation-framework.readthedo
 
 **[Minifabric, a Hyperledger Lab](https://github.com/hyperledger-labs/minifabric)** is a deployment, development, administration and learning tool for people who would like to experience Hyperledger Fabric as a developer, administrator or Fabric deployer. This lab was [proposed on October 6, 2020](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/148), and it supports Hyperledger Fabric. We are open to discussions with the maintainers of Minifabric if they are interested in contributing source that would improve BAF for Hyperledger Fabric production-grade deployments.
 
-**[Fabric Operations Console, a Hyperledger Lab](https://github.com/hyperledger-labs/fabric-operations-console)** provides a web console interface for maintaining Hyperledger Fabric components. This is a recent contribution to Hyperledger Labs ([proposed to Hyperledger Labs on June 2, 2021](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/173)). We would be interested in determining if there are things from this lab that could be contributed to BAF as a potential add on for those that are interested in a web console for maintaining a Hyperledger Fabric network.
+**[Fabric Operations Console, a Hyperledger Lab](https://github.com/hyperledger-labs/fabric-operations-console)** provides a web console interface for maintaining Hyperledger Fabric components. This was [contributed to Hyperledger Labs on June 2, 2021](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/173).  Since that time, BAF has integrated Fabric Operations Console, which provides all of the console's functions.
 
 ## How does BAF meet the incubation entry considerations
 ### Codebase
@@ -236,7 +236,7 @@ See the [Compatibility Matrix](https://blockchain-automation-framework.readthedo
 
 * If code does not already have copyright, the code should be modified to include copyright as per Copyright and License Policy prior to being brought into Hyperledger.
 
-  **We may have some work to do here.**
+  **The team is working on adding the copyright information to the files.**
 
 ### Overlap with Existing Projects
 * _The TSC has mentioned that they are not interested in bringing in additional distributed ledger projects. There should be a distinct advantage for a new distributed ledger project. This will be similar for other types of projects. In general, if a project is similar to an existing project, there should be a distinct advantage that the project brings over and beyond the existing project and that this cannot be contributed directly to the existing project._
