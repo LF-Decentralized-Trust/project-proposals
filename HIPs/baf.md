@@ -218,23 +218,23 @@ See the [Compatibility Matrix](https://blockchain-automation-framework.readthedo
   **Multiple sponsors exist for the project as listed at the top of this document, including sponsors who are contributing and using BAF.**
 
 ### Legal
-* Trademark concerns – project names should not be trademarked by a contributing company or if it is, then the trademark will need to be handed over to Hyperledger. Project names must be approved by the Hyperledger marketing committee
+* _Trademark concerns – project names should not be trademarked by a contributing company or if it is, then the trademark will need to be handed over to Hyperledger. Project names must be approved by the Hyperledger marketing committee_
 
   **We would like the Hyperledger marketing committee to propose a name for the project.**
 
-* Projects do not require a name prior to being submitted.
+* _Projects do not require a name prior to being submitted._
 
   **We would like the Hyperledger marketing committee to propose a name for the project.**
 
-* Codebase should be Apache 2 licensable, without encumbrances
-    * Non-Apache 2 licensed code is possible, but requires Governing board approval (Section 12 subsection d of the Hyperledger Charter)
-    * Special examination should be given to copyleft and non-licensed code.
-    * Required patent licensing issues have prevented projects from entering Incubation.
-    * GPL licensing issues have prevented projects from entering Incubation.
+* _Codebase should be Apache 2 licensable, without encumbrances_
+    * _Non-Apache 2 licensed code is possible, but requires Governing board approval (Section 12 subsection d of the Hyperledger Charter)_
+    * _Special examination should be given to copyleft and non-licensed code._
+    * _Required patent licensing issues have prevented projects from entering Incubation._
+    * _GPL licensing issues have prevented projects from entering Incubation._
 
   **The source code is Apache 2 licensed.**
 
-* If code does not already have copyright, the code should be modified to include copyright as per Copyright and License Policy prior to being brought into Hyperledger.
+* _If code does not already have copyright, the code should be modified to include copyright as per Copyright and License Policy prior to being brought into Hyperledger._
 
   **The team is working on adding the copyright information to the files.**
 
