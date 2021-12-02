@@ -8,8 +8,6 @@ parent: Hyperledger Improvement Proposals
 Hyperledger Bevel (formerly Blockchain Automation Framework) HIP v0.1
 
 # Sponsor(s)
-<mark>_**Sponsor(s)** name and contact details including email address_</mark>
-
 - Tracy Kuhrt, Associate Director, Blockchain and Multiparty Systems Architecture at Accenture, TSC Chair (tracy.a.kuhrt@accenture.com)
 - Nate McKervey, Head of Blockchain and DLT at Splunk (nmckervey@splunk.com)
 - Ankit D Mohapatra, Senior Devops Engineer, Dexai Robotics (ankitmohapatra123@gmail.com)
@@ -18,13 +16,9 @@ Hyperledger Bevel (formerly Blockchain Automation Framework) HIP v0.1
 - Arun S M, Staff Software Engineer, Walmart Global Tech India, TSC member (aruna.mohan@walmart.com)
 
 # Abstract
-<mark>_**Abstract** (less than 50 word) description of the project._</mark>
-
 The Hyperledger Bevel is an accelerator by which developers can consistently deploy production-ready distributed networks across public and private cloud providers.
 
 # Context
-<mark>_**Context** if any, what is this project derived from? What if any is it related to?_</mark>
-
 In early 2019, Accenture started a project codenamed “Fulcrum” to simplify the use of best practices and accelerate DLT deployments. Our vision was to bring down the technology barriers and thus drive adoption of DLT. From the very beginning we had open source in mind.
 
 We decided on some principles:
@@ -47,8 +41,6 @@ In October, 2019, Accenture [proposed](https://github.com/hyperledger-labs/hyper
 In the [Hyperledger Labs environment](https://github.com/hyperledger-labs/blockchain-automation-framework), we have been working with others in the community and performing a number of [releases](https://github.com/hyperledger-labs/blockchain-automation-framework/releases). We have a [chat channel](https://chat.hyperledger.org/channel/blockchain-automation-framework), a [wiki page](https://wiki.hyperledger.org/display/labs/Blockchain+Automation+Framework+lab), [documentation](https://blockchain-automation-framework.readthedocs.io/en/latest/index.html), a set of [good first issues](https://github.com/hyperledger-labs/blockchain-automation-framework/issues?labels=good-first-issue&is:open&q=is:issue), and a [roadmap](https://blockchain-automation-framework.readthedocs.io/en/latest/roadmap.html). We also conduct regular [community meetings](https://lists.hyperledger.org/g/labs/calendar). Hyperledger Bevel is already being used in production deployments and has an active community.
 
 # Dependent Projects
-<mark>_**Dependent Projects** if any, must be listed, and each dependent project\'s maintainers must sign off on the proposal before it is considered by the TSC._</mark>
-
 Hyperledger Bevel utilizes:
 * [Ansible](https://docs.ansible.com/ansible/latest/index.html) is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code. Hyperledger Bevel uses Ansible playbooks and roles to initialize the environment, deploying and configuring the Flux operator and Hashicorp Vault. After the environment is configured, Ansible is used as a configuration managment tool to automate the maintenance of the many helm value files from a single configuration file. Ansible is an optional component in Hyperledger Bevel and can be swapped with other configuration management tools.
 * [Kubernetes (K8s)](https://kubernetes.io/) is an open-source system for automating deployment, scaling and maintaining containerized applications. Hyperledger Bevel leverages Kubernetes’ various features for deploying a DLT/Blockchain network along with other required services in one or more K8s clusters. This decouples the deployment of DLT platforms from the underlying infrastructure or cloud provider.
@@ -65,8 +57,6 @@ In addition to the above tools, we are of course dependent on the releases made 
 * Corda Enterprise
 
 # Motivation
-<mark>_**Motivation** for this project, a longer justification of the project may be a couple of hundred words. Why is this project better at solving a problem compared to parallel proposals or implemented projects?_</mark>
-
 Setting up a new DLT/Blockchain network or maintaining an existing DLT/Blockchain network in a production-scale environment is not straightforward. For the existing DLT/Blockchain platforms, each has its own architecture, which means the same way of setting up one DLT/Blockchain network cannot be applied to others.
 
 Therefore, when blockchain developers are asked to use an unfamiliar DLT/Blockchain platform, it requires significant effort for even experienced technicians to properly setup the DLT/Blockchain network. This is especially true in large-scale production projects across heterogeneous corporate environments which require other key aspects such as security and service availability.
@@ -76,13 +66,9 @@ Being aware of the potential difficulty and complexity of getting a production-s
 The objective of Hyperledger Bevel is to provide a consistent means by which developers can deploy production-ready distributed networks across public and private cloud providers. This enables developers to focus on building business applications, knowing that the framework upon which they are building can be adopted by an enterprise IT production operations organization. Hyperledger Bevel is not intended solely to quickly provision _development_ environments which can be done more efficiently with other projects/scripts. Likewise, Hyperledger Bevel is not intended to replace BaaS offerings in the market, but instead, Hyperledger Bevel is an alternative when existing BaaS offerings do not support a consortium’s current set of requirements.
 
 # Proposed Status
-<mark>_**Status** of the project: See [project lifecycle](https://hyperledger.github.io/tsc/project-lifecycle.html)._</mark>
-
 Incubation
 
 # Solution
-<mark>_**Solution** to the problem addressed in the motivation section. Try to make this as detailed as possible._</mark>
-
 Hyperledger Bevel delivers an automation framework for rapidly and consistently deploying production-ready DLT platforms to cloud infrastructure.
 
 ![What is Hyperledger Bevel?](./images/bevel/bevel-overview.png "What is Hyperledger Bevel?")
@@ -122,18 +108,12 @@ For Corda Open Source, we build Docker containers from the Corda source. A numbe
 ![Hyperledger Bevel for Corda Open Source](./images/bevel/bevel-corda.png "Hyperledger Bevel for Corda Open Source")
 
 # Effort and Resources
-<mark>_**Effort and resources** committed (coders and any other resources that are needed) and timeline._</mark>
-
 Since being accepted as a Hyperledger Lab in October 2019, there have been 41 total contributors with 35 contributors having more than one commit (based on metrics obtained from the [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports) on October 27, 2021). There have been 26 contributors in the past year and 14 contributors in the past 6 months. The [LF Insights Commit Report as of October 27, 2021](https://tinyurl.com/yzudcvfj) shows that there have been commits from at least 6 separate organizations during its lifetime.
 
 # How To
-<mark>_**How to**: How to host and test the project. How to deploy and use. How does one know that it works._</mark>
-
 The Hyperledger Bevel documentation provides detailed [Operation Guide](https://blockchain-automation-framework.readthedocs.io/en/latest/operationalguide.html) and [Developer Guide](https://blockchain-automation-framework.readthedocs.io/en/latest/developerguide.html). In addition, a [supply chain sample application](https://blockchain-automation-framework.readthedocs.io/en/latest/example/supplychain.html) is provided for the general DLT platforms, and a [Hyperledger Indy reference application](https://blockchain-automation-framework.readthedocs.io/en/latest/example/indy-refapp.html) is provided for Hyperledger Indy. These sample applications allow the user to test their DLT deployments completed via Hyperledger Bevel.
 
 # References
-<mark>_**References**. See [citation guide](http://www.chicagomanualofstyle.org/tools_citationguide.html)._</mark>
-
 * [Blockchain Automation Framework Lab Proposal](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/102)
 * [Blockchain Automation Framework Lab GitHub Repo](https://github.com/hyperledger-labs/blockchain-automation-framework)
 * [Blockchain Automation Framework Lab Read the Docs](https://blockchain-automation-framework.readthedocs.io/en/latest/index.html)
@@ -146,8 +126,6 @@ The Hyperledger Bevel documentation provides detailed [Operation Guide](https://
 
 
 # Closure
-<mark>_**Closure** how do we know that the project succeeded. This has to be measurable if possible. Make references to successor projects if any._</mark>
-
 Project success can be measured by the use of Hyperledger Bevel to accelerate the deployment of production-ready DLT networks and nodes and  drive the adoption of DLT platforms.
 
 # FAQs
