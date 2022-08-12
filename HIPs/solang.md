@@ -1,12 +1,12 @@
 ---
 layout: default
-title: HIP Template
+title: Hyperledger Solang Proposal
 parent: Hyperledger Improvement Proposals
 ---
 
 # Hyperledger Solang Proposal
 
-[HIPs/Solang.md](./Solang.md)
+[HIPs/solang.md](./solang.md)
 
 # HIP Identifier
 
