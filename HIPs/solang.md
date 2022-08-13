@@ -217,7 +217,10 @@ N/A
 
 * _The TSC is more likely to accept projects that have contributors familiar with open source practices. Participating in existing projects or starting in Hyperledger Labs is a great place to grow this experience._
 
-  **As mentioned previously, Solang has been operating in an open source model since being brought into Hyperledger Labs in 2018. Solang also utilizes all of the Hyperledger community channels for answering questions and hosting meetings. We have a daily public call, use github, and discord.**
+  **As mentioned previously, Solang has been operating in an open source model since being brought into Hyperledger Labs in 2018. Solang also utilizes all of the Hyperledger community channels for answering questions and hosting meetings. We have a daily public call, use github, and discord.
+
+  We've had conversations with Hyperledger Staff about how to leverage their support for further community building, should
+  Solang be accepted into incubation.**
 
 ### Sponsors
 
