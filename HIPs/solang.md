@@ -17,6 +17,7 @@ Hyperledger Solang v0.1.12
 - Sean Young [<sean@mess.org>](mailto:sean@mess.org)
 - Lucas Steuernagel [<lucas.tnagel@gmail.com>](mailto:lucas.tnagel@gmail.com)
 - Tracy A. Kuhrt [<tracy.a.kuhrt@accenture.com>](mailto:tracy.a.kuhrt@accenture.com)
+- Cyrill Leutwiler [<cyrill@parity.io>](mailto:cyrill@parity.io)
 
 # Abstract
 
