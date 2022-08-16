@@ -158,6 +158,10 @@ and call various contract functions.
 
 # Effort and Resources
 
+The aim for Solang is to be a portable compiler which supports multiple
+blockchains. Therefore hosting it at Hyperledger makes sense, as this is a
+neutral space where competing vendors collaborate.
+
 Initial funding for Solang provided was through two grants from the Web3
 Foundation and another grant from the Solana Foundation.
 
@@ -208,7 +212,7 @@ N/A
 
 * _The project should have demonstrable examples of POC/production uses publicly available._
 
-  **Solang is being used for multiple engagements, none of them public yet. One engagement is aiming for production in the October 2022.**
+  **Solang is being used for multiple Web3 engagements on Polkadot and Solana, none of them public yet. One engagement is aiming for production in the October 2022.**
 
 * _The project should have the backing of more than one organization/individuals (i.e., the project proposers should be able to demonstrate significant, long term contribution in codebase)._
 
