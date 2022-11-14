@@ -10,7 +10,6 @@ parent: Hyperledger Improvement Proposals
 # Sponsor(s)
 
 - David Viejo [dviejo@kfs.es](mailto:dviejo@kfs.es)
-- Carlo Innocenti [carlo.innocenti@oracle.com](mailto:carlo.innocenti@oracle.com)
 
 # Abstract
 
