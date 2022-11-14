@@ -9,10 +9,11 @@ parent: Hyperledger Improvement Proposals
 
 # Sponsor(s)
 
-- David Viejo [<dviejo@kfs.es>](mailto:dviejo@kfs.es)
+- David Viejo [dviejo@kfs.es](mailto:dviejo@kfs.es)
 - Carlo Innocenti [carlo.innocenti@oracle.com](mailto:carlo.innocenti@oracle.com)
 
 # Abstract
+
 HLF Operator is a Kubernetes operator that helps simplify the deployments of Hyperledger Fabric in Kubernetes. It is based on the Hyperledger Fabric Helm charts and provides a Kubernetes native way to deploy and manage Hyperledger Fabric networks.
 
 # Context
@@ -23,11 +24,7 @@ There are many ways to deploy Hyperledger Fabric, but most of the alternatives f
 - Upgrades
 - Channel management
 
-HLF-operator solves this by 
-
-<mark>_**Context** if any, what is this project derived from? What if any
-is it related to?_
-</mark>
+HLF-operator solves this by introducing the concept of the Kubernetes operator, which is a program that runs within Kubernetes and extends it with functionality specific to HLF that makes managing networks way easier than other alternatives such as Docker-based.
 
 # Dependent Projects
 
@@ -35,55 +32,39 @@ Hyperledger Fabric Operator only requires **Hyperledger Fabric** to run.
 
 # Motivation
 
-When building Hyperledger Fabric networks, there are a number of barries to start using and deploying Hyperledger Fabric:
+When building Hyperledger Fabric networks, there are several barriers to starting using and deploying Hyperledger Fabric:
+
 - How do I deploy a network in Kubernetes?
 - How do I manage the certificate authorities/peers/orderers in a production environment?
 - How do I renew the certificates?
 
+Several projects try to achieve the same goal, such as:
+
+- https://github.com/KompiTech/hyperledger-fabric-operator
+- https://github.com/hyperledger-labs/fabric-operator
+- https://github.com/raftAtGit/hl-fabric-operator
 
 # Status
+
 Proposal
 
 # Solution
-<mark>_**Solution** to the problem addressed in the motivation section. Try
-to make this as detailed as possible. The topics given below are
-just suggestions, address only if they are relevant to your problem:_
 
--   _Transactions- including types, confidentiality, signing,
-    traceability, identity of participants, contracts (scripts)_
+The solution is to rely on the features that Kubernetes offers in order to:
 
--   _Effects on User facing Clients that help with transaction
-    formation (similar to Wallets in BTC)_
+- Achieve high availability
+- Scalability
+- Monitor the components
 
--   _Effects on the network, throughput, visibility to other
-    participants, change in protocol if any, criteria for network
-    participation_
-
--   _Block formation and ledger formation: Consensus algorithm, size
-    overhead, effects on the throughput and rate_
-
--   _Backward compatibility (hard fork or updates by all network
-    participants needed?)_
-
--   _Rough design and scenarios on the probable effects, if any_
-
--   _The use of diagrams is encouraged to elucidate concepts_
-
--   _Address any possible objections and also support that came up
-    during seed proposal from technical community on the lists._
-
--   _Traceability, testing criteria to gauge effects on installed
-    base._
-
--   _License of codebase (including dependencies)_
-
--   _Any trademarks used in the project name or codebase?_
-</mark>
+![Chaincode development - Page 2.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68971bab-6c4d-4b0c-8c5e-3234257b4c51/Chaincode_development_-_Page_2.svg)
 
 # Effort and Resources
-<mark>_**Effort and resources** committed (coders and any other resources
-that are needed) and timeline._
-</mark>
+
+The hlf-operator code base’s current version is in production with some consortiums. The proposed code base includes the current version (1.8.0) in GoLang.
+
+We have the following companies committed to contributing as of this proposal:
+
+- Kung Fu Software: 2 developers to contribute to hlf-operator
 
 # How To
 
@@ -91,8 +72,8 @@ There's a guide in the documentation of the project that shows how to deploy a s
 
 [https://labs.hyperledger.org/hlf-operator/docs/getting-started](https://labs.hyperledger.org/hlf-operator/docs/getting-started)
 
-
 # References
+
 N/A
 
 # Closure
