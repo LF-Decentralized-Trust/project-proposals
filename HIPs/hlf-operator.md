@@ -11,6 +11,7 @@ parent: Hyperledger Improvement Proposals
 
 - David Viejo [dviejo@kfs.es](mailto:dviejo@kfs.es)
 - Baohua Yang [baohua.yang@oracle.com](mailto:baohua.yang@oracle.com)
+- Aditya Joshi [adityaprakashjoshi1@gmail.com](mailto:adityaprakashjoshi1@gmail.com)
 
 # Abstract
 
