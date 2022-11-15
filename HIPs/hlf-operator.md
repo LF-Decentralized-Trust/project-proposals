@@ -10,6 +10,7 @@ parent: Hyperledger Improvement Proposals
 # Sponsor(s)
 
 - David Viejo [dviejo@kfs.es](mailto:dviejo@kfs.es)
+- Baohua Yang [baohua.yang@oracle.com](mailto:baohua.yang@oracle.com)
 
 # Abstract
 
