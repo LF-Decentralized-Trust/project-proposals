@@ -31,6 +31,14 @@ technical champions who believe in the project and are
 the maintainers of the project. The technical champions can change in
 the middle of the project.
 
+If this project proposal is for a feature that is unique to an existing
+Hyperledger project, please reach out to that project's maintainers to see
+about joining that project instead of creating a new project proposal.
+If discussion with the existing project community leads to not joining,
+then the proposal will be reviewed on its own merits as an independent
+project. Please note in the proposal the conversations with that project
+and the reason for not joining their efforts.
+
 Please note that readability is very important. The language of the
 proposal should be English if possible as that is the lingua franca of
 the community. The Chicago Manual Of Style should be followed for
@@ -53,7 +61,9 @@ sections.
 
 -   **Dependent Projects** if any, must be listed, and each dependent
     project\'s maintainers must sign off on the proposal before it is
-    considered by the TOC.
+    considered by the TOC. **NOTE: If this project proposal is unique
+    to an existing Hyperledger project, please discuss including this
+    feature with that project's maintainers.**
 
 -   **Motivation** for this project; a longer justification of the
     project. This may be a couple of hundred words. Why is this
