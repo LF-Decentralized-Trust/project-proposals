@@ -26,7 +26,9 @@ is it related to?_
 # Dependent Projects
 <mark>_**Dependent Projects** if any, must be listed, and each dependent
 project\'s maintainers must sign off on the proposal before it is
-considered by the TOC._
+considered by the TOC. **NOTE: If this project proposal is unique
+to an existing Hyperledger project, please discuss including this
+feature with that project's maintainers.**_
 </mark>
 
 # Motivation
