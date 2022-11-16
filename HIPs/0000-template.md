@@ -26,7 +26,7 @@ is it related to?_
 # Dependent Projects
 <mark>_**Dependent Projects** if any, must be listed, and each dependent
 project\'s maintainers must sign off on the proposal before it is
-considered by the TSC._
+considered by the TOC._
 </mark>
 
 # Motivation
@@ -37,7 +37,7 @@ projects?_
 </mark>
 
 # Status
-<mark>_**Status** of the project: See [project lifecycle](https://hyperledger.github.io/tsc/project-lifecycle.html)._
+<mark>_**Status** of the project: See [project lifecycle](https://hyperledger.github.io/toc/project-lifecycle.html)._
 </mark>
 
 # Solution

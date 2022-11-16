@@ -12,7 +12,7 @@ users and other developers, code, releases, issues, and other activity
 oriented around a common software-implemented mission.
 
 This project proposal template ushers originators, designers,
-implementers, and testers of a project through community and TSC approval.
+implementers, and testers of a project through community and TOC approval.
 The proposal should evolve organically as the HIP moves through the
 stages of conception, design, approval, implementation and deployment.
 The project and hence the proposal may also need several iterations. In
@@ -25,7 +25,7 @@ Improvement Proposal, Python Improvement Proposal etc. were used as
 guidelines to develop this template.
 
 The seed of a new project has to be vetted in a public forum like
-the [TSC mailing list](https://lists.hyperledger.org/g/tsc/topics)
+the [TOC mailing list](https://lists.hyperledger.org/g/toc/topics)
 before creating a project proposal. It is best if the project has
 technical champions who believe in the project and are
 the maintainers of the project. The technical champions can change in
@@ -53,14 +53,14 @@ sections.
 
 -   **Dependent Projects** if any, must be listed, and each dependent
     project\'s maintainers must sign off on the proposal before it is
-    considered by the TSC.
+    considered by the TOC.
 
 -   **Motivation** for this project; a longer justification of the
     project. This may be a couple of hundred words. Why is this
     project better at solving a problem compared to parallel proposals
     or implemented projects?
 
--   **Status** of the project: [See lifecycle documentation](https://hyperledger.github.io/tsc/project-lifecycle.html)
+-   **Status** of the project: [See lifecycle documentation](https://hyperledger.github.io/toc/project-lifecycle.html)
 
 -   **Solution** to the problem addressed in the motivation section. Try
     to make this as detailed as possible. The topics given below are
