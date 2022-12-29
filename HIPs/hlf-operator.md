@@ -57,7 +57,7 @@ The solution is to rely on the features that Kubernetes offers in order to:
 - Scalability
 - Monitor the components
 
-![Chaincode development - Page 2.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68971bab-6c4d-4b0c-8c5e-3234257b4c51/Chaincode_development_-_Page_2.svg)
+![Chaincode development - Page 2.svg](./images/hlf-operator/Topology.svg)
 
 # Effort and Resources
 
@@ -69,9 +69,7 @@ We have the following companies committed to contributing as of this proposal:
 
 # How To
 
-There's a guide in the documentation of the project that shows how to deploy a sample network in a KinD cluster:
-
-[https://labs.hyperledger.org/hlf-operator/docs/getting-started](https://labs.hyperledger.org/hlf-operator/docs/getting-started)
+There's a guide in the documentation of the project that shows how to deploy a sample network in a KinD cluster in the (README.md)[https://github.com/hyperledger-labs/hlf-operator].
 
 # References
 
