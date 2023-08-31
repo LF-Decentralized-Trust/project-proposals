@@ -2,3 +2,5 @@
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 logo: "assets/hyperledger-logo.png"
+ga_tracking: GTM-T6J7RQ
+ga_tracking_anonymize_ip: true
