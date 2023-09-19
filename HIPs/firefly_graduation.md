@@ -4,7 +4,7 @@
 
 FireFly began as a [Hyperledger Lab in June, 2021](https://wiki.hyperledger.org/display/TSC/Table+consideration+of+the+FireFly+proposal+for+two+months) and became an [Incubating Project in September, 2021](https://wiki.hyperledger.org/display/TSC/Move+Hyperledger+Lab+Firefly+into+a+Project+in+Incubation). Now, after two years in Incubation FireFly has significantly grown and continued to mature. The project has received significant contributions from committers beyond the set of original maintainers, including a completely new [blockchain connector microservice](https://github.com/hyperledger/firefly-tezosconnect) and corresponding FireFly Core plugin enabling connectivity to Tezos, an entirely new type of blockchain. Additionally, the project now has a diverse set of maintainers representing three different companies.
 
-Given that FireFly now meets or exceeds the [Incubation Exit Criteria](https://toc.hyperledger.org/governing-documents/project-incubation-exit.html) created by the Hyperledger TOC, is a proposal to move FireFly to Graduated Project status. The rest of this document describes in detail how the project meets or exceeds the Incubation Exit Criteria.
+Given that FireFly now meets or exceeds the [Incubation Exit Criteria](https://toc.hyperledger.org/governing-documents/project-incubation-exit.html) created by the Hyperledger TOC, we are proposing to move FireFly to Graduated Project status. The rest of this document describes in detail how the project meets or exceeds the Incubation Exit Criteria.
 
 ## Minimum requirements
 
