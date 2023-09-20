@@ -65,9 +65,20 @@ Upcoming FireFly feature releases are tracked with [GitHub Milestones](https://g
 
 > The project must include a comprehensive unit and integration test suite and document its coverage. Additional performance and scale test capability is desirable.
 
-- FireFly Core has 100% unit test coverage which is enforced by Codecov [![codecov](https://codecov.io/gh/hyperledger/firefly/branch/main/graph/badge.svg?token=QdEnpMqB1G)](https://codecov.io/gh/hyperledger/firefly)
-- FireFly has an End-to-End test suite that runs against a live system in a robust matrix of possible configurations
-- Both the unit test and E2E test suites run against every PR
+All code in FireFly Core, shared libraries, FireFly Transaction Manager, and production FFTM-based connectors have 100% unit test coverage.
+| Repo | Description | Coverage |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`firefly`](https://github.com/hyperledger/firefly) | FireFly Core code repo | [![codecov](https://codecov.io/gh/hyperledger/firefly/branch/main/graph/badge.svg?token=QdEnpMqB1G)](https://codecov.io/gh/hyperledger/firefly) |
+| [`firefly-common`](https://github.com/hyperledger/firefly-common) | Shared library for common code used across many FireFly microservices | [![codecov](https://codecov.io/gh/hyperledger/firefly-common/branch/main/graph/badge.svg?token=LUX2I5EU0T)](https://codecov.io/gh/hyperledger/firefly-common) |
+| [`firefly-signer`](https://github.com/hyperledger/firefly-signer) | Both a runtime and library for Ethereum protocol specific code | [![codecov](https://codecov.io/gh/hyperledger/firefly-signer/branch/main/graph/badge.svg?token=OEI8A08P0R)](https://codecov.io/gh/hyperledger/firefly-signer) |
+| [`firefly-transaction-manager`](https://github.com/hyperledger/firefly-transaction-manager) | Base library for building blockchain connectors | [![codecov](https://codecov.io/gh/hyperledger/firefly-transaction-manager/branch/main/graph/badge.svg?token=G6TaoNNBx9)](https://codecov.io/gh/hyperledger/firefly-transaction-manager) |
+| [`firefly-evmconnect`](https://github.com/hyperledger/firefly-evmconnect) | Ethereum blockchain connector built on FireFly Transaction Manager | [![codecov](https://codecov.io/gh/hyperledger/firefly-evmconnect/branch/main/graph/badge.svg?token=OEI8A08P0R)](https://codecov.io/gh/hyperledger/firefly-evmconnect) |
+| [`firefly-ethconnect`](https://github.com/hyperledger/firefly-ethconnect) | Legacy Ethereum blockchain connector | [![codecov](https://codecov.io/gh/hyperledger/firefly-ethconnect/graph/badge.svg?token=nO6ihSAzpV)](https://codecov.io/gh/hyperledger/firefly-ethconnect) |
+
+- Some specific connectors (non FFTM-based), tooling, etc. may not have 100% unit test coverage, but test coverage is not allowed to decrease with any PR
+- Every repo has some sort of automatic test validation that must occur before a PR can be merged
+- FireFly has a comprehensive End-to-End test suite that runs against a live system in a robust matrix of possible configurations
+- Both the unit test and E2E test suites run against every PR to FireFly Core
 - The [FireFly Performance CLI](https://github.com/hyperledger/firefly-perf-cli) is used for testing transaction throughput of a live system in various configurations
 
 ### Sufficient user documentation
