@@ -27,7 +27,7 @@ The community holds public Community Calls at least once a month where maintaine
 
 #### Committers
 
-According to [LFX Insights](https://insights-v2.lfx.linuxfoundation.org/firefly/technical-contributors/participating-organizations?selectedDateFilterType=DATERANGE&selectedDateRangeKey=3Y), FireFly has committers representing 8 corporations and 12 independent contributors.
+According to [LFX Insights](https://insights-v2.lfx.linuxfoundation.org/firefly/technical-contributors/participating-organizations?selectedDateFilterType=DATERANGE&selectedDateRangeKey=3Y), FireFly has 84 committers representing 8 corporations and 12 independent contributors.
 
 #### Maintainers
 
