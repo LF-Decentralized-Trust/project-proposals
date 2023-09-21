@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Hyperledger Bevel (formerly Blockchain Automation Framework)
-parent: Hyperledger Improvement Proposals
+parent: Incubation
+grand_parent: Hyperledger Improvement Proposals
 ---
 
 # HIP Identifer
@@ -71,7 +72,7 @@ Incubation
 # Solution
 Hyperledger Bevel delivers an automation framework for rapidly and consistently deploying production-ready DLT platforms to cloud infrastructure.
 
-![What is Hyperledger Bevel?](./images/bevel/bevel-overview.png "What is Hyperledger Bevel?")
+![What is Hyperledger Bevel?](../images/bevel/bevel-overview.png "What is Hyperledger Bevel?")
 
 Hyperledger Bevel makes use of Ansible, Helm, and Kubernetes to deploy production DLT networks. Specifically, it makes use of Ansible for configuration of the network by DevOps Engineers. It then uses Helm charts as instructions for deploying the necessary components to Kubernetes. Kubernetes was chosen to allow for Hyperledger Bevel to deploy the DLT networks to any cloud that supports Kubernetes.
 
@@ -80,32 +81,32 @@ Hyperledger Bevel currently supports Hyperledger Fabric, Hyperledger Besu, Hyper
 ## Hyperledger Fabric
 For Hyperledger Fabric, we use the official Docker containers provided by that project. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
 
-![Hyperledger Bevel for Fabric](./images/bevel/bevel-fabric.png "Hyperledger Bevel for Hyperledger Fabric")
+![Hyperledger Bevel for Fabric](../images/bevel/bevel-fabric.png "Hyperledger Bevel for Hyperledger Fabric")
 
 ## Hyperledger Besu
 For Hyperledger Besu, we use the official Docker containers provided by that project. A number of different Ansible scripts will allow you to create a new network (across clouds).
 
-![Hyperledger Bevel for Besu](./images/bevel/bevel-besu.png "Hyperledger Bevel for Hyperledger Besu")
+![Hyperledger Bevel for Besu](../images/bevel/bevel-besu.png "Hyperledger Bevel for Hyperledger Besu")
 
 ## Hyperledger Indy
 For Hyperledger Indy, we build Docker containers from our source code. A number of different Ansible scripts will allow you to create a new network (across clouds).
 
-![Hyperledger Bevel for Indy](./images/bevel/bevel-indy.png "Hyperledger Bevel for Hyperledger Indy")
+![Hyperledger Bevel for Indy](../images/bevel/bevel-indy.png "Hyperledger Bevel for Hyperledger Indy")
 
 ## Quorum
 For Quorum, we use the official Docker containers provided by Quorum. A number of different Ansible scripts will allow you to either create a new network (across clouds) with choice of Consensus (between IBFT and RAFT) and a choice of Transaction Manager (between Tessera and Constellation).
 
-![Hyperledger Bevel for Quorum](./images/bevel/bevel-quorum.png "Hyperledger Bevel for Quorum")
+![Hyperledger Bevel for Quorum](../images/bevel/bevel-quorum.png "Hyperledger Bevel for Quorum")
 
 ## Corda Enterprise
 For Corda Enterprise, we build Docker containers from the Corda source with licensed jars. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
 
-![Hyperledger Bevel for Corda Enterprise](./images/bevel/bevel-corda-ent.png "Hyperledger Bevel for Corda Enterprise")
+![Hyperledger Bevel for Corda Enterprise](../images/bevel/bevel-corda-ent.png "Hyperledger Bevel for Corda Enterprise")
 
 ## Corda Open Source
 For Corda Open Source, we build Docker containers from the Corda source. A number of different Ansible scripts will allow you to either create a new network (across clouds) or join an existing network.
 
-![Hyperledger Bevel for Corda Open Source](./images/bevel/bevel-corda.png "Hyperledger Bevel for Corda Open Source")
+![Hyperledger Bevel for Corda Open Source](../images/bevel/bevel-corda.png "Hyperledger Bevel for Corda Open Source")
 
 # Effort and Resources
 Since being accepted as a Hyperledger Lab in October 2019, there have been 41 total contributors with 35 contributors having more than one commit (based on metrics obtained from the [Hyperledger community tools project reports](https://github.com/tkuhrt/hyperledger-community-management-tools/tree/master/project-reports) on October 27, 2021). There have been 26 contributors in the past year and 14 contributors in the past 6 months. The [LF Insights Commit Report as of October 27, 2021](https://tinyurl.com/yzudcvfj) shows that there have been commits from at least 6 separate organizations during its lifetime.

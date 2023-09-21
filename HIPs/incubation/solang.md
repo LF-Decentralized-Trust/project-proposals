@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Hyperledger Solang Proposal
-parent: Hyperledger Improvement Proposals
+title: Hyperledger Solang
+parent: Incubation
+grand_parent: Hyperledger Improvement Proposals
 ---
 
 # Hyperledger Solang Proposal

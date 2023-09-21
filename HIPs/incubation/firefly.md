@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Hyperledger Firefly
-parent: Hyperledger Improvement Proposals
+parent: Incubation
+grand_parent: Hyperledger Improvement Proposals
 ---
 
 # Hyperledger FireFly Proposal
