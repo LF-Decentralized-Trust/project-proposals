@@ -7,8 +7,6 @@ grand_parent: Hyperledger Improvement Proposals
 
 # Hyperledger FireFly Proposal
 
-[HIPs/firefly.md](./firefly.md)
-
 ## HIP Identifier
 
 Hyperledger FireFly
