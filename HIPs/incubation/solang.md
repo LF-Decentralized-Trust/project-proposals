@@ -7,8 +7,6 @@ grand_parent: Hyperledger Improvement Proposals
 
 # Hyperledger Solang Proposal
 
-[HIPs/solang.md](./solang.md)
-
 # HIP Identifier
 
 Hyperledger Solang v0.1.12
