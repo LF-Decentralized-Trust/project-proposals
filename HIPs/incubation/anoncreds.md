@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Hyperledger AnonCreds
-parent: Hyperledger Improvement Proposals
+parent: Incubation
+grand_parent: Hyperledger Improvement Proposals
 ---
 
 # Hyperledger AnonCreds Proposal
@@ -91,7 +92,7 @@ We expect that those interested in publishing AnonCreds objects to their “ledg
 
 The following shows how the AnonCreds component will interact with the various components of an SSI Agent, the key management service for an Agent, other Agents and Verifiable Data Registries (VDRs). Note the AnonCreds Registrar and Resolver methods that define the behavior of writing and reading AnonCreds to a specific VDR.
 
-![AnonCreds Architecture](images/AnonCreds_Architecture.jpg "AnonCreds Architecture Drawing")
+![AnonCreds Architecture](../images/AnonCreds_Architecture.jpg "AnonCreds Architecture Drawing")
 
 The “to-be” architecture is conceptually similar to what we have today with Hyperledger Indy, extended by separating AnonCreds into its own library and formalizing ledger-independent APIs between AnonCreds and the Registrar/Resolver methods. As indicated by the number of independent implementations already created using the existing AnonCreds libraries (6 and counting…), the adjustment of the APIs is a relatively small effort. Of course, with the implementation of registrar/resolver APIs, it becomes much easier to use VDRs other than Indy, particularly for resolver-only (holder and verifier) use cases. Other than a change in dependencies within Aries Frameworks, there should be little to no impact on the use of AnonCreds by existing implementations.
 

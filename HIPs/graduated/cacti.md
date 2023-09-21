@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Hyperledger Cacti Graduation Proposal
-parent: Hyperledger Improvement Proposals
+title: Hyperledger Cacti
+parent: Graduated
+grand_parent: Hyperledger Improvement Proposals
 ---
 
 # Overview

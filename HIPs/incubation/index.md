@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Incubation
+parent: Hyperledger Improvement Proposals
 nav_order: 1
 has_children: true
 ---

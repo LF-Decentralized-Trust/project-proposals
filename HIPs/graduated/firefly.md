@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hyperledger FireFly
+parent: Graduated
+grand_parent: Hyperledger Improvement Proposals
+---
+
 # Hyperledger FireFly Graduation Proposal
 
 ## Abstract
