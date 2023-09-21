@@ -155,6 +155,6 @@ We describe how Cacti fulfils Hyperledger's graduation criteria below.
 - Graduated status will give enterprises and DLT providers looking for generic interoperation tools
   * A canonical location to look for those tools or to co-develop or contribute features
   * More confidence in the maturity of the Cacti code base
-- New contributors will be more enthusiastic about not using as well as contributing (we have received communication of interest)
+- New contributors will be more enthusiastic about using as well as contributing (we have received communication of interest)
 - A graduated Cacti project can create a fulcrum of innovation in the interoperation area within Hyperledger
   * Act as a reference for other interoperation projects like Yui and Harmonia Labs, and also related projects like Firefly
