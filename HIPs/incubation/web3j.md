@@ -160,6 +160,10 @@ It is our hope that in becoming a Hyperledger project, Web3j will gain additiona
 
 This team is adequate to continue to maintain and support the project, but in growing the contributor and maintainer base we expect the growth of the project to accelerate further.
 
+We've already started to talk to Hyperledger staff about how to work with them to support our goals of bringing in new contributors and maintainers.
+
+A number of organisations have contributed to the project in the past. It's not clear from GitHub profiles alone which have. However, pull requests have been submitted by numerous staff at ConsenSys over the years.
+
 # How To
 
 The simplest way work with Web3j is to create a new project. We provide this functionality using the Web3j CLI. This latter can be installed as follows:
