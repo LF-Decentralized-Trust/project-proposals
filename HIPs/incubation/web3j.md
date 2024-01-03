@@ -166,7 +166,7 @@ A number of organisations have contributed to the project in the past. It's not 
 
 # How To
 
-The simplest way work with Web3j is to create a new project. We provide this functionality using the Web3j CLI. This latter can be installed as follows:
+The simplest way to work with Web3j is to create a new project. We provide this functionality using the Web3j CLI. This latter can be installed as follows:
 
 For Unix:
 
