@@ -25,7 +25,7 @@ Web3j was first created back in 2016 out of the need to simplify working with Et
 
 ![Web3j provides the plumbing for developing on Ethereum]( https://github.com/web3j/web3j-docs/blob/master/docs/img/web3j_network.png?raw=true)
 
-As someone who had spent more then a decade of their career working on large institutional financial systems on the JVM, I appreciated how much of our modern enterprise infrastructure was built on this platform. 
+Web3j's original author had spent more then a decade of their career working on large institutional financial systems on the JVM, which made them appreciated how much of our modern enterprise infrastructure was built on this platform. 
 
 With all of the interest in blockchain technology in enterprise, it seemed like a natural area to focus on — making it as simple as possible for enterprise developers to integrate with the leading blockchain network Ethereum.
 
@@ -38,7 +38,7 @@ In the 7 years since Web3j's initial creation a vibrant community has been built
 - Over 1000 resolved issues
 - Over 2 million downloads
 
-Web3j is a successful open source project and a key piece of open source infrastructure for the Ethereum ecosystem. However, as the projects creator I want to ensure that Web3j ultimately  resides within a foundation that can ensure that Web3j thrives for the long term without being directly tied to Web3 Labs.
+Web3j is a successful open source project and a key piece of open source infrastructure for the Ethereum ecosystem. However, the projects original creator wants to ensure that Web3j ultimately  resides within a foundation that can ensure that Web3j thrives for the long term without being directly tied to Web3 Labs.
 
 With the Hyperledger Foundation's role as the leading ecosystem for enterprise-grade blockchain technology, I believe there is no better place for Web3j to reside long term.
 
@@ -139,6 +139,8 @@ When working with these plugins they install the the most recent version of the 
 Following the Solidity build process, these build plugins generate Java wrappers for integrating with these smart contracts using Web3j.
 
 This enables the development process to remain within the developers JVM environment, resulting in no additional installations apart from the Java Development Kit (JDK) or Android equivalent.
+
+In addition, there may be opportunities to integrate the build plugins with Hyperledger Solang which could be explored.
 
 ## CLI
 
