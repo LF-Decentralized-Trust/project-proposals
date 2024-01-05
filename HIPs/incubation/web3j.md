@@ -40,7 +40,7 @@ In the 7 years since Web3j's initial creation a vibrant community has been built
 
 Web3j is a successful open source project and a key piece of open source infrastructure for the Ethereum ecosystem. However, the projects original creator wants to ensure that Web3j ultimately  resides within a foundation that can ensure that Web3j thrives for the long term without being directly tied to Web3 Labs.
 
-With the Hyperledger Foundation's role as the leading ecosystem for enterprise-grade blockchain technology, I believe there is no better place for Web3j to reside long term.
+With the Hyperledger Foundation's role as the leading ecosystem for enterprise-grade blockchain technology, there is no better place for Web3j to reside long term.
 
 # Dependent Projects
 
