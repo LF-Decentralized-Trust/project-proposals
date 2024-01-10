@@ -144,7 +144,7 @@ In addition, there may be opportunities to integrate the build plugins with Hype
 
 ## CLI
 
-Web3j also comes with a CLI providing a number of different functions including:
+Web3j also comes with a [CLI](https://github.com/web3j/web3j-cli) providing a number of different functions including:
 
 - Scaffolding new Web3j projects
 - Generating wallets
@@ -197,6 +197,7 @@ https://github.com/web3j/web3j-evm
 https://github.com/web3j/web3j-unit
 https://github.com/web3j/web3j-gradle-plugin
 https://github.com/web3j/web3j-maven-plugin
+https://github.com/web3j/web3j-cli
 https://docs.web3j.io/
 
 # Closure
