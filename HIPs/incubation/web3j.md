@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Web3j
-parent: Hyperledger Improvement Proposals
+parent: Incubation
+grand_parent: Hyperledger Improvement Proposals
 ---
 
 # HIP Identifier
