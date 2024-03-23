@@ -9,13 +9,21 @@ parent: Hyperledger Improvement Proposals
 Hyperledger Identus v1.0 (was Open Enterprise Agent lab)
 
 # Sponsor(s)
-Lance Byrd - lance.byrd@rootsid.com  
-Stephen Curran - swcurran@cloudcompass.ca  
-Darrell O’Donnell - darrell.odonnell@continuumloop.com  
-Björn Sandmann - sandmann@codedata.solutions  
-Marcus Ubani - marcus@larissa.health  
-Jon Bauer - jon@goodfuture.io  
-Roberto Carvajal - roberto@goodfuture.io  
+- Jon Bauer - jon@goodfuture.io
+- Lance Byrd - lance.byrd@rootsid.com
+- Roberto Carvajal - roberto@goodfuture.io  
+- Stephen Curran - swcurran@cloudcompass.ca
+- Esteban Garcia - esteban.garcia@iohk.io
+- Mix Irving - mix@protozoa.nz  
+- Rodolfo Miranda - rodolfo.miranda@rootsid.com
+- Darrell O’Donnell - darrell.odonnell@continuumloop.com
+- Javier Ribo - javier.ribo@iohk.io
+- Björn Sandmann - sandmann@codedata.solutions
+- Yurii Shynbuiev - yurii.shynbuiev@iohk.io
+- Lohan Spies - lohan.spies@iohk.io
+- Ben Tairea - ben@ahau.io
+- Benjamin Voiturier - benjamin.voiturier@iohk.io
+- Marcus Ubani - marcus@larissa.health  
 
 # Abstract
 Identus provides components to develop decentralized identity solutions that adhere to widely recognized self-sovereign identity (SSI) standards. 
