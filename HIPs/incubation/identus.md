@@ -13,7 +13,6 @@ Hyperledger Identus v1.0 (was Open Enterprise Agent lab)
 - Jon Bauer - jon@goodfuture.io
 - Lance Byrd - lance.byrd@rootsid.com
 - Roberto Carvajal - roberto@goodfuture.io  
-- Stephen Curran - swcurran@cloudcompass.ca
 - Esteban Garcia - esteban.garcia@iohk.io
 - Mix Irving - mix@protozoa.nz  
 - Rodolfo Miranda - rodolfo.miranda@rootsid.com
@@ -46,7 +45,7 @@ We will increase our involvement in Hyperledger by adding additional decentraliz
 
 Identus builds upon the foundational protocols defined in Hyperledger Aries RFCs, which provide secure communication and verifiable credential exchange standards.  While adhering to these Aries standards, Identus offers a distinct implementation using the Scala programming language, which aligns with other Aries-inspired frameworks such as AcaPy (Python) and AFJ (JavaScript).
 
-A key difference lies in Identus' emphasis on DIDComm v2, the latest version of the DIDComm messaging protocol, while many existing Aries implementations currently focus on DIDComm v1.
+A key difference lies in Identus' adoption of DIDComm v2, the latest version of the DIDComm messaging protocol, while existing Aries implementations currently use DIDComm v1. It's important to note that this difference alone, and potentially other unidentified differences in the implementation, make Aries and Identus not interoperable in the current state. We believe having components under the Aries umbrella that are incompatible with the rest of the Aries code base would be confusing. Meanwhile, the Identus set of components works together cohesively. Therefore, it would be more logical to consider Identus as a standalone project.
 
 ## Collaboration Opportunities
 
@@ -117,6 +116,10 @@ Wallet SDKs: Identus offers three SDKs intended to facilitate the development of
 - Wallet SDK TypeScript is for web-based applications. This SDK targets Browser and NodeJS applications. 
 - Wallet SDK KMM targets Android and JVM-based systems and supports Android API level 21+, Kotlin 1.9.22+, and JVM 17+.
 - Wallet SDK Swift is for Apple platforms, including iOS and MacOS. This SDK is compatible with iOS 15+, MacOS 12+, and Xcode 13.4+. 
+  
+The diagram details how the concepts fit alongside the Identus components in a typical SSI interaction:  
+
+<img src="https://docs.atalaprism.io/assets/images/component-diagram-a45b0d2a1ec970a439e28cbe6409cd75.png">
 
 # Effort and Resources
 IOG's Atala PRISM team primarily drives the development of this project.   
