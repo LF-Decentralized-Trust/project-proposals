@@ -63,7 +63,7 @@ easier. We want to improve their reliability, readability, and security because 
 these are the safest and most feature-rich ways to protect and move digital assets.
 
 # Status
-Pending proposal
+Proposed for Incubation
 
 # Solution
 We developed following crates in Rust:
