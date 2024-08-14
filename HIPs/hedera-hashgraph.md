@@ -13,6 +13,7 @@ parent: Hyperledger Improvement Proposals
 - May Chan (HashPack) [<may@hashpack.app>](mailto:may@hashpack.app)
 - Shyam Nagarajan (IBM) [<shyam@us.ibm.com>](mailto:shyam@us.ibm.com)
 - Suma Nair (IBM) [<sumapnair@us.ibm.com>](mailto:sumapnair@us.ibm.com)
+- Katerina Sanchez-Schilling (DLT Science Foundation) [<Katerina.Sanchez-Schilling@dltscience.org>](mailto:Katerina.Sanchez-Schilling@dltscience.org)
 
 # Abstract
 This proposal outlines the plan to move Hedera’s core network software to the Linux Foundation’s Decentralized Trust Foundation.
