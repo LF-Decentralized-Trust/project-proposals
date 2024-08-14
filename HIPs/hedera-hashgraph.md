@@ -71,7 +71,7 @@ We anticipate that this designation process will proceed swiftly if the TOC conc
 A `PROJECT` network is based on several individual components.
 The following diagram gives an overview of all components that are needed to run a network and interact with the network.
 
-![Components of a network](../assets/hashgraph-structure.svg "Components of a network")
+![Components of a network](../assets/hedera-structure.svg "Components of a network")
 
 The components shown in the diagram will be described in the following sections.
 
@@ -112,9 +112,9 @@ Since all the subprojects are part of separate repositories and even created in 
 their dependencies differ. Based on that, it doesn’t make sense to provide a global list of dependencies.
 All dependencies and related licenses can be identified by automatic project analysis.
 Today, Snyk is used to create automatic dependency and license overviews of the subprojects.
-The attached file [`dependencies-client-sdks.csv`](../assets/dependencies-client-sdks.csv) contains a list of all
+The attached file [`dependencies-client-sdks.csv`](../assets/hedera-licenses-sdks.csv) contains a list of all
 dependencies of our SDK projects.
-Next to that, the attached file [`licenses.cvs`](../assets/licenses.cvs) contains an overview of all licenses that
+Next to that, the attached file [`licenses.cvs`](../assets/hedera-licenses.csv) contains an overview of all licenses that
 we found in dependencies of all sub-projects.
 Linux Foundation can receive access to the Snyk reports of the projects or analyze them based on the LF tooling. 
 
