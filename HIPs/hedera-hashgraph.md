@@ -292,7 +292,7 @@ several key metrics and outcomes.
   and documentation hosting.
 
 **Collaborative Efforts**
-- Collaborative initiatives and synergy with the broader Decentralized Trust Foundation ecosystem.
+- Collaborative initiatives and synergy with the broader LF Decentralized Trust ecosystem.
 - Contributions to and from other open-source projects, fostering a rich, collaborative environment.
 
 By tracking these metrics and continuously engaging with the community, we can ensure that `PROJECT` thrives within
