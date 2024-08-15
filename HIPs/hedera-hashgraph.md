@@ -155,8 +155,8 @@ An example of such a community project is https://github.com/OpenElements/hedera
 ## GitHub issues
 The Hedera projects use GitHub issues today.
 Together, the projects contain more than 1,000 open issues that contain information that should be preserved since they
-contain great contributions from the community. Based on that, we propose to migrate the issues to the newly
-created repositories.
+contain great contributions from the community.
+By transferring the repositories to the new GitHub organization all issues will be transferred, too.
 
 ## GitHub Actions 
 Next to the issues, each of the repositories uses GitHub Actions for continuous integration.
