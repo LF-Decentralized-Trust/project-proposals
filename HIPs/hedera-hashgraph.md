@@ -163,8 +163,10 @@ Next to the issues, each of the repositories uses GitHub Actions for continuous 
 While the GitHub Action workflow definitions are stored as part of the repository, we use custom action runners on
 hardware in the Google Cloud.
 The default GitHub action runners can not be used due to the complexity of `PROJECT`, especially for the services sub-project.
-To continue the development of `PROJECT` based on best practices and continuous integration, we propose to set up
-clones of the current hardware and action runners.
+To continue the development of `PROJECT` based on best practices and continuous integration, we propose to use 
+action runners provided by Hedera.
+Here we can reuse the existing ones or Hedera will provide clones that can be used by `PROJECT`.
+
 The Hedera Hashgraph projects define teams with specific authorities.
 Those configurations should be migrated, and maintainers and committers for each sub-project should be defined.
 The complete list of GitHub users that should be added as maintainers or committers to the
