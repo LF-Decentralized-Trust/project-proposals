@@ -51,7 +51,7 @@ Among the primary rationale for moving `PROJECT` to Linux Foundation’s Decentr
 - Enhanced Collaboration: Foster cross-community collaboration with other leading blockchain projects and leverage
   the existing Hyperledger community and governance framework.
 - Increased Adoption: Accelerate enterprise adoption through Linux Foundation's established ecosystem and the
-  opportunities presented by enhanced interoperability and purposeful standards .
+  opportunities presented by enhanced interoperability and purposeful standards.
 - Resource Sharing: Benefit from shared development resources, tooling, and infrastructure provided by
   Linux Foundation’s Decentralized Trust.
 - Vendor Neutrality: Ensure a vendor-neutral governance model that promotes equal participation from all
