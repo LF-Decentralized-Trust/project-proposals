@@ -122,7 +122,7 @@ we found in dependencies of all sub-projects.
 Linux Foundation can receive access to the Snyk reports of the projects or analyze them based on the LF tooling. 
 
 # Effort and Resources
-We propose the creation of the following projects and their repositories GitHub as the initial contributed projects:
+We propose the creation of the following projects and their repositories in GitHub as the initial contributed projects:
 
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the gRPC Web Proxy that today can be found at https://github.com/hashgraph/hedera-grpcWeb-proxy
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the Exchange Rate Tool that today can be found at https://github.com/hashgraph/hedera-exchange-rate-tool
