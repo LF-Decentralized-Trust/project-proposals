@@ -286,7 +286,7 @@ several key metrics and outcomes.
 - Adherence to project roadmaps and timelines, with transparent and regular updates to the community.
 
 **Governance and Process Integration**
-- Seamless integration into the Decentralized Trust Foundation governance model, including the establishment of a
+- Seamless integration into the LF Decentralized Trust's governance model, including the establishment of a
   Technical Steering Committee (TSC) and adherence to its project lifecycle guidelines.
 - Successful setup and use of Linux Foundation tools and processes, including CI/CD pipelines, issue tracking,
   and documentation hosting.
