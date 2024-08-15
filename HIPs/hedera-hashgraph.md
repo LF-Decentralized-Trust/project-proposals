@@ -39,7 +39,7 @@ None
 # Motivation
 Hedera envisions significant mutual benefits by donating the `PROJECT` codebase to LF Decentralized Trust.
 Introducing Hedera's advanced consensus algorithm will create synergies between diverse blockchain technologies and
-promote enhanced collaboration and integration both within and outside the LF Decentralized Trust Foundation.
+promote enhanced collaboration and integration both within and outside the LF Decentralized Trust.
 Our contribution will enrich the array of open-source consensus mechanisms, bolstering the versatility and robustness
 of its blockchain solutions.
 Moreover, Hedera will contribute to ongoing standards development within the community, while also serving as a
