@@ -145,7 +145,7 @@ We propose the creation of the following projects and their repositories in GitH
 
 As shown, the Hedera ecosystem already contains several sub-projects that must be part of `PROJECT`.
 All those sub-projects are necessary to deploy and run a full Hashgraph-based network and interact with that network.
-All mentioned projects are currently part of the Hashgraph organization at GitHub.
+All the mentioned projects are currently part of the Hashgraph organization on GitHub.
 Supplemental repositories include supporting tooling to deploy and validate a network built using the above codebases.
 In addition to the aforementioned repositories and projects, the community and ecosystem around Hedera and its unique
 hashgraph consensus algorithm is quite extensive, and we will want to transition a number of third-party projects
