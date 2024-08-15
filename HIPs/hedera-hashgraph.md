@@ -29,7 +29,7 @@ Under the new foundation, the project will be rebranded and trademarked as `PROJ
 # Context
 `PROJECT` offers a robust decentralized ledger platform leveraging a unique consensus mechanism known as Hashgraph,
 which provides asynchronous Byzantine Fault Tolerance (aBFT), making it secure, fast, and fair.
-By joining with the existing Hyperledger project under the umbrella of the Decentralized Trust Foundation,
+By joining with the existing Hyperledger project under the umbrella of LF Decentralized Trust,
 `PROJECT` will aim to enhance collaboration with other blockchain and DLT projects,
 contribute to the open-source community, and accelerate the adoption of enterprise-grade DLT solutions.
 
