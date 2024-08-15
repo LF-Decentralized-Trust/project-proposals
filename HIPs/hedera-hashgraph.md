@@ -188,6 +188,7 @@ Based on that we can easily migrate the DCO process to LF for all repositories.
 We do not had DCO check in use for all repositories under https://github.com/hashgraph/ from the beginning.
 All commits happened before we introduced the DCO check has been done by employees.
 Based on that a post process regarding those commits is not necessary.
+We will double-check all repositories to ensure that there is no commit that is not in line with the DCO.
 
 ## HIP
 The https://github.com/hashgraph/hedera-improvement-proposal repository contains the Hedera improvement proposals (HIP)
