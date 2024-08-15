@@ -117,7 +117,7 @@ All dependencies and related licenses can be identified by automatic project ana
 Today, Snyk is used to create automatic dependency and license overviews of the subprojects.
 The attached file [`dependencies-client-sdks.csv`](../assets/hedera-licenses-sdks.csv) contains a list of all
 dependencies of our SDK projects.
-Next to that, the attached file [`licenses.cvs`](../assets/hedera-licenses.csv) contains an overview of all licenses that
+Next to that, the attached file [`licenses.csv`](../assets/hedera-licenses.csv) contains an overview of all licenses that
 we found in dependencies of all sub-projects.
 Linux Foundation can receive access to the Snyk reports of the projects or analyze them based on the LF tooling. 
 
