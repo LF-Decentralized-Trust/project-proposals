@@ -183,7 +183,7 @@ existing content that is Hedera specific.
 We will work on that directly after the setup to remove all those parts from the transited repository.
 
 ## DCO
-All repos use the same DCO check as LF as part of the CI pipeline.
+All repos use the same DCO app as LF as part of the PR pipeline.
 Based on that we can easily migrate the DCO process to LF for all repositories.
 We do not had DCO check in use for all repositories under https://github.com/hashgraph/ from the beginning.
 All commits happened before we introduced the DCO check has been done by employees.
