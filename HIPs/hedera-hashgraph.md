@@ -296,7 +296,7 @@ several key metrics and outcomes.
 - Contributions to and from other open-source projects, fostering a rich, collaborative environment.
 
 By tracking these metrics and continuously engaging with the community, we can ensure that `PROJECT` thrives within
-the Decentralized Trust Foundation, driving innovation and adoption in the distributed ledger technology space.
+LF Decentralized Trust, driving innovation and adoption in the distributed ledger technology space.
 Any successive projects or additional initiatives stemming from this migration will be documented and tracked to ensure
 ongoing success and impact.
 
