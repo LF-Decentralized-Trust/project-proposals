@@ -60,7 +60,7 @@ Among the primary rationale for moving `PROJECT` to Linux Foundation’s Decentr
   the project’s development and deployment.
 
 # Status
-We acknowledge that all projects entering Hyperledger start with Incubation status.
+We acknowledge that all projects entering LF Decentralized Trust start with Incubation status.
 `PROJECT` is a production-ready project with a robust 1.0 release, multiple production deployments, and a vibrant,
 active community.
 Our team has meticulously reviewed the Project Incubation Exit Criteria and believes we fulfill all the requirements
