@@ -268,7 +268,7 @@ Documentation for hosting and configuration of these services is part of the res
 - The Hashgraph Consensus Algorithm: https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf
 
 # Closure
-The successful migration of `PROJECT` to the Linux Foundation’s Decentralized Trust Foundation will be measured through
+The successful migration of `PROJECT` to the Linux Foundation’s Decentralized Trust will be measured through
 several key metrics and outcomes.
 
 **Community Engagement and Growth**
