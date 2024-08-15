@@ -181,9 +181,11 @@ existing content that is Hedera specific.
 We will work on that directly after the setup to remove all those parts from the transited repository.
 
 ## DCO
-We suggest setting up a DCO process by LFX for all `PROJECT` repositories.
-The DCO documents will be based on the LF templates.
-We will provide the final DCO documents separately.
+All repos use the same DCO check as LF as part of the CI pipeline.
+Based on that we can easily migrate the DCO process to LF for all repositories.
+We do not had DCO check in use for all repositories under https://github.com/hashgraph/ from the beginning.
+We will determine if any users have not agreed to the DCO in the past and will ask them to do so.
+We will come up with a detailed list of users that need to agree to the DCO.
 
 ## HIP
 The https://github.com/hashgraph/hedera-improvement-proposal repository contains the Hedera improvement proposals (HIP)
