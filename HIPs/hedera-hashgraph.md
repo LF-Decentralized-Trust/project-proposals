@@ -137,7 +137,7 @@ We propose the creation of the following projects and their repositories in GitH
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the JSON RPC Relay that today can be found at https://github.com/hashgraph/hedera-json-rpc-relay
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the Local Node that today can be found at https://github.com/hashgraph/hedera-local-node
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the Mirror Node that today can be found at https://github.com/hashgraph/hedera-mirror-node
-- `https://github.com/PROJECT/SUBPROJECT` - This repository contains the Services that today can be found at https://github.com/hashgraph/hedera-services
+- `https://github.com/PROJECT/SUBPROJECT` - This repository contains the Consensus Node that today can be found at https://github.com/hashgraph/hedera-services
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the JavaScript SDK that today can be found at https://github.com/hashgraph/hedera-sdk-js
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the Swift SDK that today can be found at https://github.com/hashgraph/hedera-sdk-swift
 - `https://github.com/PROJECT/SUBPROJECT` - This repository contains the Rust SDK that today can be found at https://github.com/hashgraph/hedera-sdk-rust
@@ -254,7 +254,8 @@ Here we propose to create new accounts and tokens in all needed registries to up
 in new namespaces of `PROJECT`.
 
 ## Consensus Node
-The Consensus Node project defines the software that is running on each node of a network.
+The Consensus Node project (https://github.com/hashgraph/hedera-services) defines the software that is running on each
+node of a network.
 Today we do not have full open documentation about how a custom full network can be hosted and configured.
 The Hedera Solo project (https://github.com/hashgraph/solo) provides a CLI based tooling to create a network with
 the scope of temporal networks for testing but not with the scope of a long-running full network.
