@@ -34,7 +34,10 @@ By joining with the existing Hyperledger project under the umbrella of LF Decent
 contribute to the open-source community, and accelerate the adoption of enterprise-grade DLT solutions.
 
 # Dependent Projects
-None
+`PROJECT` is using Hyperledger projects internally:
+ 
+- The consensus node is using the Hyperledger Besu EVM.
+- The Mirror Node is using Web3j.
 
 # Motivation
 Hedera envisions significant mutual benefits by donating the `PROJECT` codebase to LF Decentralized Trust.
