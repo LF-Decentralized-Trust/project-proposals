@@ -21,7 +21,9 @@ parent: Hyperledger Improvement Proposals
 This proposal outlines the plan to move Hedera’s core network software to the Linux Foundation’s Decentralized Trust Foundation.
 The Hedera network is a public distributed ledger technology (DLT) offering high throughput, low latency, and strong security.
 We are requesting to contribute Hedera’s core network software which includes our unique hashgraph consensus algorithm
-and related software and governance model to the Linux Fouundation's Decentralized Trust ecosystem.
+and related software and governance model to the Linux Foundation's Decentralized Trust ecosystem.
+When talking about core network software we mean all projects that are needed necessary to deploy and run a full network
+and interact with that network.
 We want to leverage and contribute to the existing community and resources for further development and adoption across
 the Decentralized Trust ecosystem in a vendor-neutral process.
 Under the new foundation, the project will be rebranded and trademarked as `PROJECT`. 
