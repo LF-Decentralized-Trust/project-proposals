@@ -1,7 +1,8 @@
 ---
 layout: default
-title: PROJECT
-parent: Hyperledger Improvement Proposals
+title: Hiero
+parent: Incubation
+grand_parent: Hyperledger Improvement Proposals
 ---
 
 # Sponsor(s)
