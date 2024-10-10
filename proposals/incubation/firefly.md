@@ -83,7 +83,7 @@ When building a system for multiparty business transactions based on blockchain 
 
 Blockchain plays a key role in the solution for each of them, but it's not always obvious how to best utilize blockchain, or the solution can be quite complex. Today, there is no comprehensive OSS project that makes it easier and more reliable to solves these common problems. FireFly fills this gap, and allows businesses to focus on solving business problems.
 
-![Typical Blockchain Stack](../assets/stack.svg "Typical Blockchain Stack")
+![Typical Blockchain Stack](../../../assets/stack.svg "Typical Blockchain Stack")
 
 The gap includes functionality such as registering and verifying member identity within the network (note that member identities needed in the app layer are not always onchain member identities defined in the blockchain layer, consider multi-tenant blockchain nodes), defining custom data types, sharing private or public data with network members (especially large file based data exchanges not suited for state DB storage), hashing and pinning data to the blockchain, securely sending events to network members, and triggering business process flows in response to events (typically involves enterprise grade messaging queue which is known to be difficult to integrate with).
 
@@ -97,11 +97,11 @@ Proposal
 
 In a FireFly network, each member of the network deploys and runs one or more FireFly Nodes. Each Node consists of a FireFly Core application, as well as its dependencies. Each dependency is abstracted from the Core by a modular plugin system, so underlying technologies, such as the database for example, can be changed if necessary.
 
-![Multiparty System](../assets/multiparty-system.svg "Multiparty System")
+![Multiparty System](../../../assets/multiparty-system.svg "Multiparty System")
 
 FireFly Core applications register themselves in a Registry, which allows other Nodes to discover them. Each Node has a series of Connectors and Common Utilities that all use plugins to connect them to the Core.
 
-![FireFly Node](../assets/firefly-node.svg "FireFly Node")
+![FireFly Node](../../../assets/firefly-node.svg "FireFly Node")
 
 ## Use Cases
 
@@ -169,7 +169,7 @@ The importer and the exporter have already concluded the necessary business nego
 
 ## Sequence Diagram
 
-![Sequence Diagram](../assets/sequence-diagram.svg "Sequence Diagram")
+![Sequence Diagram](../../../assets/sequence-diagram.svg "Sequence Diagram")
 
 The following should be clear from the diagram:
 
@@ -189,7 +189,7 @@ But if double spend protection is needed with tying the asset to a token that mu
 
 ### Pluggable Architecture
 
-![Plugin Architecture](../assets/plugin-architecture.svg "Plugin Architecture")
+![Plugin Architecture](../../../assets/plugin-architecture.svg "Plugin Architecture")
 
 The plugins comprise of a thin layer of Go code, that is embedded into the FireFly Core runtime (built statically today, but extensible to dynamic plugins as the Go plugin framework matures). Then a remote agent can be written in any language, for heavy lifting required in-between the FireFly core runtime and the underlying component. This remote agent layer is optional, but encouraged for any non-trivial REST/WebSocket interactions and scrutiny is placed on the embedded Go code to ensure the layer does not compromise the HA model of the core runtime.
 
@@ -199,7 +199,7 @@ The plugins comprise of a thin layer of Go code, that is embedded into the FireF
 
 FireFly Core is designed to be scaled horizontally, in an active/active HA design.
 
-![HA / Scale Model](../assets/ha-scale-model.svg "HA / Scale Mode")
+![HA / Scale Model](../../../assets/ha-scale-model.svg "HA / Scale Mode")
 
 The pluggability of the architecture allows other layers in the stack to have different scalability goals or constraints. For instance, if PostgreSQL is chosen as the database for a deployment of FireFly Core, PostgreSQL might be configured for replicated HA (via Patroni etc.). Then the blockchain event streaming service for your chosen blockchain technology might have a different HA strategy, requiring active/passive failover for example. This inherent pluggability is core to the architecture of FireFly.
 
@@ -291,9 +291,9 @@ FireFly provides a rugged, enterprise-grade runtime and simple event-driven REST
 
 The pluggable architecture allows the underlying infrastructure components to be swapped out, without changing the application. That includes the database, blob store, private messaging technology, and even the blockchain itself (with another supported blockchain protocol).
 
-![Event Sequencing](../assets/event-sequencing.svg "Event Sequencing")
+![Event Sequencing](../../../assets/event-sequencing.svg "Event Sequencing")
 
-![Ping Pong](../assets/ping-pong.svg "Ping Pong")
+![Ping Pong](../../../assets/ping-pong.svg "Ping Pong")
 
 ### Pre-built implementations for the big three enterprise blockchain platforms
 
