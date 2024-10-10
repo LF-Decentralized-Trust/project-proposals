@@ -2,7 +2,7 @@
 layout: default
 title: Hyperledger Cacti
 parent: Graduated
-grand_parent: Hyperledger Improvement Proposals
+grand_parent: Project Proposals
 ---
 
 # Overview

@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Hyperledger Project Proposal Process
+title: Project Proposal Process
 nav_order: 1
 has_children: true
 ---
 
-# Hyperledger Project Proposal Process
+# Project Proposal Process
 
-A **Project** at Hyperledger is a collection of specific Maintainers,
+A **Project** at LF Decentralized Trust is a collection of specific Maintainers,
 users and other developers, code, releases, issues, and other activity
 oriented around a common software-implemented mission.
 
 This project proposal template ushers originators, designers,
-implementers, and testers of a project through community and TOC approval.
-The proposal should evolve organically as the HIP moves through the
+implementers, and testers of a project through community and TAC approval.
+The proposal should evolve organically as it moves through the
 stages of conception, design, approval, implementation and deployment.
 The project and hence the proposal may also need several iterations. In
 its terminal forms it can also serve as a short manual to the features
@@ -25,15 +25,15 @@ Improvement Proposal, Python Improvement Proposal etc. were used as
 guidelines to develop this template.
 
 The seed of a new project has to be vetted in a public forum like
-the [TOC mailing list](https://lists.hyperledger.org/g/toc/topics)
+the [TAC mailing list](https://lists.lfdecentralizedtrust.org/g/tac/topics)
 before creating a project proposal. It is best if the project has
 technical champions who believe in the project and are
 the maintainers of the project. The technical champions can change in
 the middle of the project.
 
 If this project proposal is for a feature that is unique to an existing
-Hyperledger project, please reach out to that project's maintainers to see
-about joining that project instead of creating a new project proposal.
+LF Decentralized Trust project, please reach out to that project's TSC
+to see about joining that project instead of creating a new project proposal.
 If discussion with the existing project community leads to not joining,
 then the proposal will be reviewed on its own merits as an independent
 project. Please note in the proposal the conversations with that project
@@ -48,9 +48,8 @@ are helpful to coalesce the community around a solution and prompt
 volunteers. The outline of a project is given below with comments on the
 sections.
 
--   **HIP identifier** a short description plus a serial number with a
-    version (for example this document is Template for a Hyperledger
-    Improvement Project HIP 0.3)
+-   **Identifier** a short description plus a serial number with a
+    version (for example this document is Template for a Project 0.3)
 
 -   **Sponsor(s)** name and contact details including email address
 
@@ -61,16 +60,18 @@ sections.
 
 -   **Dependent Projects** if any, must be listed, and each dependent
     project\'s maintainers must sign off on the proposal before it is
-    considered by the TOC. **NOTE: If this project proposal is unique
-    to an existing Hyperledger project, please discuss including this
-    feature with that project's maintainers.**
+    considered by the TAC. **NOTE: If this project proposal is unique
+    to an existing project, please discuss including this
+    feature with that project's TSC.**
 
 -   **Motivation** for this project; a longer justification of the
     project. This may be a couple of hundred words. Why is this
     project better at solving a problem compared to parallel proposals
     or implemented projects?
 
--   **Status** of the project: [See lifecycle documentation](https://hyperledger.github.io/toc/project-lifecycle.html)
+-   **Status** of the project: See [lifecycle documentation].
+
+[lifecycle documentation]: https://lf-decentralized-trust.github.io/governance/governing-documents/project-lifecycle.html
 
 -   **Solution** to the problem addressed in the motivation section. Try
     to make this as detailed as possible. The topics given below are

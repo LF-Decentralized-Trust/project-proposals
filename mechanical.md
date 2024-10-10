@@ -1,22 +1,21 @@
 ---
 layout: default
 title: Mechanical Process
-parent: Hyperledger Project Proposal Process
+parent: Project Proposal Process
 ---
 
-# HIPs 
+# Mechanical Process
 
-The Hyperledger Improvement Proposal (HIP) process is intended
-to provide a consistent and controlled path for new projects
-to join Hyperledger.
+The Project Proposal process is intended to provide a consistent and controlled 
+path for new projects to join LF Decentralized Trust.
 
-## Process to propose a HIP
+## Process to propose a project
 
-1. Fork [this repository](https://github.com/hyperledger/hyperledger-hip/).
+1. Fork [this repository](https://github.com/lf-decentralized-trust/project-proposals/).
 
-2. Fill out the [Proposal Template](https://github.com/hyperledger/hyperledger-hip/blob/gh-pages/HIPs/0000-template.md) 
-and save it into the HIPs subdirectory under the name of your project,
-such as mynewproject.md. 
+2. Fill out the [Proposal Template](https://github.com/lf-decentralized-trust/project-proposals/blob/gh-pages/proposals/0000-template.md) 
+and save it into the `proposals` subdirectory under the name of your project,
+such as `mynewproject.md`.
 
 4. Commit your changes with proper sign-off. This means that your commit
 log message must contain a line that looks like the following one,
@@ -33,7 +32,7 @@ log message or add it afterwards with `git commit --amend -s`.
 ## Bringing in an existing repository
 
 
-By default Hyperledger will create a new respository for you to
+By default LF Decentralized Trust will create a new respository for you to
 start from but if you have an existing GitHub repo you would like to
 bring to your proposed project you have the option to request for that
 repo to be reused instead. This is however only possible if every

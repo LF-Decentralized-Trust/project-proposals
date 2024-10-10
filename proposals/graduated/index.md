@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Graduated
-parent: Hyperledger Improvement Proposals
+parent: Project Proposals
 nav_order: 2
 has_children: true
 ---

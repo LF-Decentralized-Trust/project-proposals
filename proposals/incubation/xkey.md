@@ -2,7 +2,7 @@
 layout: default
 title: Xkey
 parent: Incubation
-grand_parent: Hyperledger Improvement Proposals
+grand_parent: Project Proposals
 ---
 
 # HIP Identifier
