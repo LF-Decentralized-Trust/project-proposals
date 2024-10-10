@@ -24,7 +24,7 @@ Web3j is the Ethereum integration library for the Java and Android platforms.
 
 Web3j was first created back in 2016 out of the need to simplify working with Ethereum networks using the Java and Android platforms (collectively referred to as the JVM from herein).
 
-![Web3j provides the plumbing for developing on Ethereum]( https://github.com/web3j/web3j-docs/blob/master/docs/img/web3j_network.png?raw=true)
+![Web3j provides the plumbing for developing on Ethereum](https://github.com/web3j/web3j-docs/blob/main/docs/img/web3j_network.png?raw=true)
 
 Web3j's original author had spent more then a decade of their career working on large institutional financial systems on the JVM, which made them appreciated how much of our modern enterprise infrastructure was built on this platform. 
 
