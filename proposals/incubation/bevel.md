@@ -2,7 +2,7 @@
 layout: default
 title: Hyperledger Bevel (formerly Blockchain Automation Framework)
 parent: Incubation
-grand_parent: Hyperledger Improvement Proposals
+grand_parent: Project Proposals
 ---
 
 # HIP Identifer

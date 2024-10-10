@@ -2,7 +2,7 @@
 layout: default
 title: Hyperledger Solang
 parent: Incubation
-grand_parent: Hyperledger Improvement Proposals
+grand_parent: Project Proposals
 ---
 
 # Hyperledger Solang Proposal

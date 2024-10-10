@@ -2,7 +2,7 @@
 layout: default
 title: Hyperledger AnonCreds
 parent: Incubation
-grand_parent: Hyperledger Improvement Proposals
+grand_parent: Project Proposals
 ---
 
 # Hyperledger AnonCreds Proposal

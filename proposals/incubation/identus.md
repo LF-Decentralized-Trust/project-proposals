@@ -2,7 +2,7 @@
 layout: default
 title: Identus
 parent: Incubation
-grand_parent: Hyperledger Improvement Proposals
+grand_parent: Project Proposals
 ---
 
 # HIP Identifier
