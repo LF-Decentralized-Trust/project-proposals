@@ -2,7 +2,7 @@
 layout: default
 title: Hyperledger FireFly
 parent: Graduated
-grand_parent: Hyperledger Improvement Proposals
+grand_parent: Project Proposals
 ---
 
 # Hyperledger FireFly Graduation Proposal
