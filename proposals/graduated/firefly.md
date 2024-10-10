@@ -73,6 +73,7 @@ Upcoming FireFly feature releases are tracked with [GitHub Milestones](https://g
 > The project must include a comprehensive unit and integration test suite and document its coverage. Additional performance and scale test capability is desirable.
 
 All code in FireFly Core, shared libraries, FireFly Transaction Manager, and production FFTM-based connectors have 100% unit test coverage.
+
 | Repo | Description | Coverage |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`firefly`](https://github.com/hyperledger/firefly) | FireFly Core code repo | [![codecov](https://codecov.io/gh/hyperledger/firefly/branch/main/graph/badge.svg?token=QdEnpMqB1G)](https://codecov.io/gh/hyperledger/firefly) |
