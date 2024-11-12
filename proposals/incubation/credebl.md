@@ -84,7 +84,7 @@ All the listed components in this diagram are proposed to be in the scope of con
 ![CREDEBL Architecture](../images/credebl/CREDEBL_OSS_Architecture.png "CREDEBL Architecture")
 
 # Relation with existing identity projects
-CREDEBL is very closely relates to the existing Hyperledger Identus project, and shares many concepts such as use of Aries RFCs, DIF & TrustOverIP specifications.
+CREDEBL closely relates to the existing Hyperledger Identus project, and shares many concepts such as use of Aries RFCs, DIF & TrustOverIP specifications.
 
 CREDEBL is focused on population-scale use cases such as National Digital ID, Digital Travel Credentials, mDL, Academic Credentials, etc., while trying to remain flexible & agnostic to ledgers & credential formats.
 
