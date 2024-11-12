@@ -27,7 +27,8 @@ CREDEBL Platform is conceptualized & built by AYANWORKS. After building & delive
 Hence, CREDEBL is built with support for multi-tenancy while being agnostic to underlying ledgers/VDRs, DID methods, and Verifiable Credential formats.
 
 # Dependent Projects
-None
+- Credo (Current)
+- ACA-Py (Soon, for cloud wallets)
 
 # Motivation
 The motivation behind CREDEBL is to provide a robust SSI Core for population-scale implementations such as National ID, Digital Travel Credentials, Academic Credentials, etc., and to help increase the adoption of user-centric, Decentralized ID technology.
@@ -73,16 +74,25 @@ There are two types of agents that organizations can use, each serving different
 A shared agent refers to an agent that is used by multiple entities or tenants, rather than being dedicated to a single entity. If the tenancy is set to true, it typically means that the system or agent supports multi-tenancy, or if the tenancy is set to false, it means that the agent does not support the multi-tenancy.
 
 ### Mobile SDK
-Built on the strong foundation of Credo, the Mobile Wallet SDK is a React-Native SDK helps mobile developers to easily build SSI features with into existing mobile apps or a new one, enables interoperability and seamless connectivity for secure data exchange.
+Built on Credo, the Mobile Wallet SDK is a React-Native SDK wrapper that helps mobile developers to easily build SSI features in the existing mobile apps or a new one. It enables interoperability and seamless connectivity for secure data exchange.
 
 # Architecture
-Following diagram depicts the overall system architecture of CREDEBL
+Following diagram depicts the overall system architecture of CREDEBL.
 
-<img src="https://docs.credebl.id/~gitbook/image?url=https%3A%2F%2F292774163-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnsdydI5ziLfZ8yT3e0r8%252Fuploads%252FXuF6F26u8f2KJS0NsD7p%252Fimage.png%3Falt%3Dmedia%26token%3Db7e5808c-ce94-4dae-b0d2-4ae0a3aa8954&width=768&dpr=4&quality=100&sign=dcaff92c&sv=1">
+All the listed components in this diagram are proposed to be in the scope of contribution under LF Decentralized Trust.
+
+![CREDEBL Architecture](../images/credebl/CREDEBL_OSS_Architecture.png "CREDEBL Architecture")
+
+# Relation with existing identity projects
+CREDEBL is very closely relates to the existing Hyperledger Identus project, and shares many concepts such as use of Aries RFCs, DIF & TrustOverIP specifications.
+
+CREDEBL is focused on population-scale use cases such as National Digital ID, Digital Travel Credentials, mDL, Academic Credentials, etc., while trying to remain flexible & agnostic to ledgers & credential formats.
 
 # Effort and Resources
 
-We expect that a number of the people in the Sponsor’s list will contribute to the business and technology of the CREDEBL project. Additionally, candidates for being maintainers on the project include the following:
+Following are the current maintainers on the project mainly from AYANWORKS team, and will continue to be under LFDT as well.
+
+With the contribution to LFDT, our goal is to increase organizational diversity of maintainers.
 
 * Ajay Jadhav (https://github.com/ajile-in)
 * Prasad Kalamkar (https://github.com/prasadgkalamkar)
