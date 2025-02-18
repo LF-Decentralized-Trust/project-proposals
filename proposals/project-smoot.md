@@ -25,7 +25,7 @@ The Smoot project team intends to leverage technologies developed by LFDT, such 
 * Harmonia, a Hyperledger Lab  
   Harmonia implements the Enterprise Ethereum Alliance's DLT Interoperability Specification's transaction messaging methods. Project Smoot will focus on implementing the event messaging method. The Smoot team will also explore the possibility of combining Project Smoot with Harmonia.  
     
-* Project Cacti  
+* Hyperledger Cacti  
   Cacti is an interoperability project that builds routing mechanisms for cross-chain minting and burning of assets. There are some common components that can be developed with various interoperability projects. For example, the cross-chain network identifier can be standardized so that different projects can use the same specification for blockchain identities.
 
 # Motivation
