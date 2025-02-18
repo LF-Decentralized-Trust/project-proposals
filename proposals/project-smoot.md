@@ -20,7 +20,7 @@ The EEA's DLT Interoperability Specification is a standard developed by members 
 The Smoot project team intends to leverage technologies developed by LFDT, such as Cacti, Harmonia, and Besu EVM projects:
 
 * Besu   
-  Besu has been a popular EVM client node for both public and private blockchains. The Besu project was initially an implementation of the Enterprise Ethereum Alliance (EEA) Client Architecture and runs on both public and private networks. Project Smoot has a scope of work to connect to networks built with Besu clients.  
+  Besu has been a popular EVM client node for both public and private blockchains. Besu was initially an implementation of the Enterprise Ethereum Alliance (EEA) Client Architecture and runs on both public and private networks. Project Smoot has a scope of work to connect to networks built with Besu clients.  
     
 * Project Harmonia  
   The Harmonia project implements the Enterprise Ethereum Alliance's DLT Interoperability Specification's transaction messaging methods. Project Smoot will focus on implementing the event messaging method. The Smoot team will also explore the possibility of combining Project Smoot with the Harmonia project.  
