@@ -41,7 +41,7 @@ The architecture of Smoot is composed of three layers: the Messaging Layer, the 
 * The Crosschain Function Calls Layer enables the execution of operations across networks, allowing cross-chain applications to trigger and coordinate activities on multiple networks. This is the operational core of the stack, enabling functions to be executed remotely on another network. This capability is crucial for allowing synchronous workflows across networks in scenarios where actions on one network depend on the state or outcomes on another. It is this layer that orchestrates the remote execution of smart contract functions, ensuring that transactions are not only executed but done so in a manner that aligns with the overarching business logic defined in the Applications Layer.  
 * The Crosschain Applications Layer harbors business logic and use case-specific functionality. This is where the complex operations of enterprise applications are defined and managed.  
     
-  ![][image1]
+![Smoot Stack](../images/smoot/smoot_stack.png)
 
 
 **Smoot workflow**  
@@ -49,7 +49,7 @@ In a typical cross-blockchain transaction, a user sends a request to the applica
 
 Once the transaction is completed in the target chain, a confirmation message can be sent to the application layer to inform the status of the cross-chain transactions. 
 
-![][image2]
+![Smoot Flow](../images/smoot/smoot_flow.png)
 
 **Smoot deliverables**  
 The Smoot team will implement the architecture and workflow and deliver the following reusable components
