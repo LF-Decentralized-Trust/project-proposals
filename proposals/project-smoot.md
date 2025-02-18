@@ -23,7 +23,7 @@ The Smoot project team intends to leverage technologies developed by LFDT, such 
   Besu has been a popular EVM client node for both public and private blockchains. Besu was initially an implementation of the Enterprise Ethereum Alliance (EEA) Client Architecture and runs on both public and private networks. Project Smoot has a scope of work to connect to networks built with Besu clients.  
     
 * Harmonia, a Hyperledger Lab  
-  The Harmonia project implements the Enterprise Ethereum Alliance's DLT Interoperability Specification's transaction messaging methods. Project Smoot will focus on implementing the event messaging method. The Smoot team will also explore the possibility of combining Project Smoot with the Harmonia project.  
+  Harmonia implements the Enterprise Ethereum Alliance's DLT Interoperability Specification's transaction messaging methods. Project Smoot will focus on implementing the event messaging method. The Smoot team will also explore the possibility of combining Project Smoot with Harmonia.  
     
 * Project Cacti  
   Cacti is an interoperability project that builds routing mechanisms for cross-chain minting and burning of assets. There are some common components that can be developed with various interoperability projects. For example, the cross-chain network identifier can be standardized so that different projects can use the same specification for blockchain identities.
