@@ -120,7 +120,7 @@ Currently DLT Interoperability Specification is hosted by EEA in its private rep
 An implementation of this version of DLT interoperability is located in the following github location:  
 [https://github.com/wanchain/Stellar-EEA-Compliant-Interoperability](https://github.com/wanchain/Stellar-EEA-Compliant-Interoperability)
 
-The Smoot project maintainers can also have access to EEA private repositories as members or subject matter experts. 
+The Smoot project maintainers have access to EEA private repositories as members and subject matter experts. 
 
 # Slack, Discord, or Telegram
 
