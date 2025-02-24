@@ -1,4 +1,4 @@
-# VelcoityCore Project Proposal
+# VelocityCore Project Proposal
 
 ## Identifier
 VelocityCore 1.0
