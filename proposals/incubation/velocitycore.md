@@ -92,8 +92,8 @@ components are shaded in light blue:
 ![LF Architecture](https://github.com/user-attachments/assets/bcaaf450-573b-430d-a941-6b932c680cbf)
 
 
-### Trust Registry
-A NodeJS Fastify API with ReactJS Frontend, the Trust Registry serves as the backbone of the ecosystem maintaining a
+### Trust Registry & Registrar Portal
+A NodeJS Fastify API with a Portal having a ReactJS Frontend, the Trust Registry serves as the backbone of the ecosystem maintaining a
 verified directory of organizations, services & credential types in the ecosystem. It
 provides the APIs to create trust framework underpinned by ecosystem administration processes for participants to confidently
 interact and exchange credentials.
