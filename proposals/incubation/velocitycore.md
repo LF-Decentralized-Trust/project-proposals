@@ -31,11 +31,11 @@ W3C Veriable Credentials Data Model v1.1.
 
 ## Dependent Projects
 
-Currently VelcityCore is dependent on Hyperledger Besu though there has been interest in making the same platform available on public ledgers that can be pay-gated.
+Currently VelocityCore is dependent on Hyperledger Besu, though there has been interest in making the same platform available on public ledgers that can be pay-gated.
 
 ## Project Motivation
 
-VelocityCore objective is to create a network agnostic pay-to-verify Verifiable Credentials ecosystem. The software is designed to ensure trust,
+VelocityCore objective is to create a network agnostic pay-to-verify trust-centric Verifiable Credentials ecosystem. The software is designed to ensure trust,
 privacy, and incentivization for participants. The key requirements of the network include:
 
 -   Data Layer Interoperability -- Ensuring data is structured and intelligible
@@ -90,6 +90,12 @@ diagram. The proposed contributions that make up the proposed
 components are shaded in light blue:
 
 ![LF Architecture](https://github.com/user-attachments/assets/bcaaf450-573b-430d-a941-6b932c680cbf)
+
+### Potential Objections
+A potential objection to accepting VelocityCore is that it doesnt differ significantly from other projects that exist in LF as part of the Decentralized Trust and Open Wallet Foundation. The objection
+however, would not be accurate because:
+1. VelocityCore focus is on providing a framework to build a trust-centric ecosystem
+2. Current work aims to utilize Credo within VelocityCore to provide OID4CVC and MDL support to the existing software stack. This proves that the VelocityCore builds on top of the contributions of other projects.
 
 
 ### Trust Registry & Registrar Portal
@@ -217,4 +223,10 @@ Velocity Network Credential Exchange Protocol
 
 **Closure**
 
-TBD
+The end goal would be for 2-3 ecosystems to configure & deploy Velocity Core. Confguration would be for:
+1. Credential exchange protocols
+2. Credential format protocols
+3. Credential types and schemas
+4. Payments
+5. and more based on community feedback.
+
