@@ -92,11 +92,10 @@ components are shaded in light blue:
 ![LF Architecture](https://github.com/user-attachments/assets/bcaaf450-573b-430d-a941-6b932c680cbf)
 
 ### Potential Objections
-A potential objection to accepting VelocityCore is that it doesnt differ significantly from other projects that exist in LF as part of the Decentralized Trust and Open Wallet Foundation. The objection
-however, would not be accurate because:
+A potential objection to accepting VelocityCore is that it doesnt differ significantly from other projects that exist in LF as part of the Decentralized Trust and Open Wallet Foundation. The objection, however, would not be accurate because:
 1. VelocityCore focus is on providing a framework to build a trust-centric ecosystem
-2. Current work aims to utilize Credo within VelocityCore to provide OID4CVC and MDL support to the existing software stack. This proves that the VelocityCore builds on top of the contributions of other projects.
-
+2. Pay-to-verify features are unique in non-commercial software.
+3. Current work items that we continue to develop aim to utilize Credo within VelocityCore to provide OID4CVC and MDL support to the existing software stack. This shows that the VelocityCore builds on top of the contributions of other projects.
 
 ### Trust Registry & Registrar Portal
 A NodeJS Fastify API with a Portal having a ReactJS Frontend, the Trust Registry serves as the backbone of the ecosystem maintaining a
