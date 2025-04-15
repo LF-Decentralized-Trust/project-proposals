@@ -173,12 +173,12 @@ More robust documentation for HOPrS is currently being drafted.
 # Closure
 The success of HOPrS will be measured by its adoption as a decentralized media authentication standard within the Linux Foundation ecosystem. Key indicators of success include:
 
-• Open-Source Contribution & Adoption – A growing community of contributors, maintainers, and external organizations integrating HOPrS into their workflows.
+- Open-Source Contribution & Adoption – A growing community of contributors, maintainers, and external organizations integrating HOPrS into their workflows.
 
-• Integration with LF Ecosystem – HOPrS being utilized alongside LF Decentralized Trust projects, such as CREDEBL for decentralized identity verification and Hyperledger for blockchain interoperability.
+- Integration with LF Ecosystem – HOPrS being utilized alongside LF Decentralized Trust projects, such as CREDEBL for decentralized identity verification and Hyperledger Fabric for blockchain interoperability.
 
-• Industry Adoption – Adoption by media organizations, investigative journalism platforms, and digital forensics teams to verify media authenticity at scale.
+- Industry Adoption – Adoption by media organizations, investigative journalism platforms, and digital forensics teams to verify media authenticity at scale.
 
-• Performance & Scalability Benchmarks – Demonstrated efficiency in media fingerprinting, tamper detection, and decentralized anchoring.
+- Performance & Scalability Benchmarks – Demonstrated efficiency in media fingerprinting, tamper detection, and decentralized anchoring.
 
 In the long term, the project aims to standardize cryptographic media provenance as a key component of decentralized trust frameworks, with HOPrS remaining a useful tool for combating misinformation and securing digital assets.
