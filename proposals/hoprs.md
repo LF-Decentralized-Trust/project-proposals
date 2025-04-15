@@ -164,11 +164,11 @@ More robust documentation for HOPrS is currently being drafted.
     2. Secure Sourcing page (doesn’t exist yet)
 2. Cryptographic Foundations
 
-• Merkle, R. (1987). *A Digital Signature Based on a Conventional Encryption Function*.
+- Merkle, R. (1987). *A Digital Signature Based on a Conventional Encryption Function*.
 
-• Finkel, R. & Bentley, J. (1974). *Quad Trees: A Data Structure for Retrieval on Composite Keys*.
+- Finkel, R. & Bentley, J. (1974). *Quad Trees: A Data Structure for Retrieval on Composite Keys*.
 
-• Zauner, C. (2010). *Implementation and Benchmarking of Perceptual Image Hash Functions*.
+- Zauner, C. (2010). *Implementation and Benchmarking of Perceptual Image Hash Functions*.
 
 # Closure
 The success of HOPrS will be measured by its adoption as a decentralized media authentication standard within the Linux Foundation ecosystem. Key indicators of success include:
