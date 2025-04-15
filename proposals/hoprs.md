@@ -153,7 +153,7 @@ Collaboration with interested contributors within the Linux Foundation community
 
 [• Public GitHub repository](https://github.com/openorigins)
 
-[• Initial HOPrS documentation](https://openorigins.gitbook.io/openorigins-docs/human-oriented-proof-system-aka-hoprs/overview)
+[• Initial HOPrS documentation](https://openorigins.gitbook.io/docs/human-oriented-proof-system-aka-hoprs/overview)
 
 More robust documentation for HOPrS is currently being drafted.
 
