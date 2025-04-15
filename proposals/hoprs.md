@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HIP Template
+title: HOPrS
 parent: Hyperledger Improvement Proposals
 ---
 
