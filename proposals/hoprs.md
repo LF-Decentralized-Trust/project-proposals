@@ -1,7 +1,8 @@
 ---
 layout: default
 title: HOPrS
-parent: Hyperledger Improvement Proposals
+parent: Incubation
+grand_parent: Project Proposals
 ---
 
 # HIP Identifier
