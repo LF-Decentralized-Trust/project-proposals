@@ -8,7 +8,7 @@ Andres Olave andres.olave@velocitycareerlabs.com
 
 ## Abstract
 
-The VelocityCore is enterprise software for creating a "pay-to-verify"
+The VelocityCore is enterprise software stack for creating a "pay-to-verify"
 Verifiable Credentials network utilizing a distributed ledger as a
 secure key distribution network and for anchoring a trust framework
 compatible with global consumer data protection regulations.
@@ -31,11 +31,11 @@ W3C Veriable Credentials Data Model v1.1.
 
 ## Dependent Projects
 
-Currently VelocityCore is dependent on Hyperledger Besu, though there has been interest in making the same platform available on public ledgers that can be pay-gated.
+Currently VelocityCore stack is dependent on Hyperledger Besu, though there has been interest in making the same platform available on public ledgers that can be pay-gated.
 
 ## Project Motivation
 
-VelocityCore objective is to create a network agnostic pay-to-verify trust-centric Verifiable Credentials ecosystem. The software is designed to ensure trust,
+The objective of VelocityCore is to create a software stack to support a network-agnostic pay-to-verify trust-centric Verifiable Credentials ecosystem. The stack is designed to ensure trust,
 privacy, and incentivization for participants. The key requirements of the network include:
 
 -   Data Layer Interoperability -- Ensuring data is structured and intelligible
@@ -84,7 +84,7 @@ Licensing is already restricted to public licenses _without_ copyleft provisions
 
 ## Solution
 
-The software architecture of the network is included in the following
+The architecture of the stack is included in the following
 diagram. The proposed contributions that make up the proposed
 **VelocityCore** project from the existing Velocity Network software
 components are shaded in light blue:
@@ -93,9 +93,9 @@ components are shaded in light blue:
 
 ### Potential Objections
 A potential objection to accepting VelocityCore is that it doesnt differ significantly from other projects that exist in LF as part of the Decentralized Trust and Open Wallet Foundation. The objection, however, would not be accurate because:
-1. VelocityCore focus is on providing a framework to build a trust-centric ecosystem
-2. Pay-to-verify features are unique in non-commercial software.
-3. Current work items that we continue to develop aim to utilize Credo within VelocityCore to provide OID4CVC and MDL support to the existing software stack. This shows that the VelocityCore builds on top of the contributions of other projects.
+1. VelocityCore focus is on providing a stack to build an ecosystem applicaiton where trust of participants is at its core
+2. VelocityCore is transport-agnostic credential verification and introduces economic incentives at the protocol level
+4. Utilization of  Linux Foundation projects such as Besu (and soon Credo) creates the VelocityCore ecosystem stack
 
 ### Trust Registry & Registrar Portal
 A NodeJS Fastify API with a Portal having a ReactJS Frontend, the Trust Registry serves as the backbone of the ecosystem maintaining a
