@@ -164,6 +164,8 @@ Velocity Career Labs and Sertifier provide these developers.
 
 ## How To
 
+[Github Repostory](https://github.com/velocitycareerlabs/velocitycore)
+
 The project is a monorepo containing the Trust Registry modules, the
 Credential Agent modules, the NodeJs Wallet SDK, server packages and all
 shared libraries. The build tools used are Lerna & NX. Docker images are
