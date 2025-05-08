@@ -8,7 +8,7 @@ Andres Olave andres.olave@velocitycareerlabs.com
 
 ## Abstract
 
-The VelocityCore is enterprise software stack for creating a "pay-to-verify"
+The [VelocityCore](https://github.com/velocitycareerlabs/velocitycore) is enterprise software stack for creating a "pay-to-verify"
 Verifiable Credentials network utilizing a distributed ledger as a
 secure key distribution network and for anchoring a trust framework
 compatible with global consumer data protection regulations.
