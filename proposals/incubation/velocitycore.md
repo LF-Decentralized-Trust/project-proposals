@@ -93,7 +93,7 @@ components are shaded in light blue:
 
 ### Potential Objections
 A potential objection to accepting VelocityCore is that it doesnt differ significantly from other projects that exist in LF as part of the Decentralized Trust and Open Wallet Foundation. The objection, however, would not be accurate because:
-1. VelocityCore focus is on providing a stack to build an ecosystem applicaiton where trust of participants is at its core
+1. VelocityCore focus is on providing a stack to build an ecosystem application where trust of participants is at its core
 2. VelocityCore is transport-agnostic credential verification and introduces economic incentives at the protocol level
 4. Utilization of  Linux Foundation projects such as Besu (and soon Credo) creates the VelocityCore ecosystem stack
 
