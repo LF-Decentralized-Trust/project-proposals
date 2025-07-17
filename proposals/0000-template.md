@@ -1,14 +1,9 @@
 ---
 layout: default
-title: HIP Template
-parent: Hyperledger Improvement Proposals
+title: Proposal Name
+parent: Incubation
+grand_parent: Project Proposals
 ---
-
-# HIP Identifier
-<mark>_**HIP identifier** a short description plus a serial number with a
-version (for example this document is Template for a Hyperledger
-Improvement Project HIP 0.2)_
-</mark>
 
 # Sponsor(s)
 <mark>_**Sponsor(s)** name and contact details including email address_
@@ -27,7 +22,7 @@ is it related to?_
 <mark>_**Dependent Projects** if any, must be listed, and each dependent
 project\'s maintainers must sign off on the proposal before it is
 considered by the TOC. **NOTE: If this project proposal is unique
-to an existing Hyperledger project, please discuss including this
+to an existing LF Decentralized Trust project, please discuss including this
 feature with that project's maintainers.**_
 </mark>
 
@@ -39,7 +34,7 @@ projects?_
 </mark>
 
 # Status
-<mark>_**Status** of the project: See [project lifecycle](https://hyperledger.github.io/toc/project-lifecycle.html)._
+<mark>_**Status** of the project: See [project lifecycle](https://lf-decentralized-trust.github.io/governance/governing-documents/project-lifecycle.html)._
 </mark>
 
 # Solution
