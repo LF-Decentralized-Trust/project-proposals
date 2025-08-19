@@ -186,6 +186,30 @@ Our OpenSSF scores do not provide a score for Contributors, but we use other too
 A [support request](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4/SUPPORT-37059) has been initiated to facilitate the tracking of this information via LFX Insights.
 As of today, the team reported that they will include this capability in the roadmap.
 
+### Releases
+
+The repositories `hiero-improvement-proposals`, `hiero-sdk-cpp`, `hiero-sdk-go`, `hiero-sdk-js`, `hiero-sdk-swift`, `hiero-sdk-tck` and `hiero-solo-action` have a “?” for packaging in OpenSSF score.
+With the exception of `hiero-improvement-proposals` (which is a purely documentation based repo), our sdk repositories are producing consistent releases which are published as part of GitHub artifacts and even published to external artifact repositories like Maven Central or NPM.
+
+Rest of the repos, score a **10/10** for packaging in OpenSSF score.
+
+### Testing and Q/A
+
+Hiero repositories have their CI running in GitHub Actions.
+OpenSSF scores can track CI but at the moment, the cron is not displaying that particular score.
+LFX Insights is able to track the quality of the releases and ensuring that the repos are able to release in a consisten maner and under a controlled process and tools under their [Build and Release tab](https://insights.linuxfoundation.org/project/hiero/security?timeRange=past365days&start=2024-08-19&end=2025-08-19).
+At the moment, most scores are at **100%** in LFX insights with the exception of the `governance` and `hiero-improvement-proposals` which score 50% given that these repos are purely documentation or management.
+
+The performance of the CI is monitored using the [GitHub Insights tool](https://github.com/orgs/hiero-ledger/actions/metrics/usage?dateRangeType=DATE_RANGE_TYPE_LAST_YEAR&tab=repositories), which provides data on usage metrics, performance metrics, and dependencies.
+This tool also facilitates the tracking of open security advisories within these dependencies. 
+
+As anticipated, the hiero-ledger core repositories exhibit the highest statistics in terms of workflows and run time since the project's transfer.
+These repositories include: `hiero-consensus-node`, `solo`, `hiero-mirror-node`, `hiero-block-node`, `hiero-json-rpc-relay`, `hiero-local-node` and hiero sdk repositories.
+
+In terms of performance, since the project and workflows were transferred, we have detected the following failure rate across our most active (core) repositories:
+
+<img width="1419" height="899" alt="3" src="https://github.com/user-attachments/assets/19f5e731-482e-4c44-b064-2ffdd893c875" />
+
 ## Additional Considerations
 
 ### Real World Use
