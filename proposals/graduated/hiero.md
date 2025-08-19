@@ -156,6 +156,36 @@ Overview of OpenSSF Scores for hiero-ledger repos:
 | sdk-collaboration-hub | [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/hiero-ledger/sdk-collaboration-hub/badge)](https://scorecard.dev/viewer/?uri=github.com/hiero-ledger/sdk-collaboration-hub) |
 | solo | [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/hiero-ledger/solo/badge)](https://scorecard.dev/viewer/?uri=github.com/hiero-ledger/solo) |
 
+## LFDT Criteria for Project State Transition to Graduated
+
+This section gives an overview to the topics that is defined by LFDT as [criteria for the project transition to Graduated state](https://lf-decentralized-trust.github.io/governance/governing-documents/project-incubation-exit/#introduction).
+
+### Legal
+
+All hiero-ledger repos score a **10/10** in License for OpenSSF scores.
+
+Hiero adheres to the TAC’s repository structure guidelines by accurately displaying its license file, which is readily presented in each repository’s `README.md` file and easily linked when inspecting the GitHub Community Standards on GitHub’s Insights tab. Each repository is also displaying the Licence badge in the repo’s homepage to allow the community to visually find that information faster.
+
+### Diversity
+
+Hiero’s activities in GitHub (PRs, Issues, Reviews, Discussions, etc) are represented by 81 organizations and close to [800 contributors](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2024-09-01&end=2025-07-21&widget=organization-dependency) across all repositories. 
+The following diagram shows the diversity of organisations contributing to Hiero:
+
+<img width="580" height="547" alt="1" src="https://github.com/user-attachments/assets/ace75d29-9a9d-4212-99b9-b0ba0f00a3f1" />
+
+The maintainer diversity keeps growing as we continue to promote the project and promote more adoption and participation.
+The following diagram shows the diversity of maintainers contributing to Hiero:
+
+<img width="589" height="364" alt="2" src="https://github.com/user-attachments/assets/0e9df6bb-937a-41ae-8b48-a8e4bdb4b604" />
+
+These metrics were compiled utilizing [Bitergia](https://hashgraph.biterg.io) in conjunction with our `MAINTAINERS.md` information.
+Currently, LFX Insights can identify contributors with a Maintainer role but cannot isolate metrics based solely on Maintainers.
+It is presently capable of measuring only all participants (Contributors + Maintainers).
+Our OpenSSF scores do not provide a score for Contributors, but we use other tools including Bitergia, `MAINTAINERS.md` and GitHub metrics to track participation.
+
+A [support request](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4/SUPPORT-37059) has been initiated to facilitate the tracking of this information via LFX Insights.
+As of today, the team reported that they will include this capability in the roadmap.
+
 ## Additional Considerations
 
 ### Real World Use
