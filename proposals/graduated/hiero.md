@@ -210,6 +210,85 @@ In terms of performance, since the project and workflows were transferred, we ha
 
 <img width="1419" height="899" alt="3" src="https://github.com/user-attachments/assets/19f5e731-482e-4c44-b064-2ffdd893c875" />
 
+### Security
+
+All repositories in hiero-ledger contain a visible and easily accessible link to `SECURITY.md` which can be found in the home page of the repo as well as the `README.md` file. This security file, adheres to the LFDT guidelines as it provides comprehensive information about the security team responsible for the project’s performance, instructions on how to file security issues privately and securely and guidelines for maintaining security standards.
+
+Breakdown of OpenSSF scores for hiero-ledger code repositories:
+
+| Repo                       | Dangerous Workflow | Token Permissions | Branch-Protection | Dependency-Update-tools | Fuzzing | Pinned-Dependencies | SAST | Security Policy | Signed-Releases | Vulnerabilities |
+|----------------------------|--------------------|-------------------|-------------------|-------------------------|---------|---------------------|------|-----------------|-----------------|-----------------|
+| `hiero-gradle-conventions`   | 10                 | 0                 | 4                 | -                       | 0       | 10                  | 10   | 10              | ?               | 10              |
+| `hiero-json-rpc-relay`       | 10                 | 0                 | 4                 | -                       | 0       | 7                   | 3    | 10              | ?               | 0               |
+| `hiero-local-node`           | 10                 | 9                 | 4                 | -                       | 0       | 10                  | 9    | 10              | ?               | 4               |
+| `hiero-mirror-node`          | 10                 | 0                 | 5                 | -                       | 0       | 7                   | 8    | 10              | ?               | 8               |
+| `hiero-mirror-node-explorer` | 10                 | 0                 | 4                 | -                       | 0       | 8                   | 10   | 10              | ?               | 9               |
+| `hiero-sdk-cpp`              | 10                 | 10                | 4                 | -                       | 0       | 10                  | 9    | 10              | ?               | 10              |
+| `hiero-sdk-go`               | 10                 | 10                | 4                 | -                       | 0       | 8                   | 9    | 10              | ?               | 10              |
+| `hiero-sdk-java`             | 10                 | 0                 | 4                 | -                       | 0       | 9                   | 9    | 10              | ?               | 10              |
+| `hiero-sdk-js`               | 10                 | 0                 | 4                 | -                       | 0       | 8                   | 9    | 10              | ?               | 0               |
+| `hiero-sdk-python`           | 10                 | 0                 | 4                 | -                       | 0       | 6                   | 1    | 10              | ?               | 10              |
+| `hiero-sdk-rust`             | 10                 | 0                 | 4                 | -                       | 0       | 6                   | 6    | 10              | ?               | 8               |
+| `hiero-sdk-swift`            | 10                 | 10                | 4                 | -                       | 0       | 10                  | 6    | 10              | ?               | 10              |
+| `hiero-sdk-tck`              | 10                 | 10                | 4                 | -                       | 0       | 7                   | 7    | 10              | ?               | 9               |
+| `hiero-solo-action`          | 10                 | 0                 | 4                 | -                       | 0       | 5                   | 6    | 10              | ?               | 10              |
+
+### Structure
+
+All repositories in hiero-ledger comply with the TAC’s Common Repository Structure guidelines. This means that the repos have all the required information (license, openssf badge, community guidelines badge), recommended information (readme, contribution, changelog, notice, releases), and does not contain any prohibited executable files. 
+
+Recently, we [submitted a request](https://github.com/LF-Decentralized-Trust/governance/pull/153) for the TAC to adopt the Github Community Standards as part of the tooling for verifying the repository structure.
+This request was accepted and, at the same time, our hiero-ledger organization is verified to comply with these standards.
+
+All our repos score a passing score **above 50%** in LFX Insights with the exception of `sdk-collaboration-hub` which scores 40% (inaccurate score).
+While LFX is currently undergoing a testing process to ensure data accuracy, it also supports our structure compliance in the [Security and Best Practices Guidelines](https://insights.linuxfoundation.org/project/hiero/security?timeRange=past365days&start=2024-08-19&end=2025-08-19).
+Please note that our `sdk-collaboration-hub` repository is flagged in LFX as containing executable files.
+However, after diving into this information, we concluded that the repository does not contain any prohibited files or files with extended permissions.
+A [ticket](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4/SUPPORT-37136) has been filed for the LFX team to verify the accuracy of the tool.
+
+### Maintenance
+
+All hiero-ledger repos score a **10/10** in Code Review for OpenSSF Standards.
+`hiero-improvement-proposals` at the moment scores a 5/10 given the early stages of the project.
+The project reflects PRs getting updated as frequently as hours ago and few times a week. 
+
+The community driven bi-weekly calls are also growing in size.
+At the moment, hiero is hosting community meetings every Monday through Thursday for every week:
+
+| Community Meeting | Meeting occurrance link |
+|-------------------|-------------------------|
+| TSC meeting       | [LFX Calendar Link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)     |
+| Community Call    | [LFX Calendar Link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)     |
+| Python SDK        | [LFX Calendar Link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)     |
+| Docs              | [LFX Calendar Link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)     |
+| Solo              | [LFX Calendar Link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)     |
+| Solo Action       | [LFX Calendar Link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)     |
+| SDK               | [LFX Calendar Link](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week)     |
+
+The goal is to be able to host a meeting per related component of the project to give the community the opportunity to participate. 
+
+### Production
+
+End-user organizations play a critical role in shaping the future of Hiero by providing real-world insights into how the technology is applied in practice.
+Our June 2025 TSC elections attracted 50+ companies that [adopted the Hiero project](https://github.com/hiero-ledger/hiero/blob/main/ADOPTERS.md) and continue to participate in it.
+
+### Documentation
+
+Each repo in the `hiero-ledger` org contains a proper and complete `README.md` file with the badges and pointers of the information about the contents of the repo and with a section to provide guidance for new collaborators to get started into the project.
+The documentation includes guidelines for collaboration and security protocols for private and secure report filing.
+
+For every technical repository, we have also included additional information on how to install dependencies and/or prepare your workspace to be able to do internal testing. 
+
+Our `hiero-docs` repo contains a link to each of our core repositories and SDK’s documentation which is hosted under [docs.hiero.org](https://docs.hiero.org).
+This makes it easier for collaborators to find all the information they need in one single place. 
+
+Additionally, we have our `hiero-website` repository which contains all the project information hosted in [hiero.org](https://hiero.org).
+This site contains core information which is useful to attract first time collaborators, adopters and new users of the project.
+We also have a blog section which gets updated with technical project updates and announcements. 
+
+The community is invited to participate in two bi-weekly and monthly calls to contribute to and work on updates for each of these sites:
+the Hiero Docs community call and the Hiero Website community call (see calendar).
+
 ## Additional Considerations
 
 ### Real World Use
