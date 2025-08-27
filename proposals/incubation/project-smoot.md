@@ -1,3 +1,10 @@
+---
+layout: default
+title: Smoot
+parent: Incubation
+grand_parent: Project Proposals
+---
+
 ## Smoot: An Open Source Project for DLT Interoperability 
 
 A proposal for LFDT 

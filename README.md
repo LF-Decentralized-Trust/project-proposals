@@ -1,1 +1,1 @@
-[Rendered version here](https://hyperledger.github.io/hyperledger-hip/)
+[Rendered version here](https://lf-decentralized-trust.github.io/project-proposals/)
