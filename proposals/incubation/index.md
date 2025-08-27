@@ -8,5 +8,4 @@ has_children: true
 
 # Incubation
 
-The following projects are in **Incubation** status as defined by the [Hyperledger Project Lifecycle](https://toc.hyperledger.org/governing-documents/project-lifecycle.html).
-
+The following projects are in **Incubation** status as defined by the [LF Decentralized Trust Project Lifecycle](https://lf-decentralized-trust.github.io/governance/governing-documents/project-lifecycle/).

@@ -1,7 +1,7 @@
 repository:
-  name: hyperledger-hip
-  description: Hyperledger Improvement Proposal (HIP)
-  homepage: https://hyperledger.github.io/hyperledger-hip
+  name: project-proposals
+  description: LF Decentralized Trust Project Proposals
+  homepage: https://lf-decentralized-trust.github.io/project-proposals/
   default_branch: gh-pages
   has_downloads: false
   has_issues: false
