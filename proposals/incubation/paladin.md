@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Paladin Incubating Project
+title: Paladin
 parent: Incubation
 grand_parent: Project Proposals
 ---
