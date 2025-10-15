@@ -20,7 +20,34 @@ grand_parent: Project Proposals
  - Keewoo Lee, Cryptography Researcher at UC Berkeley (keewoole@gmail.com)
 
 # Abstract
-Paladin is an EVM and UTXO based privacy solution for public and permissioned ethereum blockchains.
+
+Paladin is a modular runtime for programmable privacy on EVM.
+
+It provides the common wallet/vault functions that are needed to interact with all forms of privacy preserving smart contracts. It also provides a model for atomic programmability across these privacy preserving smart contracts, harnessing the power of the underlying EVM shared ledger.
+
+There are two primary types of privacy preserving smart contract accounted for in the design:
+
+1. Tokens.
+   Value/data that can be proved as owned across the whole chain, regardless of the transaction within which it originated.
+
+2. Privacy groups.
+   Private EVM smart contracts executed between a set of parties, where the outcome is irrefutable via proof on the chain, but the data is private.
+
+Atomic transactions across these types can be performed including DvP and PvP, with private agreement logic independent from the tokens.
+
+Hardened reference implementations are provided out of the box as part of the Paladin project, which are focussed on real world enterprise use cases.
+
+  - Zeto: Zero-knowledge Proof (ZKP) tokens, providing implementations of enterprise features such as allow-listing and post-quantum lattice based encryption in CIRCOM.
+  - Noto: Notarized tokens, using issuer co-signatures with EIP-712 to provide privacy to all ecosystem participants. Notary logic can be coded in private EVM.
+  - Pente: Support for any EVM smart contract via lightweight ephemeral execution of the Besu EVM, and full proof of execution on-chain.
+    - Successor of the Tessera project
+
+All of these reference implementations use standard EVM smart contracts as the source of truth for the finalization of the transaction, and verification of the private logic. Zero modifications are required to the underlying blockchain, and any permissioned or public EVM can be used.
+
+A strong design principle of the project is that existing privacy preserving tokens should be able to become compatible with Paladin wallet/vault functions and programmability with limited changes. Work towards a formal EIP proposal to help with this is underway.
+
+The app-layer components plugin via a modular and efficient gRPC interface, proven with multiple embedded runtimes (Java, Go, WebAssembly). This provides extensibility of the system across cryptography systems, including new ZKP toolkits and circuits, as well as Fully Homomorphic Encryption (FHE) and other cryptography approaches.
+
 
 It was launched as an LFDT Lab in 2024 and has been in active development ever since, with 11 releases in the past 12 months. Interest in Paladin’s EVM-based privacy model has been extremely high, with demos and proof-of-concepts successfully run with numerous international financial institutions.
 
@@ -44,7 +71,7 @@ Additional resources that provide more background on Paladin:
 None
 
 # Motivation
-The Ethereum Virtual Machine (EVM) powers over 80% of global blockchain projects, making it the 'de facto' runtime environment for both enterprise and permissionless networks.
+The Ethereum Virtual Machine (EVM) powers the majority of global blockchain projects, making it the 'de facto' runtime environment for both enterprise and permissionless networks.
 However, there are requirements for enterprise use cases that are not met by the core standard of EVM. The Paladin project brings latest generation of innovation in solving these requirements in the EVM ecosystem, and provides a comprehensive enterprise grade Apache 2.0 open source stack to deliver them.
 
  - Anonymity for all parties involved in transactions
