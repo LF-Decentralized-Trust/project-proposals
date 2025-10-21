@@ -143,7 +143,7 @@ Our collective experience with LFDT projects puts us in an excellent position to
 
 ## Community calls
 
-As part of the graduation proposal we will be setting up monthly community calls to provide a place to discuss development progress, roadmaps, and upcoming releases.
+As part of the proposal we will be setting up monthly community calls to provide a place to discuss development progress, roadmaps, and upcoming releases.
 
 ## Discord communication
 
