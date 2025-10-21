@@ -14,6 +14,7 @@ grand_parent: Project Proposals
  - Jim Zhang (jim.zhang@kaleido.io)
  - Andrew Richardson (andrew.richardson@kaleido.io)
  - Matthew Whitehead (matthew.whitehead@kaleido.io)
+ - Enrique Lacal (enrique.lacal@kaleido.io)
  - Sanjam Garg, Associate Professor in Cryptography at UC Berkeley (sanjamg@berkeley.edu) 
  - Guru Vamsi Policharla, PhD Candidate in Cryptography at UC Berkeley (guruvamsi.policharla@gmail.com)
  - Matthew Gregoire, PhD Candidate in Cryptography at UNC Chapel Hill (mattyg@cs.unc.edu)
