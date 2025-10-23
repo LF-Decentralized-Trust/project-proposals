@@ -27,6 +27,8 @@ Paladin is a modular runtime for programmable privacy on EVM.
 
 It provides the common wallet/vault functions that are needed to interact with all forms of privacy preserving smart contracts. It also provides a model for atomic programmability across these privacy preserving smart contracts, harnessing the power of the underlying EVM shared ledger.
 
+Paladin has already been deployed in a number of projects including central banks, commercial banks and other financial institutions. These projects have proven programmability across tokenized cash (central bank and commercial bank money), and tokenized assets (bonds and other financial assets), for payments, PvP and DvP use cases.
+
 There are two primary types of privacy preserving smart contract accounted for in the design:
 
 1. Tokens.
