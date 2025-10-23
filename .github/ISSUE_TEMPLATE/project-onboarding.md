@@ -1,70 +1,31 @@
----
-name: Project onboarding for projects
-about: Create a checklist of tasks for a project to complete the onboarding process
-title: "[PROJECT ONBOARDING] project"
-labels: project onboarding, contribution-agreement/unsigned
-assignees: ryjones
----
+This document lists tasks that maintainers need to do to onboard a new project to LFDT.  LFDT staff are here and happy to help with these.
 
-# Welcome to CNCF Project Onboarding
+### Marketing tasks:
 
-This is an issue created to help onboard your project into the CNCF after the TOC has voted to accept your project.
+Note that many tasks require having a project name picked out, so sorting out branding should be a priority.
 
-We would like your project to complete onboarding within **one** month of acceptance.
+- [ ] Pick a name for the project – see our [Naming Guidelines](https://github.com/LF-Decentralized-Trust/wiki/wiki/Naming-Guidelines) for guidance
+- [ ] Pick a logo for the project – you can work with our Marketing Lead on this or design a logo with your own designers. Note that if you design the logo you’ll need to sign a document to transfer the logo to the Linux Foundation so that we can file a trademark application for it.  
+- [ ] Work with LFDT staff to pick a preferred project announcement date~~  
+- [ ] Draft a blog post announcing your project and describe what the project is, why it is being open source and how people can get involved~~  
+      - [ ] **Optional:** We recommend that project maintainers plan for an introductory virtual meetup a few weeks after the announcement. [Meetup scheduled for Wednesday, October 22](https://www.meetup.com/lfdt-sf/events/311189782).
 
-Please track your progress by using "Quote reply" to create your own copy of this checklist in the issue, so that you can update the status as you finish items.
+### Infrastructure Tasks:
 
-## REQUIRED BEFORE PROCEEDING WITH ONBOARDING
+- [ ] Work with LFDT staff to move your project to a LFDT hosted Github organization.  
+      - [ ] Review [TAC’s guidance on Github best](https://lf-decentralized-trust.github.io/governance/guidelines/) practices to follow  
+      - [ ] Review [repository structure](https://lf-decentralized-trust.github.io/governance/governing-documents/repository-structure/) documentation  
+- [ ] Work with LFDT staff to set up Discord channel(s) and public project calls  
+      - [ ] **Optional:** Set up a mailing list for the project. Most projects don’t use mailing lists, but this is available if you’re interested
 
-A "Project Contribution Agreement" must be completed and any existing trademarks **MUST** be transferred to the Linux Foundation **BEFORE** the CNCF staff onboarding tasks can be completed. Other tasks can be done by projects themselves in the meantime.
+### Governance Tasks:
 
-- [ ] Review and understand the [CNCF IP Policy](https://github.com/cncf/foundation/blob/main/charter.md#11-ip-policy). Ensure you are using a CNCF compatible license; inbound projects must use the Apache 2.0 license or [seek approval for exceptions](https://github.com/cncf/foundation/issues/new?template=license-exception-request.yaml). Licenses for dependencies are covered separately below.
-- [ ] Review and understand the [CNCF Third Party License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md#cncf-allowlist-license-policy). This policy governs the licenses used by third party libraries in your project. CNCF FOSSA or CNCF Snyk are configured to check that projects are in compliance with this policy. Let us know which service you would prefer to use.
-- [ ] Review and understand the [LF trademark guidelines](https://www.linuxfoundation.org/legal/trademark-usage). Let the TOC know if you plan to change your project name.
-- [ ] Transfer any [trademark and logo assets to the Linux Foundation](https://github.com/cncf/foundation/tree/main/agreements) via the Contribution Agreement. CNCF staff will send this document to the contact emails listed in the Sandbox application.
+- [ ] Review [draft project charter](LINK) and propose any edits for LFDT staff to review and approve  
+- [ ] Deal with any other agreements as needed – some projects need a Contribution Agreement or Logo Transfer if they are contributing a previously held name and/or logo for the project 
+- [ ] Note that there will be quarterly reports to be filed with the Technical Advisory Council, the group that provides oversight for all LFDT projects. Details about quarterly and annual reports are at: [https://lf-decentralized-trust.github.io/governance/project-updates/](https://lf-decentralized-trust.github.io/governance/project-updates/)
 
----
+### Community Engagement Tasks:
 
-## Review and understand other documents
-
-- [ ] The [Technical Leadership Principles](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#technical-leadership-principles) that outline the expected behavior for any maintainer in a leadership role.
-- [ ] The [project proposal process and requirements](https://github.com/cncf/toc/blob/main/process/README.md).
-- [ ] The [services available for your project at the CNCF](https://contribute.cncf.io/resources/project-services/).
-- [ ] The [online program guidelines](https://github.com/cncf/foundation/blob/main/policies-guidance/online-programs-guidelines.md).
-- [ ] The [telemetry data collection and usage policy](https://www.linuxfoundation.org/legal/telemetry-data-policy).
-- [ ] Optional: [Book time with CNCF staff](http://project-meetings.cncf.io) to understand CNCF resources available to you, to work through onboarding tasks together, or ask other questions.
-
-## Contribute and transfer other materials
-
-- [ ] Move your project to its own separate neutral GitHub organization. This will make it transferable to the CNCF's GitHub Enterprise account. If it's already in another GHE account, you will need to remove it from that first.
-- [ ] Accept the invite to join the CNCF GitHub Enterprise account. We'll then add `thelinuxfoundation` as an organization owner to ensure neutral hosting of your project.
-- [ ] Migrate your Slack channels (if any) to the [Kubernetes or CNCF Slack workspace](https://slack.com/help/articles/217872578-Import-data-from-one-Slack-workspace-to-another). CNCF staff can help. This allows project communities to be more discoverable, allows the CNCF to enforce its Code of Conduct, and enables unlimited message retention.
-- [ ] Join the [#maintainers-circle](https://app.slack.com/client/T08PSQ7BQ/C014YQ8CDCG) Slack channel to find and share knowledge with other project teams.
-- [ ] Transfer [your domain(s) to the CNCF](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/2/create/1374) if they exist. The "LF Stakeholder email" is <projects@cncf.io>. The "Project" is CNCF.
-- [ ] Submit a [pull request](https://github.com/cncf/artwork) with your artwork if it exists. If you don't have artwork, CNCF can help design some.
-- [ ] Transfer website analytics if they exist. Make <projects@cncf.io> an admin of your existing Google Analytics org account so that we can move it to a CNCF-managed account.
-
-## Update and document project details
-
-- [ ] Create a maintainer list and add it to the [aggregated CNCF maintainer list](https://maintainers.cncf.io) via pull request.
-- [ ] Provide maintainer emails to get access to the mailing list and Service Desk. Send them to <project-onboarding@cncf.io>. These aren't shared publicly in the spreadsheet above which is why they must be emailed to us.
-- [ ] Ensure that [DCO](https://github.com/apps/dco) are enabled for all GitHub repositories of the project. You may also choose to use a [CLA](https://github.com/cncf/cla).
-- [ ] Ensure that that the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md) (or your adopted version of it) are explicitly referenced in the project's `README.md` on GitHub.
-- [ ] Ensure the LF footer is on your website and [guidelines](https://github.com/cncf/foundation/blob/main/policies-guidance/website-guidelines.md) are followed (if your project doesn't have a dedicated website, please adopt those guidelines for the `README.md` file).
-- [ ] Start working on [written, open governance](https://contribute.cncf.io/maintainers/governance/) and consider adding this to a `GOVERNANCE.md` file at the root of your repo.
-- [ ] Start working on a [security policy](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository) and consider adding this to a `SECURITY.md` file at the root of your repo.
-- [ ] Start working on an [OpenSSF Best Practices Badge](https://www.bestpractices.dev/en).
-- [ ] Import all project repos into your chosen license scanning service (CNCF FOSSA of CNCF Snyk).
-
-## CNCF staff tasks to support the project
-
-- [ ] Add the project to [DevStats](https://devstats.cncf.io/).
-- [ ] Add the project to [CLOmonitor](https://clomonitor.io/).
-- [ ] Add the project to [LFX Insights](https://insights.linuxfoundation.org/).
-- [ ] Add the project to the [Cloud Native Landscape](https://landscape.cncf.io).
-- [ ] Activate the project in the [LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/project/a0941000002wBz4AAE).
-- [ ] Add the maintainers team to a license scanner service, either, CNCF [FOSSA](https://fossa.com/) or CNCF [Snyk](https://snyk.io/).
-- [ ] Create groups.io project maintainer list in PCC.
-- [ ] Add project's groups.io maintainer list to [maintainers@cncf.io](https://groups.google.com/a/cncf.io/g/maintainers/members)
-- [ ] Add project's groups.io cncf-sandbox-projects list to [cncf-sandbox-projects@cncf.io](https://groups.google.com/a/cncf.io/g/cncf-sandbox-projects)
-- [ ] Send a welcome email to confirm maintainer list access.
+- [ ] Work with staff on a community engagement plan. Review the [Raising the Profile of Your Project or Lab presentation](https://docs.google.com/presentation/d/13nji_R-op77ERT-AV3-CbOOZwAOjtvq33RRGnjpL3Gc/edit#slide=id.g389f50bd17_0_59) for examples of activities we can help you with to bring more users and contributors into your project.tab=t.0)  
+- [ ] Consider having at least one PROJECT maintainer nominate themselves for the [2026 Technical Advisory Council election](https://lf-decentralized-trust.github.io/governance/member-info/election-timeline/#nomination-timeline) – nominations open on Oct 13\.  
+- [ ] Consider having PROJECT maintainers attend [LFDT Maintainer Days in New York on January 26-27](https://github.com/LF-Decentralized-Trust/wiki/wiki/Maintainer-Days) and consider running a session on PROJECT there
