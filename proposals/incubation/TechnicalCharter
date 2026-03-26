@@ -1,0 +1,143 @@
+# Technical Charter (the “Charter”)  
+for  
+Linea a Series of LF Projects, LLC  
+
+>  **Draft Notice**  
+> This Technical Charter is currently under review and is not yet final.  
+> It is subject to change pending internal alignment and LFDT feedback.
+
+**Adopted:** ___________
+
+---
+
+## Overview
+
+This Charter sets forth the responsibilities and procedures for technical contribution to, and oversight of, the Linea open source project, which has been established as Linea, a Series of LF Projects, LLC (the “Project”).  
+
+LF Projects, LLC (“LF Projects”) is a Delaware series limited liability company. All contributors (including committers, maintainers, and other technical positions) and other participants in the Project (collectively, “Collaborators”) must comply with the terms of this Charter.
+
+---
+
+## Mission and Scope of the Project
+
+The mission of the Project is to develop and maintain the Linea Stack — a complete, open-source, EVM-equivalent ZK rollup protocol stack — enabling scalable, low-cost, and cryptographically secure Layer 2 transactions on Ethereum and EVM-compatible networks.
+
+The scope of the Project includes collaborative development under the Project License supporting the mission, including documentation, testing, integration, and the creation of artifacts that aid development, deployment, operation, or adoption.
+
+The scope explicitly excludes:
+- Operation, administration, and governance of live network deployments (including Linea Mainnet and Linea Sepolia), including sequencer operation, validator infrastructure, upgrade mechanisms, Security Council operations, and key management systems  
+- Protocol-level governance tokens and network-specific applications (e.g. bridge UIs, explorer frontends, Linea Hub, Linea Token)  
+- Operational infrastructure not required for open-source development (e.g. runbooks, internal monitoring, deployment configs)  
+- Upstream dependencies maintained separately (e.g. gnark and gnark-crypto)  
+- Governance, membership, and commercial arrangements of the Linea Consortium  
+
+---
+
+## Maintainer Oversight
+
+The maintainers of the Project (the “Maintainers”) are responsible for all technical oversight.
+
+Maintainers are listed in the `MAINTAINERS` file within the repository. The Maintainers may adopt alternative governance structures (e.g. a Technical Steering Committee), which will be documented in that file.
+
+Meetings are intended to be open and may be conducted electronically, via teleconference, or in person.
+
+### Roles
+
+- **Contributors**: Anyone contributing code, documentation, or technical artifacts  
+- **Maintainers**: Contributors with commit access to the repository  
+
+A Contributor may become a Maintainer by majority approval of the TSC. A Maintainer may be removed by majority approval of the TSC.
+
+Participation is open to anyone who complies with this Charter.
+
+Maintainers may:
+- Define workflows for contributions and approvals  
+- Set criteria for promotion to Maintainer  
+- Modify or create roles as needed (documented publicly)  
+
+Maintainers may elect a Chair to coordinate meetings and act as the primary contact with LFDT.
+
+---
+
+## Responsibilities
+
+Maintainers are responsible for:
+- Coordinating technical direction  
+- Approving proposals and scope changes  
+- Organising and managing sub-projects  
+- Creating working groups  
+- Engaging with external communities  
+- Defining workflows, release processes, and security policies  
+- Managing contribution processes  
+- Making technical decisions through discussion, consensus, or voting  
+- Supporting project communications and ecosystem engagement  
+
+---
+
+## Decision Making
+
+The Project operates on a consensus basis where possible.
+
+- Each Maintainer has one vote  
+- Decisions require a **51% majority** if consensus cannot be reached  
+- Quorum requires at least 50% of Maintainers  
+- Asynchronous voting is allowed  
+
+Unresolved matters may be escalated to the Series Manager.
+
+---
+
+## Compliance with Policies
+
+This Charter is subject to:
+- The Series Agreement  
+- LF Projects Operating Agreement  
+- LF Projects policies: https://lfprojects.org/policies/
+
+A project-specific Code of Conduct may be adopted. Otherwise, LF Projects’ default CoC applies.
+
+The Project must:
+- Remain open and non-discriminatory  
+- Operate transparently  
+- Make discussions and decisions publicly accessible  
+
+---
+
+## Community Assets
+
+LF Projects will hold all project trademarks.
+
+The Project will manage:
+- GitHub repositories  
+- Social media accounts  
+- Domain names  
+
+All usage must comply with LF trademark policies.
+
+---
+
+## General Rules and Operations
+
+The Project will:
+- Operate professionally and collaboratively  
+- Maintain alignment with LFDT and broader OSS community standards  
+- Respect trademark and branding guidelines  
+
+---
+
+## Intellectual Property Policy
+
+- Contributors retain copyright  
+- Contributions are licensed under Apache 2.0 and/or MIT  
+- All contributions require DCO sign-off  
+- Documentation is licensed under CC BY 4.0  
+
+The Project may contribute to upstream projects and must comply with their licensing.
+
+License exceptions require a **two-thirds Maintainer vote**.
+
+---
+
+## Amendments
+
+This Charter may be amended by a two-thirds vote of Maintainers and is subject to LF Projects approval.
