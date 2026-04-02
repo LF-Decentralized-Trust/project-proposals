@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bob
+title: Linea
 parent: Incubation
 grand_parent: Project Proposals
 ---
@@ -98,7 +98,7 @@ Ultimately, it aims to build a diverse and active maintainer community under LFD
 
 # Incubation Entry Criteria
 Maintainer Community
-There are currently 30 proposed Maintainers of Linea, mostly from Consensys. The team is well-established and fully committed to the project, with a proven track record of active contribution to the Linea codebase. 
+There are currently 30 proposed Maintainers of Linea, mostly from Consensys. The team is well-established and fully committed to the project, with a proven track record of active contribution to the Linea codebase.
 
 | Name | GitHub |
 |------|--------|
@@ -163,7 +163,7 @@ The Linea project operates a structured CI and release process:
 - Branch protections are enabled requiring a minimum of 1 maintainer approval before merging if made by a maintainer, or 2 maintainers if it’s from an external contributor
 - PRs must pass unit tests, and e2e tests before merging
 - Releases are automated through GHAs, artifacts are pushed to Docker Hub
-- Release notes are tracked in the documentation website at https://docs.linea.build/release-notes 
+- Release notes are tracked in the documentation website at https://docs.linea.build/release-notes
 
 # Licensing & IP
 - The linea-monorepo is already open-sourced under Apache 2.0 and MIT licences, consistent with LFDT requirements.
