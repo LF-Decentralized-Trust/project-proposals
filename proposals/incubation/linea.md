@@ -11,6 +11,7 @@ Rob Dawson (rob.dawson@consensys.net) - General Member, Governing Board
 Sally MacFarlane (sally.macfarlane@consensys.net) - Besu Maintainer
 Justin Florentine (justin.florentine@consensys.net) - Besu Maintainer
 Jason Frame (jason.frame@consensys.net) - Besu Maintainer
+Conor Svensson (conor@web3labs.com) - Web3j Maintainer
 
 # Abstract
 Linea is a production-grade, EVM-equivalent ZK rollup providing a complete Layer 2 stack for Ethereum, including execution, consensus, proving, and bridging. It enables scalable, low-cost transactions with cryptographic finality and is designed for open-source, foundation-governed development. The Linea Stack has been deployed on Ethereum Mainnet and is hosted at https://github.com/Consensys/linea-monorepo.
