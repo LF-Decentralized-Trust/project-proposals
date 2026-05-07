@@ -22,6 +22,7 @@ grand_parent: Project Proposals
 - Mathilde Ffrench <mathilde.ffrench@fr.ibm.com>
 - Thibaud Germain <Thibaud.GERMAIN1@ibm.com>
 - Marcus Brandenburger <bur@zurich.ibm.com>
+- Jack Xu <jxu@sign.global>
 
 # Abstract
 
