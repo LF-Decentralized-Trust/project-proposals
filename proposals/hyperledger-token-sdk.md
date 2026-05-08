@@ -23,6 +23,7 @@ grand_parent: Project Proposals
 - Thibaud Germain <Thibaud.GERMAIN1@ibm.com>
 - Marcus Brandenburger <bur@zurich.ibm.com>
 - Jack Xu <jxu@sign.global>
+- Jay Hu <jayhu@sign.global>
 
 # Abstract
 
