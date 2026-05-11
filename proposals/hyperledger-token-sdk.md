@@ -24,6 +24,7 @@ grand_parent: Project Proposals
 - Marcus Brandenburger <bur@zurich.ibm.com>
 - Jack Xu <jxu@sign.global>
 - Jay Hu <jayhu@sign.global>
+- Alexandros Filios <afilios@offchainlabs.com>
 
 # Abstract
 
