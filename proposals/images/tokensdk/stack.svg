@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="100%" height="100%">
+    <defs>
+        <style>
+            .bg-panel { fill: #D3CACC; stroke: #918789; stroke-width: 4px; }
+
+            .box-blue { fill: #43676B; stroke: #264043; stroke-width: 2px; }
+            .box-dark-blue { fill: #1C2C34; stroke: #0E181D; stroke-width: 2px; }
+            .box-green { fill: #5A7659; stroke: #394F39; stroke-width: 2px; }
+            .box-purple { fill: #67566A; stroke: #423545; stroke-width: 2px; }
+            .box-orange-dark { fill: #8E4A3F; stroke: #5D2E26; stroke-width: 2px; }
+            .box-orange-light { fill: #C37053; stroke: #8F4C35; stroke-width: 2px; }
+
+            /* Grouping Boxes */
+            .group-app { fill: #EAE5E5; stroke: #43676B; stroke-width: 2px; stroke-dasharray: 4; }
+            .group-infra { fill: #E5EAE9; stroke: #43676B; stroke-width: 2px; stroke-dasharray: 4; }
+
+            /* Text Styles */
+            .text-light { fill: #F5F3EC; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+            .text-dark { fill: #1C2C34; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+            .text-small { font-size: 14px; }
+            .text-medium { font-size: 18px; }
+            .text-large { font-size: 24px; }
+            .text-header { font-size: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        </style>
+    </defs>
+
+    <!-- Background Panel -->
+    <rect class="bg-panel" x="10" y="10" width="980" height="780" rx="30" ry="30" />
+
+    <!-- ================= APPLICATION SERVICES GROUP ================= -->
+    <rect class="group-app" x="20" y="25" width="960" height="150" rx="15" ry="15" />
+    <text class="text-dark text-header" x="500" y="50" text-anchor="middle">Application Services</text>
+
+    <!-- TTX Service -->
+    <rect class="box-blue" x="35" y="65" width="300" height="90" rx="10" ry="10" />
+    <text class="text-light text-medium" x="185" y="110" text-anchor="middle" dominant-baseline="middle">TTX Service</text>
+
+    <!-- NFTTX Service -->
+    <rect class="box-blue" x="350" y="65" width="300" height="90" rx="10" ry="10" />
+    <text class="text-light text-medium" x="500" y="110" text-anchor="middle" dominant-baseline="middle">NFTTX Service</text>
+
+    <!-- Interop Service -->
+    <rect class="box-blue" x="665" y="65" width="300" height="90" rx="10" ry="10" />
+    <text class="text-light text-medium" x="815" y="110" text-anchor="middle" dominant-baseline="middle">Interop Service</text>
+
+
+    <!-- ================= INFRASTRUCTURE SERVICES GROUP ================= -->
+    <rect class="group-infra" x="20" y="185" width="960" height="285" rx="15" ry="15" />
+    <text class="text-dark text-header" x="500" y="210" text-anchor="middle">Infrastructure Services</text>
+
+    <!-- Row 1 of Infra -->
+    <!-- Network Service Group -->
+    <rect class="box-blue" x="35" y="225" width="350" height="120" rx="10" ry="10" />
+    <text class="text-light text-small" x="45" y="265" text-anchor="start" dominant-baseline="middle">
+        <tspan x="45" dy="-10">Network</tspan>
+        <tspan x="45" dy="20">Service</tspan>
+    </text>
+
+    <!-- Inner Blue Boxes: Fabric -->
+    <rect class="box-dark-blue" x="115" y="235" width="120" height="40" rx="5" ry="5" />
+    <text class="text-light text-small" x="175" y="255" text-anchor="middle" dominant-baseline="middle">Fabric</text>
+
+    <!-- Inner Blue Boxes: Fabric-X -->
+    <rect class="box-dark-blue" x="245" y="235" width="120" height="40" rx="5" ry="5" />
+    <text class="text-light text-small" x="305" y="255" text-anchor="middle" dominant-baseline="middle">Fabric-X</text>
+
+    <!-- Inner Blue Boxes: EVM -->
+    <rect class="box-dark-blue" x="115" y="285" width="250" height="40" rx="5" ry="5" />
+    <text class="text-light text-small" x="240" y="305" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="240" dy="-8">EVM</tspan>
+        <tspan x="240" dy="16">(with the Community)</tspan>
+    </text>
+
+    <!-- Identity Service -->
+    <rect class="box-blue" x="395" y="225" width="135" height="120" rx="10" ry="10" />
+    <text class="text-light text-small" x="462.5" y="285" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="462.5" dy="-10">Identity</tspan>
+        <tspan x="462.5" dy="20">Service</tspan>
+    </text>
+
+    <!-- Storage Service -->
+    <rect class="box-blue" x="540" y="225" width="135" height="120" rx="10" ry="10" />
+    <text class="text-light text-small" x="607.5" y="285" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="607.5" dy="-10">Storage</tspan>
+        <tspan x="607.5" dy="20">Service</tspan>
+    </text>
+
+    <!-- Tokens Service -->
+    <rect class="box-blue" x="685" y="225" width="135" height="120" rx="10" ry="10" />
+    <text class="text-light text-small" x="752.5" y="285" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="752.5" dy="-10">Tokens</tspan>
+        <tspan x="752.5" dy="20">Service</tspan>
+    </text>
+
+    <!-- Selector Service -->
+    <rect class="box-blue" x="830" y="225" width="135" height="120" rx="10" ry="10" />
+    <text class="text-light text-small" x="897.5" y="285" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="897.5" dy="-10">Selector</tspan>
+        <tspan x="897.5" dy="20">Service</tspan>
+    </text>
+
+    <!-- Row 2 of Infra -->
+    <!-- Config Service -->
+    <rect class="box-blue" x="35" y="355" width="225" height="100" rx="10" ry="10" />
+    <text class="text-light text-small" x="147.5" y="405" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="147.5" dy="-10">Config</tspan>
+        <tspan x="147.5" dy="20">Service</tspan>
+    </text>
+
+    <!-- Auditor Service -->
+    <rect class="box-blue" x="270" y="355" width="225" height="100" rx="10" ry="10" />
+    <text class="text-light text-small" x="382.5" y="405" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="382.5" dy="-10">Auditor</tspan>
+        <tspan x="382.5" dy="20">Service</tspan>
+    </text>
+
+    <!-- Certifier Service -->
+    <rect class="box-blue" x="505" y="355" width="225" height="100" rx="10" ry="10" />
+    <text class="text-light text-small" x="617.5" y="405" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="617.5" dy="-10">Certifier</tspan>
+        <tspan x="617.5" dy="20">Service</tspan>
+    </text>
+
+    <!-- Benchmark Service -->
+    <rect class="box-blue" x="740" y="355" width="225" height="100" rx="10" ry="10" />
+    <text class="text-light text-small" x="852.5" y="405" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="852.5" dy="-10">Benchmark</tspan>
+        <tspan x="852.5" dy="20">Service</tspan>
+    </text>
+
+
+    <!-- ================= ROW 4: Token API ================= -->
+    <rect class="box-green" x="20" y="480" width="960" height="55" rx="10" ry="10" />
+    <text class="text-light text-large" x="500" y="509" text-anchor="middle" dominant-baseline="middle">Token API</text>
+
+
+    <!-- ================= ROW 5: Driver API ================= -->
+    <rect class="box-purple" x="20" y="545" width="960" height="55" rx="10" ry="10" />
+    <text class="text-light text-large" x="500" y="574" text-anchor="middle" dominant-baseline="middle">Driver API</text>
+
+
+    <!-- ================= ROW 6: Driver Implementations ================= -->
+    <!-- Driver Implementations Block -->
+    <rect class="box-orange-dark" x="20" y="610" width="960" height="170" rx="20" ry="20" />
+    <text class="text-light text-large" x="60" y="675" text-anchor="start" dominant-baseline="middle">
+        <tspan x="60" dy="-15">Driver</tspan>
+        <tspan x="60" dy="30">Implementations</tspan>
+    </text>
+
+    <!-- FabToken -->
+    <rect class="box-orange-light" x="400" y="630" width="260" height="65" rx="8" ry="8" />
+    <text class="text-light text-small" x="530" y="655" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="530" dy="-8">FabToken</tspan>
+        <tspan x="530" dy="18">No Identity Hiding</tspan>
+    </text>
+
+    <!-- ZKAT-DLog -->
+    <rect class="box-orange-light" x="680" y="630" width="270" height="65" rx="8" ry="8" />
+    <text class="text-light text-small" x="815" y="655" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="815" dy="-8">ZKAT-DLog</tspan>
+        <tspan x="815" dy="18">No Graph Hiding</tspan>
+    </text>
+
+    <!-- ZKAT-Snark No Graph Hiding -->
+    <rect class="box-orange-light" x="400" y="705" width="260" height="65" rx="8" ry="8" />
+    <text class="text-light text-small" x="530" y="730" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="530" dy="-14">ZKAT-Snark</tspan>
+        <tspan x="530" dy="16">No Graph Hiding</tspan>
+        <tspan x="530" dy="16">(Mentorship)</tspan>
+    </text>
+
+    <!-- ZKAT-Snark With Graph Hiding -->
+    <rect class="box-orange-light" x="680" y="705" width="270" height="65" rx="8" ry="8" />
+    <text class="text-light text-small" x="815" y="730" text-anchor="middle" dominant-baseline="middle">
+        <tspan x="815" dy="-14">ZKAT-Snark</tspan>
+        <tspan x="815" dy="16">With Graph Hiding</tspan>
+        <tspan x="815" dy="16">(Mentorship)</tspan>
+    </text>
+
+</svg>

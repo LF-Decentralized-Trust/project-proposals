@@ -152,6 +152,8 @@ The Token SDK provides a structured way to define and operate tokens, with the f
 
 ## Core Components
 
+![Core Components](./images/tokensdk/stack.svg)
+
 | Component | Language | Description |
 |-----------|----------|-------------|
 | Token API | Go | High-level developer API for token operations (issue, transfer, redeem) with wallet management and transaction orchestration |
