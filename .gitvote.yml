@@ -1,0 +1,24 @@
+version: "1"
+
+# Define a profile for TAC votes
+audit:
+  enabled: true
+
+profiles:
+  tacProjectProposal:
+    # 6 out of 11 is 54.55%
+    pass_threshold: 55
+    # Fixed: removed the dash before 'teams' to make it a struct
+    allowed_voters:
+      teams:
+        - tac
+    # Duration the vote stays open
+    duration: 14d
+
+# Automatically trigger the vote based on file paths
+automation:
+  enabled: true
+  rules:
+    - patterns:
+        - "proposals"
+      profile: tacProjectProposal
