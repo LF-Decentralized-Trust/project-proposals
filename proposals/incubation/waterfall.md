@@ -68,6 +68,16 @@ The code is distributed under the Apache License v2.0. The project currently run
 
 The code underwent [an independent audit by the Hacken team](https://audits.hacken.io/waterfall/l1-waterfall-network-node-apr2024/).
 
+# Licensing Boundaries and Execution-Layer Replaceability
+
+The Apache 2.0 components (`wf-types`, `wf-consensus`, `wf-engine`, `wf-coordinator`) do not statically bundle or link any GPL/LGPL code. The GPL/LGPL forks are isolated behind runtime boundaries and Apache 2.0-defined interfaces.
+
+- **LGPL execution layer (`wf-go-ethereum`, a go-ethereum fork).** The Apache-licensed `wf-engine` does not statically link `wf-go-ethereum` at build time. On Linux it loads the execution layer at runtime as a shared-object plugin through an Apache 2.0 Go interface defined in `wf-types`. This keeps the LGPL code separable and replaceable, consistent with the LGPL's dynamic-linking expectations. The `wf-coordinator` sidecar additionally communicates with the execution layer over standard JSON-RPC.
+
+- **GPL coordinator (`wf-prysm`, a Prysm fork).** Never linked into Apache-licensed code. It runs as an independent process and communicates only over gRPC - "mere aggregation" under GPL-3.0 §5.
+
+**Direction.** Because the execution layer sits behind an Apache 2.0 interface and is already partially exposed over standard JSON-RPC, the boundary can, in the future, be refactored into a fully standard RPC interface. As Waterfall-specific logic continues migrating up into the Apache 2.0 modules, the remaining runtime execution dependency could then be served by an alternative - potentially Apache 2.0-licensed - execution client implementing that interface, rather than the current LGPL fork.
+
 # How To
 
 To interact with the network, including sending transactions and calling smart contracts, a user must install [an EVM-compatible wallet](https://docs.waterfall.network/getting-started/metamask/). Also, everyone can [run a mainnet node](https://docs.waterfall.network/tutorials/setup-docker-node-mainnet/) on his/her device or a cloud-based service for participating in the consensus and block validating. The minimum hardware requirements include a CPU with at least 4 cores and 12 GB of RAM. There is [a native app](https://docs.waterfall.network/tutorials/setup-native-node-app/) for MacOS and Windows and [infrastructure providers](https://waterfall.network/staking-infrastructure-providers) to facilitate the deployment process. The list of [developer tools](https://waterfall.network/developers) is constantly expanding.
