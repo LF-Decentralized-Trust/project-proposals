@@ -35,5 +35,4 @@ Note that many tasks require having a project name picked out, so sorting out br
 ### Community Engagement Tasks:
 
 - [ ] Work with staff on a community engagement plan. Review the [Raising the Profile of Your Project or Lab presentation](https://docs.google.com/presentation/d/13nji_R-op77ERT-AV3-CbOOZwAOjtvq33RRGnjpL3Gc/edit#slide=id.g389f50bd17_0_59) for examples of activities we can help you with to bring more users and contributors into your project.tab=t.0)
-- [ ] Consider having at least one PROJECT maintainer nominate themselves for the [2026 Technical Advisory Council election](https://lf-decentralized-trust.github.io/governance/member-info/election-timeline/#nomination-timeline) – nominations open on Oct 13\.
-- [ ] Consider having PROJECT maintainers attend [LFDT Maintainer Days in New York on January 26-27](https://github.com/LF-Decentralized-Trust/wiki/wiki/Maintainer-Days) and consider running a session on PROJECT there
+- [ ] Consider having at least one PROJECT maintainer nominate themselves for the [2027 Technical Advisory Council election](https://lf-decentralized-trust.github.io/governance/member-info/election-timeline/#nomination-timeline) – nominations open later this year\.
