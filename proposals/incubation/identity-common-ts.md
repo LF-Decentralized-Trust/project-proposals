@@ -13,8 +13,8 @@ Identity Common TypeScript Project Proposal
 
 - Mirko Mollik, Common Codes, GitHub: [@cre8](https://github.com/cre8),
 - Timo Glastra, Animo, GitHub: [@TimoGlastra](https://github.com/TimoGlastra)
-- Berend Sliedrecht, Animo, GitHub: [@berends](https://github.com/berendsliedrecht)
-- Henrique Dias, Animo, GitHub: [@henriquedias](https://github.com/hacdias)
+- Berend Sliedrecht, Animo, GitHub: [@berendsliedrecht](https://github.com/berendsliedrecht)
+- Henrique Dias, Animo, GitHub: [@hacdias](https://github.com/hacdias)
 - Lukas Han, Hopae Inc., GitHub: [@lukasjhan](https://github.com/lukasjhan)
 
 The Identity Common Typescript is a monorepo for multiple reusable TypeScript libraries that merged multiple projects in the last days, so there may be more supporters.
