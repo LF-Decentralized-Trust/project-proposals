@@ -68,7 +68,7 @@ The repository currently assigns code ownership to the [OpenWallet Foundation La
 
 The roster and affiliations will be confirmed in a public `MAINTAINERS.md` before TAC approval. This will make present responsibility auditable and demonstrate the organizational diversity required for Incubation. Historical commits or inclusion in the contributor graph will not, by themselves, confer maintainer status.
 
-The maintainers request reuse and transfer of the existing repository and its history if it satisfies LFDT's Developer Certificate of Origin requirements. Because the monorepo incorporates history from predecessor projects, a complete DCO audit will be performed before migration. The maintainers can guarantee that the DCO requirements from the merged projects was met since this was a requirements for projects from the OWF.
+The maintainers request reuse and transfer of the existing repository and its history if it satisfies LFDT's Developer Certificate of Origin requirements. Because the monorepo incorporates history from predecessor projects, a complete DCO audit will be performed before migration. The maintainers can guarantee that the DCO requirements from the merged projects were met since this was a requirements for projects from the OWF.
 
 # Solution
 
