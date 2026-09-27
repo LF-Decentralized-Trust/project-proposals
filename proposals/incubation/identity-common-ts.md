@@ -131,33 +131,24 @@ The analysis of monthly downloads around half a million indicates significant us
 
 | Package                          |      Downloads / month |
 | -------------------------------- | ---------------------: |
-| **@sd-jwt/core**                 | **~94,200** ([npm][1]) |
-| **@sd-jwt/sd-jwt-vc**            | **~77,300** ([npm][1]) |
+| **@sd-jwt/core**                 | **~94,200** ([npm](https://www.npmjs.com/package/@sd-jwt/core) |
+| **@sd-jwt/sd-jwt-vc**            | **~77,300** ([npm](https://www.npmjs.com/package/@sd-jwt/sd-jwt-vc)) |
 | **@owf/identity-common**         |            **≈66,300** |
-| **@owf/token-status-list**       |  **52,404** ([npm][2]) |
-| **dcql**                         |  **37,125** ([npm][3]) |
-| **@openid4vc/oauth2**            |  **25,763** ([npm][4]) |
+| **@owf/token-status-list**       |  **52,404** ([npm](https://www.npmjs.com/package/@owf/token-status-list)) |
+| **dcql**                         |  **37,125** ([npm](https://www.npmjs.com/package/dcql)) |
+| **@openid4vc/oauth2**            |  **25,763** ([npm](https://www.npmjs.com/package/@openid4vc/oauth2)) |
 | **@owf/mdoc**                    |            **≈25,500** |
-| **@openid4vc/utils**             |  **25,241** ([npm][4]) |
+| **@openid4vc/utils**             |  **25,241** ([npm](https://www.npmjs.com/package/@openid4vc/utils)) |
 | **@openid4vc/openid4vp**         |            **≈25,200** |
-| **@openid4vc/openid4vci**        |  **23,562** ([npm][4]) |
+| **@openid4vc/openid4vci**        |  **23,562** ([npm](https://www.npmjs.com/package/@openid4vc/openid4vci)) |
 | **@owf/cose**                    |            **≈21,700** |
-| **@owf/eudi-lote**               |   **4,558** ([npm][5]) |
+| **@owf/eudi-lote**               |   **4,558** ([npm](https://www.npmjs.com/package/@owf/eudi-lote)) |
 | **@owf/crypto**                  |             **≈4,100** |
-| **@owf/eudi-attestation-schema** |   **3,820** ([npm][6]) |
-| **@owf/eudi-wrprc**              |   **2,843** ([npm][6]) |
-| **@owf/eudi-sca**                |   **2,815** ([npm][7]) |
-| **@owf/eudi-tl**                 |   **2,069** ([npm][8]) |
-| **@owf/eudi-jades**              |      **16** ([npm][6]) |
-
-[1]: https://www.npmjs.com/search?q=keywords%3Asd-jwt-vc&utm_source=chatgpt.com "keywords:sd-jwt-vc - npm search"
-[2]: https://www.npmjs.com/search?page=12&perPage=20&q=oauth&utm_source=chatgpt.com "oauth - npm search"
-[3]: https://www.npmjs.com/search?q=keywords%3AOpenID4VC&utm_source=chatgpt.com "keywords:OpenID4VC - npm search"
-[4]: https://www.npmjs.com/search?q=3c%E3%80%90PG66.CYOU%E3%80%91.vupa&time=1686132089386&utm_source=chatgpt.com "3c〖PG66.CYOU〗.vupa - npm search"
-[5]: https://www.npmjs.com/search?q=keywords%3Aeudi&utm_source=chatgpt.com "keywords:eudi - npm search"
-[6]: https://www.npmjs.com/search?q=keywords%3Aetsi&utm_source=chatgpt.com "keywords:etsi - npm search"
-[7]: https://www.npmjs.com/search?q=keywords%3Asca&utm_source=chatgpt.com "keywords:sca - npm search"
-[8]: https://www.npmjs.com/search?page=0&perPage=20&q=keywords%3Axades&utm_source=chatgpt.com "keywords:xades - npm search"
+| **@owf/eudi-attestation-schema** |   **3,820** ([npm](https://www.npmjs.com/package/@owf/eudi-attestation-schema)) |
+| **@owf/eudi-wrprc**              |   **2,843** ([npm](https://www.npmjs.com/package/@owf/eudi-wrprc)) |
+| **@owf/eudi-sca**                |   **2,815** ([npm](https://www.npmjs.com/package/@owf/eudi-sca)) |
+| **@owf/eudi-tl**                 |   **2,069** ([npm](https://www.npmjs.com/package/@owf/eudi-tl)) |
+| **@owf/eudi-jades**              |      **16** ([npm](https://www.npmjs.com/package/@owf/eudi-jades)) |
 
 ## License and Trademarks
 
