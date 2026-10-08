@@ -157,7 +157,7 @@ The target for graduation from Incubation to Graduated status is within 12 month
 
 # Relationship to Existing LFDT Interoperability Work
 
-The LFDT already hosts interoperability projects such as Cacti and Smoot. IBC is both complementary of and can expand these projects. At its core, IBC is a protocol for cryptographically secure data verification. Other LFDT applications can leverage this technology and the proven track record that IBC brings to the table.
+The LFDT already hosts interoperability projects such as Cacti and Smoot. IBC is both complementary to and can expand these projects. At its core, IBC is a protocol for cryptographically secure data verification. Other LFDT applications can leverage this technology and the proven track record that IBC brings to the table.
 
 ## Differentiation
 
@@ -174,7 +174,7 @@ The LFDT already hosts interoperability projects such as Cacti and Smoot. IBC is
 
 Cacti and SATP connect ledgers through trusted gateways, where a transfer is accepted because a gateway signs for it. IBC can strengthen that model by verifying transfers with proofs rather than relying on a signature. Feasibility research indicates this is a workable route the project could undertake over time, in collaboration with the Cacti and SATP community. Several IBC maintainers have already begun these discussions with the Cacti maintainers.
 
-Smoot is another good candidate for collaborating with IBC. Both are on-chain frameworks whose design can support proof-based verification. In practice, Smoot ships a trusted multi-signature committee, and its proof-based verification is still experimental. IBC already runs proof-based verification in production, making it a natural integration area for Smoot. The IBC standard and implementation could Smoot's production-grade verification mechanisms and vice versa. Additionally, IBC could develop new application-level standards to implement EEA. Several IBC maintainers have already begun these discussions with the Smoot maintainers.
+Smoot is another good candidate for collaborating with IBC. Both are on-chain frameworks whose design can support proof-based verification. In practice, Smoot ships a trusted multi-signature committee, and its proof-based verification is still experimental. IBC already runs proof-based verification in production, making it a natural integration area for Smoot. The IBC standard and implementation could complement Smoot's production-grade verification mechanisms and vice versa. Additionally, IBC could develop new application-level standards to implement EEA. Several IBC maintainers have already begun these discussions with the Smoot maintainers.
 
 Since CLPR's design is similar to Smoot's, the model for collaborating with CLPR could be the same. CLPR has more mature verification and application level standards for the Hiero/Hedera ecosystem, and IBC could adopt these. Similarly, CLPR could adopt IBC's mature solutions for Besu and Cosmos networks. It's worth noting that like Smoot, CLPR makes several slightly different choices at the protocol layer (e.g. by incorporating relayer fee payment at the protocol layer instead of assuming it happens at the application-level). If CLPR contributors are interested, these differences could be resolved through development of togglable standards, enabling CLPR users to take advantage of IBC's 5+ year track record.
 
@@ -248,7 +248,7 @@ IBC's direct support for Besu creates a natural integration point with existing 
 
 IBC can also plug in directly to existing enterprise stacks built with Besu. No modifications are needed to be made to the clients, but IBC contracts need to be deployed to enable functionality. With the upcoming release that corresponds to the upstreaming of IBC to the LFDT, the IBC CLI will add support for automated contract deployment, streamlining the deployment process.
 
-At the protocol level, IBC is not opinionated about how messages are verified, enabling it to support a wide variety of security preferences and tradeoffs in different application environments. Today, IBC there are numerous verification mechanisms implemented and supported in production across Cosmos and EVM networks, including consensus light clients (that verify messages using validator signatures), ZK consensus light clients (that do the same leveraging a ZK circuit for more gas efficiency and privacy), and attestation clients (that verify messages using a configurable m-of-n oracle).
+At the protocol level, IBC is not opinionated about how messages are verified, enabling it to support a wide variety of security preferences and tradeoffs in different application environments. Today, IBC supports numerous verification mechanisms implemented and supported in production across Cosmos and EVM networks, including consensus light clients (that verify messages using validator signatures), ZK consensus light clients (that do the same leveraging a ZK circuit for more gas efficiency and privacy), and attestation clients (that verify messages using a configurable m-of-n oracle).
 
 ## Off-Chain Infrastructure
 
@@ -335,7 +335,7 @@ The diagram above illustrates the architecture used for direct IBC connectivity 
 2. Follow the steps in [the tutorial](https://github.com/cosmos/ibc/blob/main/docs/6-ibc-cli/2-tutorial-deploy-ibc-and-send-a-token.md). It covers:
     - Setting up your environment
     - Running two Besu chains locally
-    - Configuring and deploying and IBC contracts
+    - Configuring and deploying IBC contracts
     - Creating a connection and registering IFT contracts
     - Running attestors and the relayer
 3. After setting up the connection, initiate an IFT transfer. The tokens will be burned on the sending chain and minted on the destination chain, completing a successful Interchain Fungible Token transfer using IBC.
