@@ -1,4 +1,20 @@
-# Uncomment line below for local debugging.
-# theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+title: project-proposals
+description: LF Decentralized Trust Project Proposals
+
+# The theme ships as a pinned gem (see Gemfile) rather than a remote_theme
+# fetched from a branch tip, so the version that renders the site is the one
+# recorded in Gemfile.lock.
+theme: just-the-docs
 logo: "assets/lf-decentralized-trust-logo.svg"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CODEOWNERS
+  - vendor
