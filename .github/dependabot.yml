@@ -1,0 +1,35 @@
+---
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions-security:
+        applies-to: security-updates
+        patterns:
+          - "*"
+      github-actions-version:
+        applies-to: version-updates
+        patterns:
+          - "*"
+
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      bundler-security:
+        applies-to: security-updates
+        patterns:
+          - "*"
+      bundler-version:
+        applies-to: version-updates
+        patterns:
+          - "*"
