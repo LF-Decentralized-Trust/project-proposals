@@ -1,3 +1,6 @@
+# Origin only; baseurl comes from configure-pages at build time. url is needed
+# so jekyll-sitemap and seo-tag can emit absolute URLs.
+url: "https://lf-decentralized-trust.github.io"
 title: project-proposals
 description: LF Decentralized Trust Project Proposals
 
@@ -9,6 +12,7 @@ logo: "assets/lf-decentralized-trust-logo.svg"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-include-cache
 
 exclude:
