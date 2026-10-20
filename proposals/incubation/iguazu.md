@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Waterfall Network
+title: Iguazu
 parent: Incubation
 grand_parent: Project Proposals
 ---
@@ -46,7 +46,7 @@ At present, our R&D team actively keeps on working on the system design includin
 
 The efficiency of the Waterfall network is dependent on successful collaboration between the Coordinating and BlockDAG shards, which work in parallel. Every system validator has two essential components: the coordinator and the verifier, both playing key roles within their respective shards. Waterfall implementation provides for the possibility of deploying several autonomous validators on each node, with a common ledger and a pool of transactions. Such nodes are infrastructure objects deployed on separate devices (servers) and performing all operations for sending and processing data.
 
-![Waterfall Network](../images/waterfall/network.svg "Waterfall Network")
+![Iguazu Network](../images/iguazu/network.svg "Iguazu Network")
 
 In a BlockDAG shard, all received transactions are first added to its DAG-based ledger and are applied to alter the network state only after they are finalized in the Coordinating network since the DAG structure does not have a natural ordering. A registry of verifiers is responsible for assigning block producers in each slot at the start of each epoch.
 
