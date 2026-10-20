@@ -184,12 +184,12 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  jekyll
-  jekyll-include-cache
-  jekyll-remote-theme
-  jekyll-seo-tag
-  just-the-docs
-  rake
+  jekyll (= 4.4.1)
+  jekyll-include-cache (= 0.3.1)
+  jekyll-remote-theme (= 0.6.2)
+  jekyll-seo-tag (= 2.9.1)
+  just-the-docs (= 0.12.0)
+  rake (= 13.4.2)
 
 BUNDLED WITH
    2.5.15
