@@ -153,7 +153,7 @@ DCF implements open standards and does not change any ledger or network protocol
 
 ## Addressing likely objections
 
-* *"Why one project and not several?"* See [Motivation](https://claude.ai/cowork/cse_016vGM1xNkwBi7oSkEmXhmEt#motivation). The sub-projects share a community and are tightly coupled. One organization and one TSC cut administrative overhead, and the umbrella makes each sub-project's maturity visible instead of hiding it.  
+* *"Why one project and not several?"* See [Motivation](#motivation). The sub-projects share a community and are tightly coupled. One organization and one TSC cut administrative overhead, and the umbrella makes each sub-project's maturity visible instead of hiding it.  
 * *"Why not join an existing LFDT project (e.g., Identus or CREDEBL)?"* Those projects serve different architectural niches (Identus is a DIDComm v2 / PRISM stack; CREDEBL is a platform that *consumes* DCF components). DCF supplies the frameworks that both can build on and interoperate with, but are lower level components.  
 * *"Are all sub-projects at the same maturity?"* No. Credo-TS, Bifold Wallet and ACA-Py are very mature and continue to evolve. Askar is mature, stable and maintained to support the larger sub-projects. VCX has a smaller, less active maintainer set. The test tools evolve intermittently as they are needed by maintainers and adapters during roll outs.  
 * Others to be added…
@@ -183,9 +183,9 @@ All code is licensed under **Apache-2.0**. Third-party dependencies are Apache-2
 
 ### **Diversity**
 
-Maintainer organizations across DCF include: Cloud Compass Computing, Portage CyberTech, Animo Solutions, 2060.io, Anonyome Labs, Government of British Columbia, Province of Ontario, Cloud Compass Computing, Portage CyberTech, Digital Catapult, OpSecId, and others. This is well over the **≥3 organizations** required for Graduated status.
+Maintainer organizations across DCF include: Animo Solutions, 2060.io, Anonyome Labs, Government of British Columbia, Province of Ontario, Cloud Compass Computing, Portage CyberTech, Digital Catapult, OpSecId, and others. This is well over the **≥3 organizations** required for Graduated status.
 
-Commits in the last 12 months also came from contributors at (per commit email domains) animo.id, ontario.ca, opsecid.ca, verid.id, northernblock.io, digicatapult.org.uk, ayanworks.com, fullboar.ca, and many independent contributors.
+Commits in the last 12 months also came from contributors at (per commit email domains) animo.id, ontario.ca, opsecid.ca, verid.id, northernblock.io, digicatapult.org.uk, dsr-corporation.com, ayanworks.com, fullboar.ca, and many independent contributors.
 
 | Repo | Commits (12 mo) | Unique authors (12 mo) | Release tags (12 mo) | Latest release |
 | :---- | :---- | :---- | :---- | :---- |
@@ -237,7 +237,7 @@ Known production and pilot use includes the EUDI-focused deployments described i
 | :---- | :---- | :---- |
 | Credo-TS (incl. mediator) | TimoGlastra, genaris, jakubkoci, auer-martin, berendsliedrecht, hacdias, rmlearney-digicatapult, jleach, sairanjit, GHkrishna | Animo Solutions, 2060.io, Digital Catapult, BC Gov, and others. |
 | Bifold Wallet | jleach, bryce-mcmath, cvarjao, al-rosenthal, fc-santos, jcdrouin21, KjartanE, MacDeluca, MosCD3, LippaC-OPS, thiagoromanos | BC Gov, 2060.io, Gov. of Ontario |
-| ACA-Py (incl. mediator service) | swcurran, andrewwhitehead, TimoGlastra, WadeBarnes, esune, jamshale, ff137, thiagoromanos, PatStLouis, loneil, Gavinok | BC Gov, Gov. of Ontario, Quartech, Indicio, CQPD, Cloud Compass Computing, OpSecID, Portage CyberTech, Northern Block |
+| ACA-Py (incl. mediator service) | swcurran, andrewwhitehead, TimoGlastra, WadeBarnes, esune, jamshale, ff137, thiagoromanos, PatStLouis, loneil, Gavinok | BC Gov, Gov. of Ontario, Quartech, Indicio, CPQD, Cloud Compass Computing, OpSecID, Portage CyberTech, Northern Block |
 | Askar | andrewwhitehead, TimoGlastra, WadeBarnes, swcurran, berendsliedrecht, genaris, cvarjao | Portage CyperTech, Animo Solutions, Cloud Compass Computing, 2060.io |
 | VCX | gmulhearn | Anonyome Labs |
 | DCF Testing | PatStLouis, KimEbert42, swcurran, jamshale, genaris, WadeBarnes, Jsyro, al-rosenthal | BC Gov, Indicio, Cloud Compass Computing, OpSecID |
