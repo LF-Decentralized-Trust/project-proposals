@@ -163,7 +163,7 @@ The LFDT already hosts interoperability projects such as Cacti and Smoot. IBC is
 
 |  | **Cacti** | **Smoot** | **CLPR** | **IBC** |
 | :- | :- | :- | :- | :- |
-| **What it is** | Gateway-based cross-ledger asset transfer protocol | Multi-signature based cross-ledger messaging framework (EEA crosschain) | State-proof based cross-ledger messaging protocol | State-proof and attestation based cross-ledger messaging protocol |
+| **What it is** | Gateway-based cross-ledger asset transfer protocol | Multi-signature based cross-ledger messaging framework (EEA crosschain) | State-proof based cross-ledger messaging protocol | Proof-based cross-ledger messaging protocol |
 | **Where it runs** | Off-chain gateways | On-chain verifier | On-chain light clients | On-chain light clients |
 | **Trust Model** | Gateway signatures trusted | 2-of N multi-signature verifier | Modular, pluggable clients based on state proofs (e.g. Hiero TSS, QBFT) | Modular, pluggable clients based on state proofs (e.g. Tendermint, QBFT, ZK light clients) and attestations (e.g. m-of-n signers) |
 | **Maturity** | Graduated. Enterprise PoCs | Lab | Lab | 5+ years live. 190+ networks |
