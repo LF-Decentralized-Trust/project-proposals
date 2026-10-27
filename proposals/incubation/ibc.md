@@ -90,7 +90,7 @@ grand_parent: Project Proposals
 
 # Abstract
 
-The Inter-Blockchain Communication Protocol (IBC) is a battle-tested, extensible, trust-minimized interoperability protocol that connects 190+ public blockchain networks (Mapofzones.com), plus private networks and consortia. In five years of production, it has processed $50B+ in transaction volume without an exploit of the supported version. IBC is an open standard that lets digital ledgers exchange assets and data directly with other ledgers, including Ethereum and EVM-based frameworks such as Hyperledger Besu, non-Ethereum ledgers, and other systems that meet a small set of requirements. We propose contributing IBC to LFDT to provide the open source ecosystem with a neutral and battle-tested solution for DLT interoperability.
+The Inter-Blockchain Communication Protocol (IBC) is a battle-tested, extensible, trust-minimized interoperability protocol that connects 190+ public blockchain networks (Mapofzones.com), plus private networks and consortia. In five years of production, it has processed $50B+ in transaction volume without an exploit of the supported version. This proposal contributes IBC v2, the current release of the protocol, which builds directly on v1: It keeps v1's production-proven light clients, proof and packet formats, and trust model, and simplifies the connection and channel handshakes based on five years of operating v1 at scale. IBC is an open standard that lets digital ledgers exchange assets and data directly with other ledgers, including Ethereum and EVM-based frameworks such as Hyperledger Besu, non-Ethereum ledgers, and other systems that meet a small set of requirements. We propose contributing IBC to LFDT to provide the open source ecosystem with a neutral and battle-tested solution for DLT interoperability.
 
 # Context
 
@@ -102,7 +102,7 @@ Interoperability is among the hardest challenges in DLT adoption. LFDT working g
 
 # Dependent Projects
 
-IBC does not have dependent projects, though it can interoperate with many existing LFDT projects, like Besu, Cacti, and others.
+IBC does not have dependent projects, though it can interoperate with many existing LFDT projects, like Besu, Cacti, CLPR, and others.
 
 # Motivation
 
@@ -163,12 +163,12 @@ The LFDT already hosts interoperability projects such as Cacti and Smoot. IBC is
 
 |  | **Cacti** | **Smoot** | **CLPR** | **IBC** |
 | :- | :- | :- | :- | :- |
-| **What it is** | Gateway-to-gateway asset transfer | EEA crosschain framework | Messaging standard | Open standard for trust minimized messaging |
+| **What it is** | Gateway-based cross-ledger asset transfer protocol | Multi-signature based cross-ledger messaging framework (EEA crosschain) | State-proof based cross-ledger messaging protocol | State-proof and attestation based cross-ledger messaging protocol |
 | **Where it runs** | Off-chain gateways | On-chain verifier | On-chain light clients | On-chain light clients |
-| **Trust Model** | Gateway signatures trusted | 2-of N multi-signature verifier | Modular, pluggable verifiers based on state proofs (e.g. Hiero TSS, QBFT) | Flexible and modular, including cryptographic light clients and oracles |
+| **Trust Model** | Gateway signatures trusted | 2-of N multi-signature verifier | Modular, pluggable clients based on state proofs (e.g. Hiero TSS, QBFT) | Modular, pluggable clients based on state proofs (e.g. Tendermint, QBFT, ZK light clients) and attestations (e.g. m-of-n signers) |
 | **Maturity** | Graduated. Enterprise PoCs | Lab | Lab | 5+ years live. 190+ networks |
-| **Best fit** | Regulated gateway enterprise messaging | EVM messaging | Hiero and EVM networks | Cosmos, Solana, and EVM based networks |
-| **Relationship to IBC** | Complementary. Can utilize IBC for verification | Similar model with different networks where it spikes, and less maturity/adoption | Similar model with different networks where it spikes, and less maturity/adoption |  |
+| **Best fit** | Regulated gateway enterprise messaging | Public and private EVM networks incl. Besu; extensible via the EEA crosschain layered architecture | Public and private Hiero networks, EVM networks incl. Besu (QBFT); extensible via pluggable clients | Public and private Cosmos SDK networks, EVM networks incl. Besu (QBFT), and Solana; extensible via pluggable clients |
+| **Relationship to IBC** | Complementary. Can utilize IBC for verification | Similar model with different networks where it spikes, and less maturity/adoption | Similar model with different networks where it spikes, with different protocol semantics |  |
 
 ## Positioning and Collaboration
 
@@ -176,7 +176,7 @@ Cacti and SATP connect ledgers through trusted gateways, where a transfer is acc
 
 Smoot is another good candidate for collaborating with IBC. Both are on-chain frameworks whose design can support proof-based verification. In practice, Smoot ships a trusted multi-signature committee, and its proof-based verification is still experimental. IBC already runs proof-based verification in production, making it a natural integration area for Smoot. The IBC standard and implementation could complement Smoot's production-grade verification mechanisms and vice versa. Additionally, IBC could develop new application-level standards to implement EEA. Several IBC maintainers have already begun these discussions with the Smoot maintainers.
 
-Since CLPR's design is similar to Smoot's, the model for collaborating with CLPR could be the same. CLPR has more mature verification and application level standards for the Hiero/Hedera ecosystem, and IBC could adopt these. Similarly, CLPR could adopt IBC's mature solutions for Besu and Cosmos networks. It's worth noting that like Smoot, CLPR makes several slightly different choices at the protocol layer (e.g. by incorporating relayer fee payment at the protocol layer instead of assuming it happens at the application-level). If CLPR contributors are interested, these differences could be resolved through development of togglable standards, enabling CLPR users to take advantage of IBC's 5+ year track record.
+Since CLPR's design is similar to Smoot's, the model for collaborating with CLPR could be the same. CLPR has more mature verification and application level standards for the Hiero/Hedera ecosystem and is developing solutions for Besu, and IBC could adopt or learn from these. Similarly, CLPR could adopt IBC's solutions for Besu, Solana, and Cosmos networks. It's worth noting that like Smoot, CLPR makes several different choices at the protocol layer (e.g.  by having relayers, which it refers to as Connectors, stake assets, instead letting relayer incentivization happen at out-of-protocol). If CLPR and IBC contributors are interested, we believe these differences could be resolved through development of togglable standards, enabling CLPR users to take advantage of IBC's 5+ year track record. In turn, IBC users would gain CLPR's support for the Hiero ecosystem, extending IBC to public and private Hiero networks. The CLPR community has invited IBC maintainers to its open meetings to explore light client development for additional networks and shared application standards.
 
 # Solution
 
