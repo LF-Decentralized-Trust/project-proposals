@@ -165,7 +165,7 @@ The LFDT already hosts interoperability projects such as Cacti and Smoot. IBC is
 | :- | :- | :- | :- | :- |
 | **What it is** | Gateway-to-gateway asset transfer | EEA crosschain framework | Messaging standard | Open standard for trust minimized messaging |
 | **Where it runs** | Off-chain gateways | On-chain verifier | On-chain light clients | On-chain light clients |
-| **Trust Model** | Gateway signatures trusted | 2-of N multi-signature verifier | cryptographic light clients | Flexible and modular, including cryptographic light clients and oracles |
+| **Trust Model** | Gateway signatures trusted | 2-of N multi-signature verifier | Modular, pluggable verifiers based on state proofs (e.g. Hiero TSS, QBFT) | Flexible and modular, including cryptographic light clients and oracles |
 | **Maturity** | Graduated. Enterprise PoCs | Lab | Lab | 5+ years live. 190+ networks |
 | **Best fit** | Regulated gateway enterprise messaging | EVM messaging | Hiero and EVM networks | Cosmos, Solana, and EVM based networks |
 | **Relationship to IBC** | Complementary. Can utilize IBC for verification | Similar model with different networks where it spikes, and less maturity/adoption | Similar model with different networks where it spikes, and less maturity/adoption |  |
