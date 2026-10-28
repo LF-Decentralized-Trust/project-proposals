@@ -15,7 +15,7 @@ grand_parent: Project Proposals
 | Andrew Whitehead | Portage |  | Askar, ACA-Py |
 | Jason Leach | BC Gov |  | Bifold Wallet |
 | George Mulhearn | Anonyome | gmulhearn@anonyome.com | VCX |
-| Emiliano Sune | BC Gov | esune@gov.bc.ca | ACA-Py, Credo-TS, Bifold Wallet |
+| Emiliano Sune | BC Gov, Quartech Systems | emiliano.Sune@quartech.com | ACA-Py, Credo-TS, Bifold Wallet |
 | Kim Ebert | Indicio PBC | kim@indicio.tech | Akrida |
 | Robert Learney | Digital Catapult | robert.learney@digicatapult.org.uk | Credo-TS |
 
@@ -183,7 +183,7 @@ All code is licensed under **Apache-2.0**. Third-party dependencies are Apache-2
 
 ### **Diversity**
 
-Maintainer organizations across DCF include: Animo Solutions, 2060.io, Anonyome Labs, Government of British Columbia, Province of Ontario, Cloud Compass Computing, Portage CyberTech, Digital Catapult, OpSecId, and others. This is well over the **≥3 organizations** required for Graduated status.
+Maintainer organizations across DCF include: Animo Solutions, 2060.io, Anonyome Labs, Government of British Columbia, Province of Ontario, Quartech Systems, Cloud Compass Computing, Portage CyberTech, Digital Catapult, OpSecId, and others. This is well over the **≥3 organizations** required for Graduated status.
 
 Commits in the last 12 months also came from contributors at (per commit email domains) animo.id, ontario.ca, opsecid.ca, verid.id, northernblock.io, digicatapult.org.uk, dsr-corporation.com, ayanworks.com, fullboar.ca, and many independent contributors.
 
