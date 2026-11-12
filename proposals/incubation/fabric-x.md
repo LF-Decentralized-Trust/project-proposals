@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "{NEW-NAME} (formerly Fabric-X)"
+title: "Chaguar (formerly Fabric-X)"
 parent: Incubation
 grand_parent: Project Proposals
 ---
 
 # Project Identifier
 
-{NEW-NAME} (formerly Hyperledger Fabric-X) Project Proposal
+Chaguar (formerly Hyperledger Fabric-X) Project Proposal
 
 # Sponsor(s)
 
@@ -37,7 +37,7 @@ grand_parent: Project Proposals
 
 Fabric-X is a high-throughput, microservice-based distributed ledger for digital assets. Today it is an
 incubating sub-project under the Hyperledger Fabric umbrella. This proposal asks the TAC to establish it as an
-independent LF Decentralized Trust Incubation project under a new, distinct name ({NEW-NAME}), governed by a
+independent LF Decentralized Trust Incubation project under a new, distinct name (Chaguar), governed by a
 standard single-project technical charter. The code, maintainers and roadmap stay the same. Only the name,
 repository locations and governance structure change.
 
@@ -129,7 +129,7 @@ umbrella project, cause confusion for every audience.
 Separating the projects benefits both:
 
 - Fabric keeps a clear identity as a mature, Graduated platform.
-- {NEW-NAME} can build its own brand, community and roadmap around digital assets and high-throughput use cases.
+- Chaguar can build its own brand, community and roadmap around digital assets and high-throughput use cases.
 - Each project has a single lifecycle state, a single charter and a single reporting line to the TAC.
 
 # Status
@@ -171,33 +171,33 @@ the new EVM and SDK repositories, a unified documentation site, and multi-region
 
 ## Proposed Changes
 
-1. **New name.** Rename Fabric-X to a distinct, unique name ({NEW-NAME}), chosen according to the LFDT
+1. **New name.** Rename Fabric-X to a distinct, unique name (Chaguar), chosen according to the LFDT
    [Naming Guidelines](https://github.com/LF-Decentralized-Trust/wiki/wiki/Naming-Guidelines) and cleared for
    trademark by the Linux Foundation.
-2. **Independent project.** Establish {NEW-NAME} as an independent LFDT Incubation project, separate from the
+2. **Independent project.** Establish Chaguar as an independent LFDT Incubation project, separate from the
    Hyperledger Fabric umbrella.
 3. **Single-project charter.** Adopt a standard LFDT single-project technical charter, modeled on the
    [original single-TSC Hyperledger Fabric charter](https://github.com/hyperledger/fabric/blob/267b251e32995b8b99aa9c74869f2ec3827de4bd/Hyperledger_Fabric_Technical_Charter.md)
    (adopted August 16, 2024) and the [Panurus charter](https://github.com/LFDT-Panurus/TSC/blob/main/panurus_Charter.pdf)
    (adopted June 18, 2026). There is one TSC, made up of the project's maintainers. The current Fabric-X TSC
-   carries over as the {NEW-NAME} TSC.
+   carries over as the Chaguar TSC.
 4. **Same maintainers.** All current Fabric-X maintainers remain maintainers of the corresponding repositories.
 5. **Repository renames.** Move every `hyperledger/fabric-x*` repository that belongs to the project into a
    dedicated GitHub organization named after the project. Repositories drop the project prefix
-   (`{new-name}/orderer`). Other LFDT projects such as Hiero (`hiero-ledger`) and Panurus (`LFDT-Panurus`)
+   (`LFDT-Chaguar/orderer`). Other LFDT projects such as Hiero (`hiero-ledger`) and Panurus (`LFDT-Panurus`)
    follow this pattern.
 
 | Current repository | New repository |
 |--------------------|----------------|
-| [hyperledger/fabric-x](https://github.com/hyperledger/fabric-x) | `{new-name}/{new-name}` |
-| [hyperledger/fabric-x-orderer](https://github.com/hyperledger/fabric-x-orderer) | `{new-name}/orderer` |
-| [hyperledger/fabric-x-committer](https://github.com/hyperledger/fabric-x-committer) | `{new-name}/committer` |
-| [hyperledger/fabric-x-common](https://github.com/hyperledger/fabric-x-common) | `{new-name}/common` |
-| [hyperledger/fabric-x-endorser](https://github.com/hyperledger/fabric-x-endorser) | `{new-name}/endorser` |
-| [hyperledger/fabric-x-sdk](https://github.com/hyperledger/fabric-x-sdk) | `{new-name}/sdk` |
-| [hyperledger/fabric-x-samples](https://github.com/hyperledger/fabric-x-samples) | `{new-name}/samples` |
-| [hyperledger/fabric-x-evm](https://github.com/hyperledger/fabric-x-evm) | `{new-name}/evm` |
-| [hyperledger/fabric-x-rfcs](https://github.com/hyperledger/fabric-x-rfcs) | `{new-name}/rfcs` |
+| [hyperledger/fabric-x](https://github.com/hyperledger/fabric-x) | `LFDT-Chaguar/chaguar` |
+| [hyperledger/fabric-x-orderer](https://github.com/hyperledger/fabric-x-orderer) | `LFDT-Chaguar/orderer` |
+| [hyperledger/fabric-x-committer](https://github.com/hyperledger/fabric-x-committer) | `LFDT-Chaguar/committer` |
+| [hyperledger/fabric-x-common](https://github.com/hyperledger/fabric-x-common) | `LFDT-Chaguar/common` |
+| [hyperledger/fabric-x-endorser](https://github.com/hyperledger/fabric-x-endorser) | `LFDT-Chaguar/endorser` |
+| [hyperledger/fabric-x-sdk](https://github.com/hyperledger/fabric-x-sdk) | `LFDT-Chaguar/sdk` |
+| [hyperledger/fabric-x-samples](https://github.com/hyperledger/fabric-x-samples) | `LFDT-Chaguar/samples` |
+| [hyperledger/fabric-x-evm](https://github.com/hyperledger/fabric-x-evm) | `LFDT-Chaguar/evm` |
+| [hyperledger/fabric-x-rfcs](https://github.com/hyperledger/fabric-x-rfcs) | `LFDT-Chaguar/rfcs` |
 
 The related LFDT Labs (fabric-x-ansible-collection, fabric-x-block-explorer and fabric-x-migrate) are not part
 of this project. Renaming them is at the discretion of their maintainers.
@@ -207,7 +207,7 @@ of this project. Renaming them is at the discretion of their maintainers.
 1. **Name selection.** Maintainers propose candidate names. LFDT marketing and legal staff check them against
    the naming guidelines and do trademark clearance.
 2. **Governance.** The Fabric Ecosystem Committee approves the separation and amends the Fabric charter to remove
-   the Fabric-X sub-project. The Fabric `GOVERNANCE.md` is updated. The {NEW-NAME} single-project charter is
+   the Fabric-X sub-project. The Fabric `GOVERNANCE.md` is updated. The Chaguar single-project charter is
    adopted. The Fabric umbrella may revert to a single-project structure, at the Fabric maintainers' discretion.
 3. **Repositories.** Rename and transfer the GitHub repositories. GitHub redirects keep existing links and clones
    working. Go module paths are migrated in a new release of each module. The old paths stay buildable and are
@@ -216,7 +216,7 @@ of this project. Renaming them is at the discretion of their maintainers.
 4. **Community and documentation.** Rename the documentation sites, Discord channels, community calls and LFX
    entries. Publish an announcement blog post. Add a "formerly Fabric-X" note to all READMEs and docs for
    continuity.
-5. **Reporting.** From the next reporting period, {NEW-NAME} files its own TAC reports, separate from Fabric.
+5. **Reporting.** From the next reporting period, Chaguar files its own TAC reports, separate from Fabric.
 
 ## Architecture Overview
 
@@ -249,10 +249,10 @@ documents.
 
 ## Compatibility and Integration
 
-- **Fabric.** {NEW-NAME} will continue to keep compatibility with Fabric through shared protobuf and API
+- **Fabric.** Chaguar will continue to keep compatibility with Fabric through shared protobuf and API
   definitions, as it does today. The separation does not change any interface. Migration from Fabric to Fabric-X
   is supported by the [Fabric-X-Migrate](https://github.com/LF-Decentralized-Trust/lab-proposals/issues/21) lab.
-- **Other LFDT projects.** {NEW-NAME} will pursue closer integration with other LFDT technologies, including
+- **Other LFDT projects.** Chaguar will pursue closer integration with other LFDT technologies, including
   Paladin and Besu's EVM, building on the project's [EVM component](https://github.com/hyperledger/fabric-x-evm) and on Panurus for tokenization.
 
 ## Licensing and Trademarks
@@ -325,11 +325,11 @@ Discord changes. The goal is to complete the transition within one quarter of TA
 
 The proposal succeeds when:
 
-- {NEW-NAME} is approved as an independent LFDT Incubation project with its own single-project charter and TSC.
+- Chaguar is approved as an independent LFDT Incubation project with its own single-project charter and TSC.
 - All project repositories, Go modules, container images, documentation sites and Discord channels have moved to
   the new name, with redirects and deprecation notices in place for the old ones.
 - Downstream projects (Panurus, Fabric Smart Client, the Ansible collection, the block explorer) have adopted the new module paths.
-- {NEW-NAME} and Fabric file separate TAC reports, each with a single lifecycle state.
+- Chaguar and Fabric file separate TAC reports, each with a single lifecycle state.
 - The Fabric charter and `GOVERNANCE.md` no longer reference Fabric-X.
 
 In the longer term, the project aims to grow its contributor community under its own identity, reach production
@@ -346,7 +346,7 @@ maintainers.
 ## Community Calls
 
 Fabric-X currently shares a monthly community call with Fabric, held on the third Wednesday of each month. After
-the separation, {NEW-NAME} will hold its own monthly public community call covering development progress, roadmap
+the separation, Chaguar will hold its own monthly public community call covering development progress, roadmap
 and releases.
 
 ## Community Communication
