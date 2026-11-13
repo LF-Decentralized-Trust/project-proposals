@@ -84,6 +84,8 @@ To interact with the network, including sending transactions and calling smart c
 
 # References
 
+The project's repositories are hosted in the LFDT GitHub organization: [LFDT-Iguazu](https://github.com/LFDT-Iguazu)
+
 1. [Repository for types](https://github.com/waterfall-network/wf-types)
 2. [Repository for engine](https://github.com/waterfall-network/wf-engine)
 3. [Repository for consensus library](https://github.com/waterfall-network/wf-consensus)

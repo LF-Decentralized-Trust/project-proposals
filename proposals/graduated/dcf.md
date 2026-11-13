@@ -137,7 +137,7 @@ NOTE: Credo-TS has two roles in DCF. It is the basis of the Bifold mobile wallet
 | VCX | vcx |
 | DCF Testing | interop-test-harness (currently owl-agent-test-harness, akrida (currently owl-akrida) |
 
-All DCF repositories will live in **a single GitHub organization** (e.g., `github.com/digital-credential-frameworks` ), managed through one governance/access-control configuration. Repository names are kept to avoid breaking package registries, container images and downstream imports. Existing package names (`acapy-agent` on PyPI, `@credo-ts/*` and `@bifold/*` on npm, and so on) are unchanged as much as possible.
+All DCF repositories will live in **a single GitHub organization**, [github.com/digital-credential-frameworks](https://github.com/digital-credential-frameworks), managed through one governance/access-control configuration. Repository names are kept to avoid breaking package registries, container images and downstream imports. Existing package names (`acapy-agent` on PyPI, `@credo-ts/*` and `@bifold/*` on npm, and so on) are unchanged as much as possible.
 
 ## Governance
 
@@ -282,6 +282,7 @@ Extensive documentation is available on using each of the sub-projects. Document
 * Manitoba Wallet. [https\://apps.apple.com/ca/app/mb-wallet/id6738668460](https://apps.apple.com/ca/app/mb-wallet/id6738668460) from the Province of Manitoba   
 * OpenWallet Foundation. "ACA-Py OWF Project Mapping." [https\://github.com/openwallet-foundation/acapy/blob/main/ACA-Py-OWF-Project-Mapping.md](https://github.com/openwallet-foundation/acapy/blob/main/ACA-Py-OWF-Project-Mapping.md)  
 * Hyperledger Aries. "2025 Q2 Hyperledger Aries Report." [https\://github.com/LF-Decentralized-Trust/governance/pull/142](https://github.com/LF-Decentralized-Trust/governance/pull/142)  
+* DCF GitHub organization: [https\://github.com/digital-credential-frameworks](https://github.com/digital-credential-frameworks)  
 * Project repositories: [https\://github.com/openwallet-foundation](https://github.com/openwallet-foundation) (acapy, credo-ts, bifold-wallet, askar, vcx, owl, and others)
 
 # Closure
