@@ -120,7 +120,7 @@ Between them the two projects have 8 maintainers who have actively been contribu
 The Paladin documentation provides detailed “Getting started” guides  (see https://lf-decentralized-trust-labs.github.io/paladin/head/getting-started/installation/) and tutorials (see https://lf-decentralized-trust-labs.github.io/paladin/head/tutorials/) to help both users and contributors get going with the project.
 
 # References
-N/A
+The project's repositories are hosted in the LFDT GitHub organization: https://github.com/LFDT-Paladin
 
 # Closure
 The project’s aim is to become the industry standard framework for managing private and public transactions with pluggable privacy domains and out-of-the-box privacy solutions suitable for production deployments. The intention is to have a growing number of real-world deployments of Paladin over the coming 12-24 months as the codebase matures and the community adoption grows.

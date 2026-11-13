@@ -161,6 +161,8 @@ We suggest following the [Quick Start Guide](https://docs.atalaprism.io/docs/qui
 - https://github.com/input-output-hk/atala-prism-apollo/ 
 - https://github.com/input-output-hk/atala-prism-docs 
 
+The project's repositories are now hosted in the LFDT GitHub organization: https://github.com/hyperledger-identus
+
 # References
 <mark>_**References**. See [citation guide](http://www.chicagomanualofstyle.org/tools_citationguide.html)._
 </mark>

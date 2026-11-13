@@ -91,14 +91,14 @@ Currently in development:
   [FROST IETF draft][frost-draft].
 * Tools for running TSS in enclaves
 
-[`round-based`]: https://github.com/dfns/round-based
-[`generic-ec`]: https://github.com/dfns/generic-ec
+[`round-based`]: https://github.com/LFDT-Lockness/round-based
+[`generic-ec`]: https://github.com/LFDT-Lockness/generic-ec
 [`generic-ec-zkp`]: https://docs.rs/generic-ec-zkp
-[`stark-curve`]: https://github.com/dfns/stark-curve
-[`slip-10`]: https://github.com/dfns/slip-10
-[`udigest`]: https://github.com/dfns/udigest
-[`fast-paillier`]: https://github.com/dfns/fast-paillier
-[`cggmp21`]: https://github.com/dfns/cggmp21
+[`stark-curve`]: https://github.com/LFDT-Lockness/stark-curve
+[`slip-10`]: https://github.com/LFDT-Lockness/hd-wallet
+[`udigest`]: https://github.com/LFDT-Lockness/udigest
+[`fast-paillier`]: https://github.com/LFDT-Lockness/fast-paillier
+[`cggmp21`]: https://github.com/LFDT-Lockness/cggmp21
 
 [cggmp21-paper]: https://eprint.iacr.org/2021/060 
 [frost-draft]: https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-frost-15
@@ -120,6 +120,8 @@ which currently includes two full-time engineers and one part-time cryptographer
 # How To
 All crates are available on crates.io. Each library is extensively documented, 
 rendered documentation is available on docs.rs.
+
+The repositories are hosted in the LFDT GitHub organization: https://github.com/LFDT-Lockness
 
 # References
 * Ran Canetti, Rosario Gennaro, Steven Goldfeder, Nikolaos Makriyannis, and Udi Peled. UC
