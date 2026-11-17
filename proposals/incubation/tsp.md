@@ -8,8 +8,8 @@ grand_parent: Project Proposals
 # Sponsor(s)
 
 Wenjing Chu, Lead Maintainer (Futurewei Technologies, Inc.), [wchu@futurewei.com](wchu@futurewei.com), GitHub: [@wenjing](https://github.com/wenjing) 
-Supporting sponsors:
-
+Additional sponsors:
+Carly Huitema, Drummond Reed, Glenn Gore of the Trust over IP community
 
 # Abstract
 
@@ -17,13 +17,13 @@ TSP project is a reference implementation and SDK for the Trust Spanning Protoco
 
 TSP is the core spanning layer of the Trust over IP stack - it provides authenticity, confidentiality and metadata privacy for any party to any other addressed by Verifiable Identifiers.
 
-It is developed in Rust, and supported through additional language bindings including Python and Javascript. It may add additional language bindings as needs arise. It is transport agnostic in terms of how it carries its messages. Current implementation supports HTTP(s), TCP, QUIC, and additional AI agent protocols.
+It is developed in Rust, and supported through additional language bindings including Python and Javascript. It may add additional language bindings as needs arise. It is transport agnostic in terms of how it carries its messages. Current implementation supports HTTP(s), TCP, QUIC, and additional AI agent protocols like MCP.
 
 It can support diverse verifiable identifiers, e.g. DIDs (like did:webvh, did:peer), but can also support other identifiers and URN in general. Additional IDs like AID/did:webs and did:scid are in the roadmap.
 
 It has built in post-quantum cryptography support, by adopting TSP, you are PQ-ready and can turn it on without changing protocol.
 
-For more detailed introduction of Why TSP Matters and its status, this new LFDT blog post is a great resource for a compact introduction. [](). 
+For more detailed introduction of Why TSP Matters and its status, this new LFDT blog post is a great resource for a compact introduction. [TSP 1.0 LFDT Blog](https://www.lfdecentralizedtrust.org/blog/tsp-1.0-a-trust-layer-for-the-age-of-ai-agents). 
 
 **TSP in brief**
 TSP is the spanning layer of the Trust Over IP stack: a minimal protocol that every higher-level trust application can share.
@@ -36,7 +36,7 @@ TSP is the spanning layer of the Trust Over IP stack: a minimal protocol that ev
 
 # Context
 
-The TSP has just been approved by the Trust over IP WG as 1.0 specification. For information about the specification and its development history, please check out the spec repo: [https://github.com/trustoverip/tswg-tsp-specification](https://github.com/trustoverip/tswg-tsp-specification).
+The TSP has just been approved by the Trust over IP WG as 1.0 specification and is in the process of approval by ToIP steering committee. For information about the specification and its development history, please check out the spec repo: [https://github.com/trustoverip/tswg-tsp-specification](https://github.com/trustoverip/tswg-tsp-specification).
 
 The open source reference implementation has been hosted and actively developed in the OpenWallet Foundation as a lab project. This proposal is to migrate that to LFDT as an incubation project.
 
@@ -48,10 +48,11 @@ TSP does not have any mandatory dependencies that would be impacted by this migr
 
 Why TSP Matters Now:
 The internet was built to move data, not to establish trust. For decades we patched that gap with passwords, certificates tied to domains, and platform accounts. In 2026 those patches are failing on four fronts at once.
-AI agents now operate on web infrastructure that has no identity and trust layer. They browse, sign in, send email, call APIs, move money and change code through the same accounts and channels people use. When an agent shows up, there is no reliable way to know what it is, who stands behind it, or whether it should be trusted. It may be posing as a person, acting openly for one, acting for no one at all, or quietly hijacked by an attacker, and from the other side these all look the same. That uncertainty now runs through everything an agent touches. TSP addresses this at the root. It gives every party a strongly authenticated identity and makes their relationship authentic, establishing who said what to whom. Each party can verify this before acting, and each can be held accountable afterwards.
-Generative AI has made impersonation cheap. Voices, faces and writing styles can be faked at scale, and detection will not keep up. The real defense is verifiable relationships: knowing who you are dealing with, through a durable identifier that party controls, and being assured that you are communicating with the real party.
-Trust ecosystems are naturally diverse. Identifier methods, credential formats and wallet ecosystems differ for good reasons, serving different jurisdictions and industries. That diversity is healthy, but without a common layer, every pair of ecosystems needs its own bridge. TSP is designed to fill that role: a compact interworking layer that spans identifier types and trust boundaries, the way IP spans networks.
-Trust also has to hold up over time. Data captured today could be decrypted once quantum computers become capable, which may not be far off. Accountability records, such as signed logs and audit trails, may need to remain verifiable for years. And trust relationships themselves are meant to last. In some areas, protecting all three calls for post-quantum cryptography now rather than later.
+ - AI agents now operate on web infrastructure that has no identity and trust layer. They browse, sign in, send email, call APIs, move money and change code through the same accounts and channels people use. When an agent shows up, there is no reliable way to know what it is, who stands behind it, or whether it should be trusted. It may be posing as a person, acting openly for one, acting for no one at all, or quietly hijacked by an attacker, and from the other side these all look the same. That uncertainty now runs through everything an agent touches. TSP addresses this at the root. It gives every party a strongly authenticated identity and makes their relationship authentic, establishing who said what to whom. Each party can verify this before acting, and each can be held accountable afterwards.
+ - Generative AI has made impersonation cheap. Voices, faces and writing styles can be faked at scale, and detection will not keep up. The real defense is verifiable relationships: knowing who you are dealing with, through a durable identifier that party controls, and being assured that you are communicating with the real party.
+ - Trust ecosystems are naturally diverse. Identifier methods, credential formats and wallet ecosystems differ for good reasons, serving different jurisdictions and industries. That diversity is healthy, but without a common layer, every pair of ecosystems needs its own bridge. TSP is designed to fill that role: a compact interworking layer that spans identifier types and trust boundaries, the way IP spans networks.
+ - Trust also has to hold up over time. Data captured today could be decrypted once quantum computers become capable, which may not be far off. Accountability records, such as signed logs and audit trails, may need to remain verifiable for years. And trust relationships themselves are meant to last. In some areas, protecting all three calls for post-quantum cryptography now rather than later.
+
 The common question behind all four is the one TSP was designed to answer: who said what to whom.
 
 TSP is a minimalistic interworking (or spanning) protocol that (a) assures authenticity as first priority and confidentiality and metadata privacy, (b) maximizes interoperability, (c) maximizes cryptographic agility. So above all, it solves an authenticity problem - without which we can't have a stable foundation to build applications, esp. agentic ones. Its flexibility in adapting to different identifiers/trust boundaries and transport and cryptos gives it edge as a long term interworking protocol. Its speed and scalability allows it be adopted in both high and lower layers of technology stacks.
@@ -79,7 +80,7 @@ TSP provides a solid foundation to solve the challenges AI agent deployment is f
 
 # Effort and Resources
 
-The TSP repo is sufficiently complete and stable (together with the TSP 1.0) spec. Current TSP SDK crate is in version 0.16. The new developments are expected in compliance, interoperability, extensions, use cases and benchmarking or porting and language supports etc. We expect the required efforts and resources for the SDK itself to be modest with existing contributors.
+The TSP repo is sufficiently complete and stable (together with the TSP 1.0) spec. Current TSP SDK crate is in version 0.16. The new developments are expected in compliance, interoperability, extensions, use cases and benchmarking or porting and language supports etc. We expect the required efforts and resources for the SDK itself to be consistent with existing and new contributors.
 
 # How To
 
@@ -91,14 +92,14 @@ The "Try it" section here describes how to test it on a local host and the using
 The TSP 1.0 specification: https://trustoverip.github.io/tswg-tsp-specification/
 The code repo: https://github.com/openwallet-foundation-labs/tsp
 The Rust crate: https://docs.rs/tsp_sdk/latest/tsp_sdk/index.html
-The LFDT blog post: 
+The LFDT blog post: https://www.lfdecentralizedtrust.org/blog/tsp-1.0-a-trust-layer-for-the-age-of-ai-agents
 
 # Closure
 
-I think ultimately a reference implementation of TSP is successful when TSP is successfully adopted. In the blog post I cited above, we can point you openVTC, First Person project, Linux kernel group's developer trust use case, and experimental use with MCP/A2A that are being developed for agentic systems. One of the work I like to propose for the project is actually a list of such use cases on the project README.
+I think ultimately a reference implementation of TSP is successful when TSP is successfully adopted. In the blog post I cited above, we can point to openVTC, First Person project, Linux kernel group's developer trust use case, more recent libp2p development and experimental integrations with MCP/A2A that are being developed for agentic systems. One of the work I like to propose for the project is actually a list of such use cases on the project README.
 
 The second way to measuring success is to see interoperability and compliance test suites and results. This is already on roadmap as one of the things to do.
 
-Adoption also happens because a protocol is being designed into other protocols/applications. TSP is esp. designed to be built on - the upper protocols are called trust tasks, and the number of trust tasks that are built on TSP is rapidly increasing. One such example is happening in the DTG Working Group in the Trust over IP community.
+Adoption also happens because a protocol is being designed into other protocols/applications. TSP is esp. designed to be built on - the upper protocols are called trust tasks, and the number of trust tasks that are built on TSP is rapidly increasing. One such example is happening in the DTG Working Group in the Trust over IP community. This community web site lists 800+ such trust tasks - a vibrate community of creative excitements.
 
 Finally, more supported languages, bindings, transports, identifiers, use cases, and higher performances, ... can also be measured.
